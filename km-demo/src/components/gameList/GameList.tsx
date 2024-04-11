@@ -1,5 +1,5 @@
 import React from "react";
-import GameCard from "@/components/ui/GameCard";
+import GameCard from "@/components/gameList/GameCard";
 
 interface Game {
   id: number;
