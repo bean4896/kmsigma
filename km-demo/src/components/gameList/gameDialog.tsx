@@ -11,11 +11,11 @@ interface GameDialogProps {
   onClose: () => void;
   langProps: {
     [key: string]: {
-        gameName: string;
-        iframeUrl: string;
-        gameUrl: string;
+      gameName: string;
+      iframeUrl: string;
+      gameUrl: string;
     };
-};
+  };
   game: {
     id: number;
     gameName: string;
@@ -33,10 +33,7 @@ interface GameDialogProps {
   };
 }
 
-const GameDialog: React.FC<GameDialogProps> = ({
-  gameName,
-  onClose,
-}) => {
+const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
   const [selectedLanguage, setSelectedLanguage] = useState<string>("English");
   const [gameData, setGameData] = useState<any>(null);
 
@@ -156,17 +153,27 @@ const GameDialog: React.FC<GameDialogProps> = ({
         </div>
 
         <div className="mt-4 text-white">
-lores sit amet, consectetur adipiscing elit. Sed ac nisl et arcu ultricies
-          consectetur. Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla
-          facilisi. Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla
-          </div>
+          lores sit amet, consectetur adipiscing elit. Sed ac nisl et arcu
+          ultricies consectetur. Nulla facilisi. Nulla facilisi. Nulla facilisi.
+          Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla
+        </div>
 
         <div className="mt-6 flex justify-end">
-          <button
-            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-            onClick={onClose}
-          >
-            Close
+          <button className="closeButton" onClick={onClose}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="#ffffff"
+              className="w-10 h-10"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
           </button>
         </div>
       </div>
