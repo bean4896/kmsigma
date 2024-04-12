@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, { useState } from "react";
 import GameData from "@/lib/data";
 import FilterComponent from "@/components/gameList/FilterComponent";
@@ -16,6 +16,8 @@ interface Game {
       gameName: string;
       gameUrl: string;
       iframeUrl: string;
+      showScreenshot?: boolean;
+      screenshotUrl?: string;
     };
   };
   isFeatured: boolean;
@@ -36,9 +38,9 @@ const Home: React.FC = () => {
     }, 200);
   };
 
-  const gamesToShow: Game[] = selectedCategory
-    ? GameData.filter((game) => game.category === selectedCategory)
-    : GameData;
+  const gamesToShow: any = GameData.filter(
+    (game) => game.category === selectedCategory || selectedCategory === ""
+  );
 
   return (
     <main className="flex min-h-screen flex-col py-16 px-4">
@@ -50,12 +52,10 @@ const Home: React.FC = () => {
       <div className="flex flex-wrap gap-10">
         {isLoading ? (
           <>
-            {gamesToShow.map((game) => (
+            {gamesToShow.map((game: Game) => (
               <div className="OneSkeleton" key={game.id}>
                 <div className="flex flex-col space-y-3">
-                  <Skeleton
-                    className="h-[125px] rounded-xl bg-stone-800 w-[22vw]"
-                  />
+                  <Skeleton className="h-[125px] rounded-xl bg-stone-800 w-[22vw]" />
                   <div className="space-y-2">
                     <Skeleton className="h-4 bg-stone-700" />
                     <Skeleton className="h-4 bg-stone-700" />

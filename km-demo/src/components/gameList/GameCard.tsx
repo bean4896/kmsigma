@@ -17,13 +17,16 @@ interface GameCardProps {
     langProps: {
       [key: string]: {
         gameName: string;
-        iframeUrl: string;
         gameUrl: string;
+        iframeUrl: string;
+        showScreenshot?: boolean;
+        screenshotUrl?: string;
       };
     };
     isFeatured: boolean;
   };
 }
+
 const GameCard: React.FC<GameCardProps> = ({ game }) => {
   const { langProps } = game;
 
