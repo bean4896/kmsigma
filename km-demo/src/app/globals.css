@@ -95,6 +95,7 @@
 .closeButton {
   position: fixed;
   top:3rem;
+
 }
 
 .closeButton:hover {
