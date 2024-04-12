@@ -100,7 +100,7 @@ const GameDialog: React.FC<GameDialogProps> = ({
         className="fixed inset-0 bg-black opacity-50"
         onClick={handleOverlayClick}
       ></div>
-      <div className="relative bg-neutral-800 p-6 mx-auto max-w-[1440px] w-full h-[100vh] sm:h-auto">
+      <div className="dialogContainer relative bg-neutral-800 p-6 mx-auto max-w-[1440px] w-full h-[100vh] sm:h-auto overflow-y-auto scrollbar-thumb rounded-lg scrollbar-thumb-neutral-500 scrollbar-track-neutral-300">
         <div className="flex">
           {langProps && (
             <>
@@ -154,6 +154,12 @@ const GameDialog: React.FC<GameDialogProps> = ({
             </>
           )}
         </div>
+
+        <div className="mt-4 text-white">
+lores sit amet, consectetur adipiscing elit. Sed ac nisl et arcu ultricies
+          consectetur. Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla
+          facilisi. Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla
+          </div>
 
         <div className="mt-6 flex justify-end">
           <button
