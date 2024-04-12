@@ -95,12 +95,12 @@ const GameDialog: React.FC<GameDialogProps> = ({
   const langProps = gameData?.langProps || null;
 
   return (
-    <div className="fixed inset-0 z-10 flex items-center justify-center ">
+    <div className="fixed inset-0 z-10 flex mt-10">
       <div
         className="fixed inset-0 bg-black opacity-50"
         onClick={handleOverlayClick}
       ></div>
-      <div className="relative bg-white p-6 mx-auto max-w-[1440px] w-full h-[90vh] sm:h-auto">
+      <div className="relative bg-neutral-800 p-6 mx-auto max-w-[1440px] w-full h-[100vh] sm:h-auto">
         <div className="flex">
           {langProps && (
             <>
@@ -109,8 +109,8 @@ const GameDialog: React.FC<GameDialogProps> = ({
                   key={lang}
                   className={`text-sm font-medium mr-2 px-2 py-1 rounded flex items-center ${
                     selectedLanguage === lang
-                      ? "bg-blue-500 text-white"
-                      : "bg-white border"
+                      ? "bg-neutral-600 text-white"
+                      : "bg-neutral-800 text-white"
                   }`}
                   onClick={() => setSelectedLanguage(lang)}
                 >
@@ -125,9 +125,9 @@ const GameDialog: React.FC<GameDialogProps> = ({
         <div className="mt-4">
           {langProps && (
             <>
-              <h2 className="text-lg font-bold">
+              {/* <h2 className="text-xl font-bold text-white mb-2">
                 {langProps[selectedLanguage]?.gameName}
-              </h2>
+              </h2> */}
               {langProps[selectedLanguage]?.iframeUrl ? (
                 <div className="iframeContainer">
                   <iframe
@@ -135,7 +135,7 @@ const GameDialog: React.FC<GameDialogProps> = ({
                     allowFullScreen={true}
                     frameBorder="0"
                     scrolling="auto"
-                    className="w-full h-[60vh]"
+                    className="w-full h-[80vh]"
                   ></iframe>
                 </div>
               ) : langProps[selectedLanguage]?.showScreenshot ? (
@@ -149,7 +149,7 @@ const GameDialog: React.FC<GameDialogProps> = ({
                   />
                 </div>
               ) : (
-                <p>Coming Soon</p>
+                <p className="text-white">Coming Soon</p>
               )}
             </>
           )}
@@ -157,7 +157,7 @@ const GameDialog: React.FC<GameDialogProps> = ({
 
         <div className="mt-6 flex justify-end">
           <button
-            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+            className="px-4 py-2 bg-neutral-500 text-white rounded hover:bg-neutral-600"
             onClick={onClose}
           >
             Close

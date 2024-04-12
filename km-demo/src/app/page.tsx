@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import React, { useState } from "react";
 import GameData from "@/lib/data";
 import FilterComponent from "@/components/gameList/FilterComponent";
@@ -41,9 +41,10 @@ const Home: React.FC = () => {
     : GameData;
 
   return (
-    <main className="flex min-h-screen flex-col p-24">
+    <main className="flex min-h-screen flex-col py-16 px-4">
       <FilterComponent
         categories={categories}
+        selectedCategory={selectedCategory}
         onSelectCategory={handleSelectCategory}
       />
       <div className="flex flex-wrap gap-10">
@@ -53,8 +54,7 @@ const Home: React.FC = () => {
               <div className="OneSkeleton" key={game.id}>
                 <div className="flex flex-col space-y-3">
                   <Skeleton
-                    w-full
-                    className="h-[125px] rounded-xl bg-stone-800 w-[19vw]"
+                    className="h-[125px] rounded-xl bg-stone-800 w-[22vw]"
                   />
                   <div className="space-y-2">
                     <Skeleton className="h-4 bg-stone-700" />
