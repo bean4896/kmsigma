@@ -1,85 +1,206 @@
 const GameData = [
-    {
-        id: 1,
+  {
+    id: 1,
+    gameName: "Coin Pusher",
+    tags: ["virtual"],
+    category: "Next Gen",
+    thumbnail:
+      "https://res.cloudinary.com/detatjujs/image/upload/v1712826703/coin-pusher_1000x1000_en_aey0mh.png",
+    langProps: {
+      English: {
         gameName: "Coin Pusher",
-        tags: ["virtual"],
-        category: "Next Gen",
-        thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1712826703/coin-pusher_1000x1000_en_aey0mh.png",
-        IframeUrl: 'https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1',
-        demoUrl: "https://example.com/game1-demo-url",
-        isFeatured: true,
+        gameUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+        iframeUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
       },
-      {
-        id: 2,
+      Spanish: {
+        gameName: "Máquina de monedas",
+        gameUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+        showScreenshot: true,
+        screenshotUrl:
+          "https://res.cloudinary.com/detatjujs/image/upload/v1712826703/coin-pusher_1000x1000_en_aey0mh.png",
+      },
+      Brazil: {
+        gameName: "Máquina de moedas pop",
+        gameUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      },
+    },
+    isFeatured: true,
+  },
+  {
+    id: 2,
+    gameName: "KM Virtual Animal Race",
+    tags: ["virtual", "sports"],
+    category: "Next Gen",
+    thumbnail:
+      "https://res.cloudinary.com/detatjujs/image/upload/v1712826702/animal-race_1000x1000_en_w7inev.jpg",
+    isFeatured: true,
+    langProps: {
+      English: {
         gameName: "KM Virtual Animal Race",
-        tags: ["virtual", "sports"],
-        category: "Next Gen",
-        thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1712826702/animal-race_1000x1000_en_w7inev.jpg",
-        IframeUrl: "https://example.com/game2-iframe-url",
-        demoUrl: "https://example.com/game2-demo-url",
-        isFeatured: true,
-      },      
-      {
-        id: 3,
-        gameName: "KM Virtual Treadmill Racing",
-        tags: ["virtual", "sports"],
-        category: "Next Gen",
-        thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1712826702/treadmill-racing_1000x1000_en_mfmxzw.jpg",
-        IframeUrl: "https://example.com/game2-iframe-url",
-        demoUrl: "https://example.com/game2-demo-url",
-        isFeatured: true,
+        gameUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
       },
-      {
-        id: 4,
-        gameName: "Minesweeper",
-        tags: [],
-        category: "Next Gen",
-        thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1712826701/mine-sweeper_1000x1000_en_xuaesi.jpg",
-        IframeUrl: "https://example.com/game2-iframe-url",
-        demoUrl: "https://example.com/game2-demo-url",
-        isFeatured: true,
+      Spanish: {
+        gameName: "Máquina de monedas",
+        gameUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
       },
-      {
-        id: 5,
-        gameName: "Sugar Blast",
-        tags: [],
-        category: "Slot",
-        thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1712828695/sugar-blast_1000x1000_en_wmodzo.jpg",
-        IframeUrl: "https://example.com/game2-iframe-url",
-        demoUrl: "https://example.com/game2-demo-url",
-        isFeatured: true,
+    },
+  },
+  {
+    id: 3,
+    gameName: "KM Virtual Treadmill Racing",
+    tags: ["virtual", "sports"],
+    category: "Next Gen",
+    thumbnail:
+      "https://res.cloudinary.com/detatjujs/image/upload/v1712826702/treadmill-racing_1000x1000_en_mfmxzw.jpg",
+    isFeatured: true,
+    langProps: {
+      English: {
+        gameName: "KM Virtual Animal Race",
+        gameUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+        iframeUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
       },
-      {
-        id: 6,
-        gameName: "Gems of Valhalla",
-        tags: [],
-        category: "Slot",
-        thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1712828672/gems-of-valhalla_500x500_en_jn5tkj.png",
-        IframeUrl: "https://example.com/game2-iframe-url",
-        demoUrl: "https://example.com/game2-demo-url",
-        isFeatured: true,
+      Spanish: {
+        gameName: "Máquina de monedas",
+        gameUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+        iframeUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
       },
-      {
-        id: 7,
-        gameName: "Baccarat",
-        tags: ['card'],
-        category: "Classics",
-        thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1712828960/Baccarat_1000x1000_en_h2qema.jpg",
-        IframeUrl: "https://example.com/game2-iframe-url",
-        demoUrl: "https://example.com/game2-demo-url",
-        isFeatured: true,
+    },
+  },
+  {
+    id: 4,
+    gameName: "Minesweeper",
+    tags: [],
+    category: "Next Gen",
+    thumbnail:
+      "https://res.cloudinary.com/detatjujs/image/upload/v1712826701/mine-sweeper_1000x1000_en_xuaesi.jpg",
+    langProps: {
+      English: {
+        gameName: "KM Virtual Animal Race",
+        gameUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+        iframeUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
       },
-      {
-        id: 8,
-        gameName: "KM Power Ball",    
-        tags: ['lottery'],
-        category: "Classics",
-        thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1712829079/km-power-ball_1000x1000_en_brpc6v.jpg",
-        IframeUrl: "https://example.com/game2-iframe-url",
-        demoUrl: "https://example.com/game2-demo-url",
-        isFeatured: true,
+      Spanish: {
+        gameName: "Máquina de monedas",
+        gameUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+        iframeUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
       },
-]
-
+    },
+    isFeatured: true,
+  },
+  {
+    id: 5,
+    gameName: "Sugar Blast",
+    tags: [],
+    category: "Slot",
+    thumbnail:
+      "https://res.cloudinary.com/detatjujs/image/upload/v1712828695/sugar-blast_1000x1000_en_wmodzo.jpg",
+    langProps: {
+      English: {
+        gameName: "KM Virtual Animal Race",
+        gameUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+        iframeUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      },
+      Spanish: {
+        gameName: "Máquina de monedas",
+        gameUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+        iframeUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      },
+    },
+    isFeatured: true,
+  },
+  {
+    id: 6,
+    gameName: "Gems of Valhalla",
+    tags: [],
+    category: "Slot",
+    thumbnail:
+      "https://res.cloudinary.com/detatjujs/image/upload/v1712828672/gems-of-valhalla_500x500_en_jn5tkj.png",
+    langProps: {
+      English: {
+        gameName: "KM Virtual Animal Race",
+        gameUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+        iframeUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      },
+      Spanish: {
+        gameName: "Máquina de monedas",
+        gameUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+        iframeUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      },
+    },
+    isFeatured: true,
+  },
+  {
+    id: 7,
+    gameName: "Baccarat",
+    tags: ["card"],
+    category: "Classics",
+    thumbnail:
+      "https://res.cloudinary.com/detatjujs/image/upload/v1712828960/Baccarat_1000x1000_en_h2qema.jpg",
+    langProps: {
+      English: {
+        gameName: "KM Virtual Animal Race",
+        gameUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+        iframeUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      },
+      Spanish: {
+        gameName: "Máquina de monedas",
+        gameUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+        iframeUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      },
+    },
+    isFeatured: true,
+  },
+  {
+    id: 8,
+    gameName: "KM Power Ball",
+    tags: ["lottery"],
+    category: "Classics",
+    thumbnail:
+      "https://res.cloudinary.com/detatjujs/image/upload/v1712829079/km-power-ball_1000x1000_en_brpc6v.jpg",
+    langProps: {
+      English: {
+        gameName: "KM Virtual Animal Race",
+        gameUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+        iframeUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      },
+      Spanish: {
+        gameName: "Máquina de monedas",
+        gameUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+        iframeUrl:
+          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      },
+    },
+    isFeatured: true,
+  },
+];
 
 export default GameData;

@@ -5,14 +5,30 @@ import FilterComponent from "@/components/gameList/FilterComponent";
 import GameList from "@/components/gameList/GameList";
 import { Skeleton } from "@/components/ui/skeleton";
 
-export default function Home() {
+interface Game {
+  id: number;
+  gameName: string;
+  tags: string[];
+  category: string;
+  thumbnail: string;
+  langProps: {
+    [key: string]: {
+      gameName: string;
+      gameUrl: string;
+      iframeUrl: string;
+    };
+  };
+  isFeatured: boolean;
+}
+
+const Home: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
   // Get unique categories from game data
   const categories = Array.from(new Set(GameData.map((game) => game.category)));
 
-  const handleSelectCategory = (category) => {
+  const handleSelectCategory = (category: string) => {
     setIsLoading(true);
     setSelectedCategory(category);
     setTimeout(() => {
@@ -20,7 +36,7 @@ export default function Home() {
     }, 200);
   };
 
-  const gamesToShow = selectedCategory
+  const gamesToShow: Game[] = selectedCategory
     ? GameData.filter((game) => game.category === selectedCategory)
     : GameData;
 
@@ -36,10 +52,13 @@ export default function Home() {
             {gamesToShow.map((game) => (
               <div className="OneSkeleton" key={game.id}>
                 <div className="flex flex-col space-y-3">
-                  <Skeleton className="h-[125px] w-[22vw] rounded-xl" />
+                  <Skeleton
+                    w-full
+                    className="h-[125px] rounded-xl bg-stone-800 w-[19vw]"
+                  />
                   <div className="space-y-2">
-                    <Skeleton className="h-4 w-[22vw]" />
-                    <Skeleton className="h-4 w-[22vw]" />
+                    <Skeleton className="h-4 bg-stone-700" />
+                    <Skeleton className="h-4 bg-stone-700" />
                   </div>
                 </div>
               </div>
@@ -51,4 +70,6 @@ export default function Home() {
       </div>
     </main>
   );
-}
+};
+
+export default Home;

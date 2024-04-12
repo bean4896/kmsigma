@@ -7,8 +7,14 @@ interface Game {
   tags: string[];
   category: string;
   thumbnail: string;
-  iframeUrl: string;
-  demoUrl: string;
+  langProps: {
+    [key: string]: {
+      gameName: string;
+      gameUrl: string;
+      iframeUrl: string;
+    };
+  };
+  isFeatured: boolean;
 }
 
 interface GameListProps {
