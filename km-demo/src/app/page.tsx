@@ -49,13 +49,14 @@ const Home: React.FC = () => {
         selectedCategory={selectedCategory}
         onSelectCategory={handleSelectCategory}
       />
-      <div className="flex flex-wrap gap-10">
+      <div className="">
         {isLoading ? (
           <>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
             {gamesToShow.map((game: Game) => (
               <div className="OneSkeleton" key={game.id}>
                 <div className="flex flex-col space-y-3">
-                  <Skeleton className="h-[125px] rounded-xl bg-stone-800 w-[22vw]" />
+                  <Skeleton className="h-[125px] rounded-xl bg-stone-800" />
                   <div className="space-y-2">
                     <Skeleton className="h-4 bg-stone-700" />
                     <Skeleton className="h-4 bg-stone-700" />
@@ -63,6 +64,7 @@ const Home: React.FC = () => {
                 </div>
               </div>
             ))}
+            </div>
           </>
         ) : (
           <GameList gamesToShow={gamesToShow} />
