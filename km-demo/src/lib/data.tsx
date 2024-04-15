@@ -10,9 +10,9 @@ const GameData = [
       English: {
         gameName: "Coin Pusher",
         gameUrl:
-          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+          "https://sademo.kmgamesdev.net/games/coin-dozer?currency=USD&test=1",
         iframeUrl:
-          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+          "https://sademo.kmgamesdev.net/games/coin-dozer?currency=USD&test=1",
       },
       Spanish: {
         gameName: "Máquina de monedas",
@@ -43,6 +43,8 @@ const GameData = [
         gameName: "KM Virtual Animal Race",
         gameUrl:
           "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+        iframeUrl:
+           "https://sademo.kmgamesdev.net/games/animal-racing?currency=USD&test=1"
       },
       Spanish: {
         gameName: "Máquina de monedas",
@@ -65,7 +67,7 @@ const GameData = [
         gameUrl:
           "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
         iframeUrl:
-          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+          "https://sademo.kmgamesdev.net/games/treadmill-racing?currency=USD&test=1",
       },
       Spanish: {
         gameName: "Máquina de monedas",
@@ -89,15 +91,15 @@ const GameData = [
         gameUrl:
           "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
         iframeUrl:
-          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+          "https://sademo.kmgamesdev.net/games/mine-sweeper?currency=USD&test=1",
       },
-      Spanish: {
-        gameName: "Máquina de monedas",
-        gameUrl:
-          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
-        iframeUrl:
-          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
-      },
+      // Spanish: {
+      //   gameName: "Máquina de monedas",
+      //   gameUrl:
+      //     "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      //   iframeUrl:
+      //     "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      // },
     },
     isFeatured: true,
   },
@@ -114,15 +116,15 @@ const GameData = [
         gameUrl:
           "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
         iframeUrl:
-          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+          "https://sademo.kmgamesdev.net/games/sugar-blast-2/index.html?test=1",
       },
-      Spanish: {
-        gameName: "Máquina de monedas",
-        gameUrl:
-          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
-        iframeUrl:
-          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
-      },
+      // Spanish: {
+      //   gameName: "Máquina de monedas",
+      //   gameUrl:
+      //     "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      //   iframeUrl:
+      //     "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      // },
     },
     isFeatured: true,
   },
@@ -139,15 +141,15 @@ const GameData = [
         gameUrl:
           "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
         iframeUrl:
-          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+          "https://sademo.kmgamesdev.net/games/viking-blast?currency=USD&test=1",
       },
-      Spanish: {
-        gameName: "Máquina de monedas",
-        gameUrl:
-          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
-        iframeUrl:
-          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
-      },
+      // Spanish: {
+      //   gameName: "Máquina de monedas",
+      //   gameUrl:
+      //     "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      //   iframeUrl:
+      //     "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      // },
     },
     isFeatured: true,
   },
@@ -164,15 +166,15 @@ const GameData = [
         gameUrl:
           "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
         iframeUrl:
-          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+          "https://sademo.kmgamesdev.net/games/baccarat?currency=USD&test=1",
       },
-      Spanish: {
-        gameName: "Máquina de monedas",
-        gameUrl:
-          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
-        iframeUrl:
-          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
-      },
+      // Spanish: {
+      //   gameName: "Máquina de monedas",
+      //   gameUrl:
+      //     "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      //   iframeUrl:
+      //     "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      // },
     },
     isFeatured: true,
   },
@@ -189,15 +191,15 @@ const GameData = [
         gameUrl:
           "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
         iframeUrl:
-          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+          "https://sademo.kmgamesdev.net/games/bingo?currency=USD&test=1",
       },
-      Spanish: {
-        gameName: "Máquina de monedas",
-        gameUrl:
-          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
-        iframeUrl:
-          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
-      },
+      // Spanish: {
+      //   gameName: "Máquina de monedas",
+      //   gameUrl:
+      //     "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      //   iframeUrl:
+      //     "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      // },
     },
     isFeatured: true,
   },

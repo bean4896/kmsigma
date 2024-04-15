@@ -152,11 +152,6 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
           )}
         </div>
 
-        <div className="mt-4 text-white">
-          lores sit amet, consectetur adipiscing elit. Sed ac nisl et arcu
-          ultricies consectetur. Nulla facilisi. Nulla facilisi. Nulla facilisi.
-          Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla
-        </div>
 
         <div className="mt-6">
           <div className="flex justify-end">

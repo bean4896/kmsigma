@@ -4,6 +4,7 @@ import GameData from "@/lib/data";
 import FilterComponent from "@/components/gameList/FilterComponent";
 import GameList from "@/components/gameList/GameList";
 import { Skeleton } from "@/components/ui/skeleton";
+import QrCode from "@/components/layout/qrcode";
 
 interface Game {
   id: number;
@@ -70,6 +71,7 @@ const Home: React.FC = () => {
           <GameList gamesToShow={gamesToShow} />
         )}
       </div>
+      <QrCode />
     </main>
   );
 };
