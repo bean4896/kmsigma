@@ -12,25 +12,15 @@ const FilterComponent: React.FC<FilterComponentProps> = ({
   onSelectCategory,
 }) => {
   return (
-    <div className="flex mb-4">
-      <button
-        className={`mr-2 px-4 py-2 rounded ${
-          "" === selectedCategory
-            ? "bg-blue-500 text-white"
-            : "bg-gray-200 text-gray-800"
-        } hover:bg-blue-500 hover:text-white`}
-        onClick={() => onSelectCategory("")}
-      >
-        All
-      </button>
+    <div className="flex flex-wrap justify-center mb-4">
       {categories.map((category, index) => (
         <button
           key={index}
-          className={`mr-2 px-4 py-2 rounded ${
+          className={`flex-1 mr-2 mb-2 px-4 py-2 rounded text-xl font-bold ${
             category === selectedCategory
-              ? "bg-blue-500 text-white"
-              : "bg-gray-200 text-gray-800"
-          } hover:bg-blue-500 hover:text-white`}
+              ? "bg-neutral-900 text-white"
+              : "bg-neutral-700 text-white"
+          } hover:bg-neutral-900 hover:text-white`}
           onClick={() => onSelectCategory(category)}
         >
           {category}

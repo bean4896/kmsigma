@@ -44,7 +44,7 @@ const Home: React.FC = () => {
   );
 
   return (
-    <main className="flex min-h-screen flex-col py-16 px-4">
+    <main className="flex min-h-screen flex-col py-16 px-4 max-w-[1560px] m-auto">
       <Banner />
       <FilterComponent
         categories={categories}
