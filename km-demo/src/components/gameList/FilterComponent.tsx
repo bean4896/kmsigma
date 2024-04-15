@@ -16,7 +16,7 @@ const FilterComponent: React.FC<FilterComponentProps> = ({
       {categories.map((category, index) => (
         <button
           key={index}
-          className={`flex-1 mr-2 mb-2 px-4 py-2 rounded text-xl font-bold ${
+          className={`flex-1 mr-2 mb-2 px-4 py-2 rounded text-md xl:text-xl font-bold ${
             category === selectedCategory
               ? "bg-neutral-900 text-white"
               : "bg-neutral-700 text-white"

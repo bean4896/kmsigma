@@ -126,7 +126,7 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
                 {langProps[selectedLanguage]?.gameName}
               </h2> */}
               {langProps[selectedLanguage]?.iframeUrl ? (
-                <div className="iframeContainer">
+                <div className="iframeContainer pb-20">
                   <iframe
                     src={langProps[selectedLanguage]?.iframeUrl}
                     allowFullScreen={true}
