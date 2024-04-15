@@ -44,7 +44,7 @@ const GameData = [
         gameUrl:
           "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
         iframeUrl:
-           "https://sademo.kmgamesdev.net/games/animal-racing?currency=USD&test=1"
+          "https://sademo.kmgamesdev.net/games/animal-racing?currency=USD&test=1",
       },
       Spanish: {
         gameName: "Máquina de monedas",
@@ -72,8 +72,6 @@ const GameData = [
       Spanish: {
         gameName: "Máquina de monedas",
         gameUrl:
-          "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
-        iframeUrl:
           "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
       },
     },
@@ -192,6 +190,31 @@ const GameData = [
           "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
         iframeUrl:
           "https://sademo.kmgamesdev.net/games/bingo?currency=USD&test=1",
+      },
+      // Spanish: {
+      //   gameName: "Máquina de monedas",
+      //   gameUrl:
+      //     "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      //   iframeUrl:
+      //     "https://cdn.kingmidasdev.net/asia-demo/coin-dozer/2024-03-27-05-46-47/index.html?currency=THB&lang=&room=1&test=1",
+      // },
+    },
+    isFeatured: true,
+  },
+  {
+    id: 9,
+    gameName: "Poker Roulette",
+    tags: ["card", "roulette"],
+    category: "Classics",
+    thumbnail:
+      "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
+    langProps: {
+      English: {
+        gameName: "Poker Roulette",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=USD&test=1",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=USD&test=1",
       },
       // Spanish: {
       //   gameName: "Máquina de monedas",
