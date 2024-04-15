@@ -6,6 +6,8 @@ import GameList from "@/components/gameList/GameList";
 import { Skeleton } from "@/components/ui/skeleton";
 import QrCode from "@/components/layout/qrcode";
 import Banner from "@/components/layout/qrcodeBanner";
+import NewRelease from "@/components/layout/newRelease";
+
 interface Game {
   id: number;
   gameName: string;
@@ -51,6 +53,7 @@ const Home: React.FC = () => {
         selectedCategory={selectedCategory}
         onSelectCategory={handleSelectCategory}
       />
+      <NewRelease />
       <div className="">
         {isLoading ? (
           <>
