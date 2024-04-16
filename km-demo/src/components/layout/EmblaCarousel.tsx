@@ -65,14 +65,22 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                         </span>
                       ))}
                     </div>
-                    <h2 className="text-2xl font-bold text-white">{slide.title}</h2>
+                    <h2 className="text-2xl font-bold text-white">
+                      {slide.title}
+                    </h2>
                     <p className="mb-4 text-white">{slide.description}</p>
                     <button className="px-4 py-2 bg-neutral-700 text-white rounded hover:bg-neutral-800">
                       Play Game
                     </button>
                   </div>
                   <div className="order-first lg:w-1/2">
-                    <Image src={slide.imageUrl} alt="Game" width={500} height={200}/>
+                    <Image
+                      src={slide.imageUrl}
+                      alt="Game"
+                      width={500}
+                      height={0}
+                      className="h-[18vh]"
+                    />
                   </div>
                 </div>
               </div>

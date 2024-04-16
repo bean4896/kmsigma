@@ -97,24 +97,34 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
         className="fixed inset-0 bg-black opacity-50"
         onClick={handleOverlayClick}
       ></div>
-      <div className="dialogContainer relative bg-neutral-800 p-6 mx-auto max-w-[1440px] w-full h-[100vh] sm:h-auto overflow-y-auto scrollbar-thumb rounded-lg scrollbar-thumb-neutral-500 scrollbar-track-neutral-300">
+      <div className="dialogContainer relative bg-neutral-800 p-6 mx-auto max-w-[1440px] w-full md:h-[80vh] sm:h-auto overflow-y-auto scrollbar-thumb rounded-lg scrollbar-thumb-neutral-500 scrollbar-track-neutral-300">
         <div className="flex">
           {langProps && (
             <>
-              {Object.keys(langProps).map((lang) => (
-                <button
-                  key={lang}
-                  className={`text-sm font-medium mr-2 px-2 py-1 rounded flex items-center ${
-                    selectedLanguage === lang
-                      ? "bg-neutral-600 text-white"
-                      : "bg-neutral-800 text-white"
-                  }`}
-                  onClick={() => setSelectedLanguage(lang)}
-                >
-                  {renderFlag(lang)}
-                  <span className="ml-2">{lang}</span>
-                </button>
-              ))}
+              {Object.keys(langProps).map((lang) => {
+                let languageName;
+                if (lang === "spanish") {
+                  languageName = "Español";
+                } else if (lang === "brazil") {
+                  languageName = "Português";
+                } else {
+                  languageName = lang;
+                }
+                return (
+                  <button
+                    key={lang}
+                    className={`text-sm font-medium mr-2 px-2 py-1 rounded flex items-center ${
+                      selectedLanguage === lang
+                        ? "bg-neutral-600 text-white"
+                        : "bg-neutral-800 text-white"
+                    }`}
+                    onClick={() => setSelectedLanguage(lang)}
+                  >
+                    {renderFlag(lang)}
+                    <span className="ml-2">{languageName}</span>
+                  </button>
+                );
+              })}
             </>
           )}
         </div>
@@ -126,13 +136,13 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
                 {langProps[selectedLanguage]?.gameName}
               </h2> */}
               {langProps[selectedLanguage]?.iframeUrl ? (
-                <div className="iframeContainer pb-20">
+                <div className="iframeContainer">
                   <iframe
                     src={langProps[selectedLanguage]?.iframeUrl}
                     allowFullScreen={true}
                     frameBorder="0"
                     scrolling="auto"
-                    className="w-full h-[80vh]"
+                    className="w-full h-[65vh]"
                   ></iframe>
                 </div>
               ) : langProps[selectedLanguage]?.showScreenshot ? (
@@ -151,7 +161,6 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
             </>
           )}
         </div>
-
 
         <div className="mt-6">
           <div className="flex justify-end">

@@ -4,11 +4,11 @@ import ImgQrcode from "@/assets/KingMidas.net.png";
 
 const Banner = () => {
   return (
-    <div className="qrbanner bg-neutral-800 rounded-md flex justify-center items-center mb-4">
-      <div className="qrcontainer flex justify-center items-center">
+    <div className="mt-10 qrbanner bg-neutral-800 rounded-md flex mb-4 h-[13%] py-10">
+      <div className="qrcontainer flex justify-center items-center ml-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <div className="flex items-center">
-            <h3 className="text-white text-center text-xl lg:text-2xl leading-snug">
+            <h3 className="text-white text-left text-xl lg:text-2xl leading-snug">
               Play the full list of
               <br />
               offerings on the
@@ -16,8 +16,15 @@ const Banner = () => {
               KingMidas website!
             </h3>
           </div>
-          <div className="flex items-center py-2">
-            <Image src={ImgQrcode} alt="QR Code" width={250} />
+          <div className="flex items-center">
+            <Image
+              src={ImgQrcode}
+              alt="QR Code"
+              width="0"
+              height="0"
+              sizes="10vw"
+              className="w-full h-auto rounded-lg"
+            />
           </div>
         </div>
       </div>

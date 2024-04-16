@@ -40,7 +40,7 @@
     color: var(--text-high-contrast);
     font-size: 1.6rem;
     line-height: 1.65;
-  }  
+  }
   .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
@@ -100,8 +100,7 @@
 
 .closeButton {
   position: fixed;
-  top:3rem;
-
+  top: 3rem;
 }
 
 .closeButton:hover {
@@ -140,14 +139,15 @@
 }
 
 .embla__dots {
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
+  gap: 1em;
   justify-content: center;
   align-items: center;
   margin-right: calc((2.6rem - 1.4rem) / 2 * -1);
 }
 .embla__dot {
-  -webkit-tap-highlight-color: red;
   -webkit-appearance: none;
   appearance: none;
   background-color: transparent;
@@ -158,22 +158,43 @@
   border: 0;
   padding: 0;
   margin: 0;
-  width: 2.6rem;
-  height: 2.6rem;
+  width: 4rem;
+  height: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
+  border-radius: 1rem;
 }
 .embla__dot:after {
   box-shadow: inset 0 0 0 0.2rem #d8d8d8;
-  width: 1.4rem;
-  height: 1.4rem;
-  border-radius: 50%;
+  width: 4rem;
+  height: 1rem; /* Increase height to create a cylinder effect */
+  border-radius: 1rem; /* Change border-radius to half of the height */
   display: flex;
   align-items: center;
-  content: '';
+  content: "";
 }
 .embla__dot--selected:after {
   background: #dadbdb;
+}
+
+@keyframes glow-underline {
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(1.5);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.glowImg {
+  width: 35%;
+  height: auto;
+  position: absolute;
+  bottom: -0.8rem;
+  left: 50%;
+  transform: translateX(-50%);
 }

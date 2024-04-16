@@ -27,7 +27,7 @@ interface Game {
 }
 
 const Home: React.FC = () => {
-  const [selectedCategory, setSelectedCategory] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("Next Gen");
   const [isLoading, setIsLoading] = useState(false);
 
   // Get unique categories from game data
@@ -46,7 +46,7 @@ const Home: React.FC = () => {
   );
 
   return (
-    <main className="flex min-h-screen flex-col py-16 px-4 max-w-[1560px] m-auto">
+    <main className="flex min-h-screen flex-col px-4 max-w-[1560px] m-auto">
       <Banner />
       <FilterComponent
         categories={categories}
@@ -60,7 +60,7 @@ const Home: React.FC = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
               {gamesToShow.map((game: Game) => (
                 <div className="OneSkeleton" key={game.id}>
-                  <div className="flex flex-col space-y-3">
+                  <div className="flex flex-col space-y-3 ">
                     <Skeleton className="h-[125px] rounded-xl bg-stone-800" />
                     <div className="space-y-2">
                       <Skeleton className="h-4 bg-stone-700" />

@@ -8,7 +8,13 @@ const QrCode = () => {
         <div className="text-white mb-4 text-xl lg:text-2xl">
           Check out more next gen on the kingmidas website!
         </div>
-        <Image src={ImgQrcode} alt="QR Code" width={300} height={300} />
+        <Image
+          className="max-w-[200px] rounded-lg"
+          src={ImgQrcode}
+          alt="QR Code"
+          width={300}
+          height={300}
+        />
       </div>
     </div>
   );

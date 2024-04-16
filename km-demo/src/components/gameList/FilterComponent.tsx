@@ -1,4 +1,6 @@
 import React from "react";
+import ImgCategoryGlow from "@/assets/category_selection.png";
+import Image from "next/image";
 
 interface FilterComponentProps {
   categories: string[];
@@ -16,14 +18,24 @@ const FilterComponent: React.FC<FilterComponentProps> = ({
       {categories.map((category, index) => (
         <button
           key={index}
-          className={`flex-1 mr-2 mb-2 px-4 py-2 rounded text-md xl:text-xl font-bold ${
+          className={`flex-1 category relative mr-2 mb-2 px-4 py-2 text-md xl:text-[2rem] font-bold ${
             category === selectedCategory
-              ? "bg-neutral-900 text-white"
-              : "bg-neutral-700 text-white"
-          } hover:bg-neutral-900 hover:text-white`}
+              ? "text-white outline-none"
+              : "text-white hover:text-white"
+          }`}
           onClick={() => onSelectCategory(category)}
         >
           {category}
+          {category === selectedCategory && (
+            <Image
+              src={ImgCategoryGlow}
+              alt={`${category} glow`}
+              layout="contain"
+              className={`glowImg ${
+                category === selectedCategory ? "visible" : "hidden"
+              }`}
+            />
+          )}
         </button>
       ))}
     </div>

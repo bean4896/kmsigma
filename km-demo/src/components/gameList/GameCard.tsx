@@ -114,7 +114,7 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
               game.tags.map((tag, index) => (
                 <span
                   key={index}
-                  className="mr-2 mb-2 px-2 py-1 rounded-md bg-gray-200 text-gray-800"
+                  className="text-sm mr-2 mb-2 px-2 py-1 rounded-md bg-gray-200 text-gray-800"
                 >
                   {tag}
                 </span>
