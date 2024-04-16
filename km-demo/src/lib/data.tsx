@@ -73,7 +73,7 @@ const GameData = [
     tags: [],
     category: "Slots",
     thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1712826701/mine-sweeper_1000x1000_en_xuaesi.jpg",
+      "https://res.cloudinary.com/detatjujs/image/upload/v1713256607/rooster-blitz_500x500_en_bzie9s.jpg",
     langProps: {
       English: {
         gameName: "KM Virtual Animal Race",

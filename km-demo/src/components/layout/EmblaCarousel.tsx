@@ -52,8 +52,8 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
         <div className="embla__container ">
           {GameSlidesinfo.map((slide) => (
             <div className="embla__slide" key={slide.id}>
-              <div className="slide_info bg-neutral-900">
-                <div className="flex flex-col lg:flex-row items-center">
+              <div className="slide_inf">
+                <div className="rounded-xl flex flex-col lg:flex-row items-center min-h-[20vh] bg-neutral-400">
                   <div className="order-last lg:w-1/2 lg:pl-8">
                     <div className="flex flex-wrap">
                       {slide.tags.map((tag, index) => (
@@ -77,9 +77,9 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                     <Image
                       src={slide.imageUrl}
                       alt="Game"
-                      width={500}
-                      height={0}
-                      className="h-[18vh]"
+                      width={200}
+                      height={200}
+                      layout="cover"
                     />
                   </div>
                 </div>

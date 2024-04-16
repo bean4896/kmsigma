@@ -8,8 +8,11 @@ const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
 const NewRelease = () => {
   return (
-    <div className="">
-      <h2 className="text-white text-2xl font-extrabold">NEW RELEASES!</h2>
+    <div className="relative mt-14">
+      <div className="px-6 absolute z-10 -top-5 left-0 bg-gradient-to-r from-[#ffd35b] via-[#fcf3aa] to-[#fff9d9] text-black text-[1.6em] font-extrabold">
+        <h2 className="italic">NEW RELEASES!</h2>
+      </div>
+
       <EmblaCarousel slides={SLIDES} options={OPTIONS} />
     </div>
   );

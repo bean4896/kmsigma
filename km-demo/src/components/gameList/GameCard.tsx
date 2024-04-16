@@ -73,7 +73,7 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
 
   return (
     <>
-      <div className="p-4 mb-4">
+      <div className="px-4 pt-4">
         <div
           className="trigger mb-2 cursor-pointer hover:scale-105"
           onClick={handleOpenDialog}
@@ -83,15 +83,15 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
             width={1000}
             height={1000}
             alt={game.gameName}
+            placeholder="blur"
+            blurDataURL="data:..."
             className="w-full rounded-md hover:scale-105 duration-200"
           />
         </div>
-        <div>
-          <h3 className="text-lg text-white *:font-bold">
-         {game.gameName}
-          </h3>
+        {/* <div>
+          <h3 className="text-lg text-white *:font-bold">{game.gameName}</h3>
           <p className="text-sm text-white">Game Category: {game.category}</p>
-        </div>
+        </div> */}
 
         {isDialogOpen && (
           <GameDialog
@@ -115,12 +115,12 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
         </div>
 
         <div>
-          <div className="flex flex-wrap mb-2">
+          <div className="flex flex-wrap">
             {game.tags.length > 0 ? (
               game.tags.map((tag, index) => (
                 <span
                   key={index}
-                  className="text-sm mr-2 mb-2 px-2 py-1 rounded-md bg-gray-200 text-gray-800"
+                  className="text-sm mr-2 px-2 py-1 rounded-md bg-gray-200 text-gray-800"
                 >
                   {tag}
                 </span>

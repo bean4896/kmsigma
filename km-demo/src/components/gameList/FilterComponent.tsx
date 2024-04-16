@@ -14,13 +14,13 @@ const FilterComponent: React.FC<FilterComponentProps> = ({
   onSelectCategory,
 }) => {
   return (
-    <div className="flex flex-wrap justify-center mb-4">
+    <div className="flex flex-wrap justify-center my-4">
       {categories.map((category, index) => (
         <button
           key={index}
-          className={`flex-1 category relative mr-2 mb-2 px-4 py-2 text-md xl:text-[2rem] font-bold ${
+          className={`flex-1 category relative text-[20px] md:text-[2rem] font-bold ${
             category === selectedCategory
-              ? "text-white outline-none"
+              ? "outline-none bg-gradient-to-r from-[#ffa100] to-[#ffde00] text-transparent bg-clip-text"
               : "text-white hover:text-white"
           }`}
           onClick={() => onSelectCategory(category)}

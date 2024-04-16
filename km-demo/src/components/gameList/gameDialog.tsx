@@ -92,12 +92,12 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
   const langProps = gameData?.langProps || null;
 
   return (
-    <div className="fixed inset-0 z-10 flex mt-10">
+    <div className="fixed inset-0 z-10 flex items-center justify-center">
       <div
-        className="fixed inset-0 bg-black opacity-50"
+        className="fixed inset-0 bg-black opacity-80"
         onClick={handleOverlayClick}
       ></div>
-      <div className="dialogContainer relative bg-neutral-800 p-6 mx-auto max-w-[1440px] w-full md:h-[80vh] sm:h-auto overflow-y-auto scrollbar-thumb rounded-lg scrollbar-thumb-neutral-500 scrollbar-track-neutral-300">
+      <div className="dialogContainer relative bg-neutral-800 p-6 mx-auto w-[92%] sm:h-auto overflow-y-auto scrollbar-thumb rounded-lg scrollbar-thumb-neutral-500 scrollbar-track-neutral-300">
         <div className="flex">
           {langProps && (
             <>
@@ -164,7 +164,7 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
 
         <div className="mt-6">
           <div className="flex justify-end">
-            <button className="closeButton" onClick={onClose}>
+            <button className="closeButton absolute top-2 right-2" onClick={onClose}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

@@ -98,15 +98,6 @@
   }
 }
 
-.closeButton {
-  position: fixed;
-  top: 3rem;
-}
-
-.closeButton:hover {
-  color: #ddd;
-}
-
 .embla {
   margin: auto;
   --slide-height: 19rem;
@@ -191,10 +182,10 @@
 }
 
 .glowImg {
-  width: 35%;
+  width: 45%;
   height: auto;
   position: absolute;
-  bottom: -0.8rem;
+  top: 2rem;
   left: 50%;
   transform: translateX(-50%);
 }

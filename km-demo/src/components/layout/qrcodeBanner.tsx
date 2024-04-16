@@ -4,7 +4,7 @@ import ImgQrcode from "@/assets/KingMidas.net.png";
 
 const Banner = () => {
   return (
-    <div className="mt-10 qrbanner bg-neutral-800 rounded-md flex mb-4 h-[13%] py-10">
+    <div className="mt-14 bg-neutral-800 rounded-md flex mb-4 h-[10em] py-10">
       <div className="qrcontainer flex justify-center items-center ml-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <div className="flex items-center">
@@ -22,8 +22,8 @@ const Banner = () => {
               alt="QR Code"
               width="0"
               height="0"
-              sizes="10vw"
-              className="w-full h-auto rounded-lg"
+              sizes="6vw"
+              className="w-full h-auto rounded-lg max-w-[150px]"
             />
           </div>
         </div>
