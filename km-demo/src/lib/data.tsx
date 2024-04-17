@@ -500,9 +500,9 @@ const GameData = [
       English: {
         gameName: "Cleopatras Treasure",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=USD&test=1",
+          "https://sademo.kmgamesdev.net/games/coin-toss?currency=USD&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=USD&test=1",
+          "https://sademo.kmgamesdev.net/games/coin-toss?currency=USD&test=1",
       },
       // Spanish: {
       //   gameName: "Máquina de monedas",
