@@ -210,7 +210,7 @@ const GameSlidesinfo = [
     gameName: "KM Power Ball",
     tags: ["tag1", "tag2"],
     backgroundUrl:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1713346252/newreleases_penguinpanic_banner_jk7dcz.png",
+      "https://res.cloudinary.com/detatjujs/image/upload/v1712829079/km-power-ball_1000x1000_en_brpc6v.jpg",
     category: "CLASSICS",
     thumbnail: "thumbnail url",
     langProps: {

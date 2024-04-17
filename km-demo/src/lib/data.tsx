@@ -205,18 +205,18 @@ const GameData = [
   },
   {
     id: 10,
-    gameName: "Sic Bo",
+    gameName: "Bonus Dice",
     tags: ["Table", "Dice"],
     category: "CLASSICS",
     thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1713255261/sic-bo_1000x1000_en_gnmtnf.jpg",
+      "https://res.cloudinary.com/detatjujs/image/upload/v1713357067/bonus-dice_500x500_en_btw9vk.jpg",
     langProps: {
       English: {
-        gameName: "Sic Bo",
+        gameName: "Bonus Dice",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/sicbo?currency=USD&test=1",
+          "https://sademo.kmgamesdev.net/games/bonus-dice?currency=USD&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/sicbo?currency=USD&test=1",
+          "https://sademo.kmgamesdev.net/games/bonus-dice?currency=USD&test=1",
       },
     },
     isFeatured: true,
@@ -448,36 +448,36 @@ const GameData = [
   },
   {
     id: 20,
-    gameName: "Dragon Tiger 2",
-    tags: ["Table", "Card"],
+    gameName: "KM Virtual Greyhound racing",
+    tags: ["Virtual", "Sports"],
     category: "CLASSICS",
     thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1713255261/dragon-tiger-3_1000x1000_en_btioij.jpg",
+      "https://res.cloudinary.com/detatjujs/image/upload/v1713356955/km-virtual-greyhound-racing_500x500_en_haydlx.jpg",
     langProps: {
       English: {
-        gameName: "Dragon Tiger 2",
+        gameName: "KM Virtual Greyhound racing",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/dragon-tiger-2?currency=USD&test=1",
+          "https://sademo.kmgamesdev.net/games/hound-racing?currency=USD&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/dragon-tiger-2?currency=USD&test=1",
+          "https://sademo.kmgamesdev.net/games/hound-racing?currency=USD&test=1",
       },
     },
     isFeatured: true,
   },
   {
     id: 21,
-    gameName: "7 Up 7 Down",
-    tags: ["Table", "Card"],
+    gameName: "KM Virtual Horse Racing",
+    tags: ["Virtual", "Sports"],
     category: "CLASSICS",
     thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1713255261/seven-up-seven-down_1000x1000_en_heb8s6.jpg",
+      "https://res.cloudinary.com/detatjujs/image/upload/v1713356687/km-virtual-horse-racing_500x500_en_mlhs44.jpg",
     langProps: {
       English: {
-        gameName: "7 Up 7 Down",
+        gameName: "KM Virtual Horse Racing",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/seven-up-down?currency=USD&test=1",
+          "https://sademo.kmgamesdev.net/games/horse-racing?currency=USD&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/seven-up-down?currency=USD&test=1",
+          "https://sademo.kmgamesdev.net/games/horse-racing?currency=USD&test=1",
       },
       // Spanish: {
       //   gameName: "Máquina de monedas",
