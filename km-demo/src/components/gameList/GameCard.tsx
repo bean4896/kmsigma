@@ -88,10 +88,10 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
             className="w-full rounded-md hover:scale-105 duration-200"
           />
         </div>
-        {/* <div>
+        <div>
           <h3 className="text-lg text-white *:font-bold">{game.gameName}</h3>
           <p className="text-sm text-white">Game Category: {game.category}</p>
-        </div> */}
+        </div>
 
         {isDialogOpen && (
           <GameDialog
