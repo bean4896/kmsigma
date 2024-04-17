@@ -53,7 +53,7 @@ const Home: React.FC = () => {
         selectedCategory={selectedCategory}
         onSelectCategory={handleSelectCategory}
       />
-      <NewRelease />
+      <NewRelease selectedCategory={selectedCategory} />
       <div className="">
         {isLoading ? (
           <>
@@ -61,7 +61,7 @@ const Home: React.FC = () => {
               {gamesToShow.map((game: Game) => (
                 <div className="OneSkeleton mt-12" key={game.id}>
                   <div className="flex flex-col space-y-3 ">
-                    <Skeleton className="h-[125px] rounded-xl bg-stone-800" />
+                    <Skeleton className="h-[8em] rounded-xl bg-stone-800" />
                     <div className="space-y-2">
                       <Skeleton className="h-4 bg-stone-700" />
                       <Skeleton className="h-4 bg-stone-700" />

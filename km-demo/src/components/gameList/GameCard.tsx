@@ -91,7 +91,6 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
         </div>
         <div>
           <h3 className="text-lg text-white *:font-bold">{game.gameName}</h3>
-          <p className="text-sm text-white">Game Category: {game.category}</p>
         </div>
 
         {isDialogOpen && (

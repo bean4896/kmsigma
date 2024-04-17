@@ -7,17 +7,17 @@ import PlayBtn from "@/assets/playnow_button.png";
 import GameDialog from "@/components/gameList/gameDialog";
 
 type PropType = {
-  slides: number[];
+  filteredSlides: number[];
   options?: EmblaOptionsType;
 };
-
 const GameSlidesinfo = [
   {
     id: 1,
     gameName: "Penguin Panic",
     tags: ["tag1", "tag2"],
-    background: "background url",
-    category: "category",
+    backgroundUrl:
+      "https://res.cloudinary.com/detatjujs/image/upload/v1713346252/newreleases_penguinpanic_banner_jk7dcz.png",
+    category: "NEXT-GEN",
     thumbnail: "thumbnail url",
     langProps: {
       english: {
@@ -42,8 +42,8 @@ const GameSlidesinfo = [
     id: 2,
     gameName: "Jackpot Jump",
     tags: ["tag1", "tag2"],
-    background: "background url",
-    category: "category",
+    backgroundUrl: "background url",
+    category: "NEXT-GEN",
     thumbnail: "thumbnail url",
     langProps: {
       english: {
@@ -68,8 +68,8 @@ const GameSlidesinfo = [
     id: 3,
     gameName: "Interstellar RUN",
     tags: ["tag1", "tag2"],
-    background: "background url",
-    category: "category",
+    backgroundUrl: "background url",
+    category: "NEXT-GEN",
     thumbnail: "thumbnail url",
     langProps: {
       english: {
@@ -90,9 +90,166 @@ const GameSlidesinfo = [
     },
     isFeatured: true,
   },
+  {
+    id: 4,
+    gameName: "Sugar Blast",
+    tags: ["tag1", "tag2"],
+    backgroundUrl: "background url",
+    category: "SLOTS",
+    thumbnail: "thumbnail url",
+    langProps: {
+      english: {
+        gameName: "Sugar Blast",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+      spanish: {
+        gameName: "Panic de Pingüinos",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+      brazil: {
+        gameName: "Pânico dos Pinguins",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+    },
+    isFeatured: true,
+  },
+  {
+    id: 5,
+    gameName: "Rooster Blitz",
+    tags: ["tag1", "tag2"],
+    backgroundUrl: "background url",
+    category: "SLOTS",
+    thumbnail: "thumbnail url",
+    langProps: {
+      english: {
+        gameName: "Rooster Blitz",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+      spanish: {
+        gameName: "Panic de Pingüinos",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+      brazil: {
+        gameName: "Pânico dos Pinguins",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+    },
+    isFeatured: true,
+  },
+  {
+    id: 6,
+    gameName: "Cleopatras Treasure",
+    tags: ["tag1", "tag2"],
+    backgroundUrl: "background url",
+    category: "SLOTS",
+    thumbnail: "thumbnail url",
+    langProps: {
+      english: {
+        gameName: "Cleopatras Treasure",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+      spanish: {
+        gameName: "Panic de Pingüinos",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+      brazil: {
+        gameName: "Pânico dos Pinguins",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+    },
+    isFeatured: true,
+  },
+  {
+    id: 7,
+    gameName: "Baccarat",
+    tags: ["tag1", "tag2"],
+    backgroundUrl: "background url",
+    category: "CLASSICS",
+    thumbnail: "thumbnail url",
+    langProps: {
+      english: {
+        gameName: "Baccarat",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+      spanish: {
+        gameName: "Panic de Pingüinos",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+      brazil: {
+        gameName: "Pânico dos Pinguins",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+    },
+    isFeatured: true,
+  },
+  {
+    id: 8,
+    gameName: "KM Power Ball",
+    tags: ["tag1", "tag2"],
+    backgroundUrl:
+      "https://res.cloudinary.com/detatjujs/image/upload/v1713346252/newreleases_penguinpanic_banner_jk7dcz.png",
+    category: "CLASSICS",
+    thumbnail: "thumbnail url",
+    langProps: {
+      english: {
+        gameName: "KM Power Ball",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+      spanish: {
+        gameName: "Panic de Pingüinos",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+      brazil: {
+        gameName: "Pânico dos Pinguins",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+    },
+    isFeatured: true,
+  },
+  {
+    id: 9,
+    gameName: "KM Virtual Horse Racing",
+    tags: ["tag1", "tag2"],
+    backgroundUrl: "background url",
+    category: "CLASSICS",
+    thumbnail: "thumbnail url",
+    langProps: {
+      english: {
+        gameName: "KM Virtual Horse Racing",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+      spanish: {
+        gameName: "Panic de Pingüinos",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+      brazil: {
+        gameName: "Pânico dos Pinguins",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+    },
+    isFeatured: true,
+  },
 ];
 const EmblaCarousel: React.FC<PropType> = (props) => {
-  const { slides, options } = props;
+  const { filteredSlides, options } = props;
   const [emblaRef, emblaApi] = useEmblaCarousel(options);
   const { selectedIndex, scrollSnaps, onDotButtonClick } =
     useDotButton(emblaApi);
@@ -110,20 +267,21 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
     <section className="embla">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
-          {GameSlidesinfo.map((slide) => (
+          {GameSlidesinfo.filter((slide) =>
+            filteredSlides.includes(slide.id)
+          ).map((slide) => (
             <div className="embla__slide" key={slide.id}>
               <div className="slide_inf">
-                <div className="rounded-xl flex flex-col lg:flex-row items-center min-h-[20vh] bg-neutral-400">
-                  <div className="order-last lg:w-1/2 lg:pl-8">
-                    <button
-                      className="px-4 py-2"
-                      onClick={() => handlePlayBtnClick(slide.id)}
-                    >
-                      <Image src={PlayBtn} alt="play" />
-                    </button>
-                  </div>
-                  <div className="order-first lg:w-1/2">{slide.gameName}</div>
-                </div>
+                <div
+                  onClick={() => handlePlayBtnClick(slide.id)}
+                  className="rounded-xl flex flex-col lg:flex-row items-center min-h-[23vh] xl:min-h-[40vw] cursor-pointer border border-gray-300"
+                  style={{
+                    backgroundImage: `url(${slide.backgroundUrl})`,
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                    pointerEvents: "auto",
+                  }}
+                ></div>
               </div>
             </div>
           ))}
