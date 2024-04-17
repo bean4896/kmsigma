@@ -257,9 +257,9 @@ const GameData = [
       English: {
         gameName: "Jackpot Jump",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=USD&test=1",
+          "https://sademo.kmgamesdev.net/games/jackpot-jump?currency=USD&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=USD&test=1",
+          "https://sademo.kmgamesdev.net/games/jackpot-jump?currency=USD&test=1",
       },
       // Spanish: {
       //   gameName: "Máquina de monedas",
@@ -332,9 +332,9 @@ const GameData = [
       English: {
         gameName: "Penguin Panic",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=USD&test=1",
+          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=USD&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=USD&test=1",
+          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=USD&test=1",
       },
       // Spanish: {
       //   gameName: "Máquina de monedas",
