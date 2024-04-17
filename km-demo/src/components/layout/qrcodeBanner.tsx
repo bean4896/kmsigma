@@ -1,11 +1,20 @@
 import Image from "next/image";
 import bannerImage from "@/assets/banner.jpg";
-import ImgQrcode from "@/assets/KingMidas.net.png";
+import ImgQrcode from "@/assets/QrNew.png";
+import BannerBg from "@/assets/banner_bg.png";
 
 const Banner = () => {
   return (
-    <div className="mt-14 bg-neutral-800 rounded-md flex mb-4 h-[10em] py-10">
-      <div className="qrcontainer flex justify-center items-center ml-10">
+    <div
+      className="bannerContainer mt-14"
+      style={{
+        backgroundImage: `url(${BannerBg.src})`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "bottom center",
+      }}
+    >
+      <div className="qrcontainer flex  items-center ml-10 p-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <div className="flex items-center">
             <h3 className="text-white text-left text-xl lg:text-2xl leading-snug">

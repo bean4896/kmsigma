@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+
 
 @layer base {
   :root {
@@ -10,7 +14,8 @@
     --text-body: 222.2 84% 4.9%;
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
-
+    --font-body: 'Open Sans', sans-serif;
+    --font-category: 'Montserrat', sans-serif;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
@@ -40,6 +45,8 @@
     color: var(--text-high-contrast);
     font-size: 1.6rem;
     line-height: 1.65;
+    font-family: var(--font-body);
+    font-weight: 700;
   }
   .dark {
     --background: 222.2 84% 4.9%;
@@ -157,7 +164,7 @@
   border-radius: 1rem;
 }
 .embla__dot:after {
-  box-shadow: inset 0 0 0 0.2rem #d8d8d8;
+  box-shadow: inset 0 0 0 0.2rem #807239;
   width: 4rem;
   height: 1rem; /* Increase height to create a cylinder effect */
   border-radius: 1rem; /* Change border-radius to half of the height */
@@ -166,7 +173,7 @@
   content: "";
 }
 .embla__dot--selected:after {
-  background: #dadbdb;
+  background: #807239;
 }
 
 @keyframes glow-underline {
@@ -188,4 +195,9 @@
   top: 2rem;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.category {
+  font-family: var(--font-category);
+  font-weight: 800;
 }

@@ -27,7 +27,7 @@ interface Game {
 }
 
 const Home: React.FC = () => {
-  const [selectedCategory, setSelectedCategory] = useState("Next Gen");
+  const [selectedCategory, setSelectedCategory] = useState("NEXT-GEN");
   const [isLoading, setIsLoading] = useState(false);
 
   // Get unique categories from game data

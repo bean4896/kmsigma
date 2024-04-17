@@ -65,6 +65,7 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
 
   const handleOpenDialog = () => {
     setIsDialogOpen(true);
+    console.log("Open dialog" + game.gameName );
   };
 
   const handleCloseDialog = () => {
@@ -120,13 +121,13 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
               game.tags.map((tag, index) => (
                 <span
                   key={index}
-                  className="text-sm mr-2 px-2 py-1 rounded-md bg-gray-200 text-gray-800"
+                  className="text-sm mr-2 px-2 py-1 rounded-md text-white bg-[#a4782c]"
                 >
                   {tag}
                 </span>
               ))
             ) : (
-              <span className="text-gray-500">No tags</span>
+              <span className="text-white bg-[#a4782c]">No tags</span>
             )}
           </div>
         </div>

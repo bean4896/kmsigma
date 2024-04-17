@@ -3,7 +3,7 @@ const GameData = [
     id: 1,
     gameName: "Coin Pusher",
     tags: ["virtual", "Casual"],
-    category: "Next Gen",
+    category: "NEXT-GEN",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1712826703/coin-pusher_1000x1000_en_aey0mh.png",
     langProps: {
@@ -21,7 +21,7 @@ const GameData = [
     id: 2,
     gameName: "KM Virtual Animal Race",
     tags: ["Virtual", "Sports"],
-    category: "Next Gen",
+    category: "NEXT-GEN",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1712826702/animal-race_1000x1000_en_w7inev.jpg",
     isFeatured: true,
@@ -53,7 +53,7 @@ const GameData = [
     id: 3,
     gameName: "KM Virtual Treadmill Racing",
     tags: ["Virtual", "Sports"],
-    category: "Next Gen",
+    category: "NEXT-GEN",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1712826702/treadmill-racing_1000x1000_en_mfmxzw.jpg",
     isFeatured: true,
@@ -71,7 +71,7 @@ const GameData = [
     id: 4,
     gameName: "Rooster Blitz",
     tags: ["Match 3"],
-    category: "Slots",
+    category: "SLOTS",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1713256607/rooster-blitz_500x500_en_bzie9s.jpg",
     langProps: {
@@ -96,7 +96,7 @@ const GameData = [
     id: 5,
     gameName: "Sugar Blast",
     tags: ["Match 3"],
-    category: "Slots",
+    category: "SLOTS",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1712828695/sugar-blast_1000x1000_en_wmodzo.jpg",
     langProps: {
@@ -121,7 +121,7 @@ const GameData = [
     id: 6,
     gameName: "Gems of Valhalla",
     tags: ["Match 3"],
-    category: "Slots",
+    category: "SLOTS",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1712828672/gems-of-valhalla_500x500_en_jn5tkj.png",
     langProps: {
@@ -153,7 +153,7 @@ const GameData = [
     id: 7,
     gameName: "Baccarat",
     tags: ["Table", "Card"],
-    category: "Classics",
+    category: "CLASSICS",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1712828960/Baccarat_1000x1000_en_h2qema.jpg",
     langProps: {
@@ -171,7 +171,7 @@ const GameData = [
     id: 8,
     gameName: "KM Power Ball",
     tags: ["Virtual", "Lottery"],
-    category: "Classics",
+    category: "CLASSICS",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1712829079/km-power-ball_1000x1000_en_brpc6v.jpg",
     langProps: {
@@ -189,7 +189,7 @@ const GameData = [
     id: 9,
     gameName: "Poker Roulette",
     tags: ["Table", "Roulette"],
-    category: "Classics",
+    category: "CLASSICS",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
     langProps: {
@@ -207,7 +207,7 @@ const GameData = [
     id: 10,
     gameName: "Sic Bo",
     tags: ["Table", "Dice"],
-    category: "Classics",
+    category: "CLASSICS",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1713255261/sic-bo_1000x1000_en_gnmtnf.jpg",
     langProps: {
@@ -225,7 +225,7 @@ const GameData = [
     id: 11,
     gameName: "Olympus Glory",
     tags: ["Virtual", "Casual"],
-    category: "Next Gen",
+    category: "NEXT-GEN",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
     langProps: {
@@ -250,7 +250,7 @@ const GameData = [
     id: 12,
     gameName: "Jackpot Jump",
     tags: ["Virtual", "Casual"],
-    category: "Next Gen",
+    category: "NEXT-GEN",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
     langProps: {
@@ -275,7 +275,7 @@ const GameData = [
     id: 13,
     gameName: "Interstellar RUN",
     tags: ["Virtual", "Casual"],
-    category: "Next Gen",
+    category: "NEXT-GEN",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
     langProps: {
@@ -300,7 +300,7 @@ const GameData = [
     id: 14,
     gameName: "Elite Aviator Club",
     tags: ["Virtual", "Casual"],
-    category: "Next Gen",
+    category: "NEXT-GEN",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
     langProps: {
@@ -325,7 +325,7 @@ const GameData = [
     id: 15,
     gameName: "Penguin Panic",
     tags: ["Virtual", "Casual"],
-    category: "Next Gen",
+    category: "NEXT-GEN",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
     langProps: {
@@ -350,7 +350,7 @@ const GameData = [
     id: 16,
     gameName: "Cleopatras Treasure",
     tags: ["Match 3"],
-    category: "Slots",
+    category: "SLOTS",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
     langProps: {
@@ -375,7 +375,7 @@ const GameData = [
     id: 17,
     gameName: "Almighty Greek",
     tags: ["10 paylines"],
-    category: "Slots",
+    category: "SLOTS",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
     langProps: {
@@ -400,16 +400,16 @@ const GameData = [
     id: 18,
     gameName: "Gold Mines",
     tags: ["243 win-ways"],
-    category: "Slots",
+    category: "SLOTS",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
     langProps: {
       English: {
         gameName: "Gold Mines",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher#/gamelauncher/8/gold-mines?test=1&currency=CNY",
+          "https://sademo.kmgamesdev.net/games/gold-mines?test=1&currency=USD",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher#/gamelauncher/8/gold-mines?test=1&currency=CNY",
+          "https://sademo.kmgamesdev.net/games/gold-mines?test=1&currency=USD",
       },
       // Spanish: {
       //   gameName: "Máquina de monedas",
@@ -425,16 +425,16 @@ const GameData = [
     id: 19,
     gameName: "Warriors Temple",
     tags: ["-"],
-    category: "Slots",
+    category: "SLOTS",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
     langProps: {
       English: {
         gameName: "Cleopatras Treasure",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher#/gamelauncher/8/warriors-temple?test=1&currency=CNY",
+          "https://sademo.kmgamesdev.net/games/warriors-temple?test=1&currency=USD",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher#/gamelauncher/8/warriors-temple?test=1&currency=CNY",
+          "https://sademo.kmgamesdev.net/games/warriors-temple?test=1&currency=USD",
       },
       // Spanish: {
       //   gameName: "Máquina de monedas",
@@ -450,7 +450,7 @@ const GameData = [
     id: 20,
     gameName: "Dragon Tiger 2",
     tags: ["Table", "Card"],
-    category: "Classics",
+    category: "CLASSICS",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1713255261/dragon-tiger-3_1000x1000_en_btioij.jpg",
     langProps: {
@@ -468,7 +468,7 @@ const GameData = [
     id: 21,
     gameName: "7 Up 7 Down",
     tags: ["Table", "Card"],
-    category: "Classics",
+    category: "CLASSICS",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1713255261/seven-up-seven-down_1000x1000_en_heb8s6.jpg",
     langProps: {
@@ -493,7 +493,7 @@ const GameData = [
     id: 22,
     gameName: "Coin Toss",
     tags: ["Table", "Casual"],
-    category: "Classics",
+    category: "CLASSICS",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1713255261/coin-toss_1000x1000_en-1_mzafdp.jpg",
     langProps: {
@@ -518,7 +518,7 @@ const GameData = [
     id: 23,
     gameName: "Blackjack",
     tags: ["Table", "Card"],
-    category: "Classics",
+    category: "CLASSICS",
     thumbnail:
       "https://res.cloudinary.com/detatjujs/image/upload/v1713255261/black-jack_1000x1000_en_karh4r.jpg",
     langProps: {

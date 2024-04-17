@@ -14,7 +14,7 @@ const FilterComponent: React.FC<FilterComponentProps> = ({
   onSelectCategory,
 }) => {
   return (
-    <div className="flex flex-wrap justify-center my-4">
+    <div className="flex flex-wrap justify-center my-4 category">
       {categories.map((category, index) => (
         <button
           key={index}
