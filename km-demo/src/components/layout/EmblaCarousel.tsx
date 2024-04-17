@@ -40,21 +40,55 @@ const GameSlidesinfo = [
   },
   {
     id: 2,
-    gameName: "Penguin Panic",
-    description: "Slide 2 description",
-    imageUrl:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1712829079/km-power-ball_1000x1000_en_brpc6v.jpg",
-    playUrl: "https://via.placeholder.com/800x400",
+    gameName: "Jackpot Jump",
     tags: ["tag1", "tag2"],
+    background: "background url",
+    category: "category",
+    thumbnail: "thumbnail url",
+    langProps: {
+      english: {
+        gameName: "Jackpot Jump",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+      spanish: {
+        gameName: "Panic de Pingüinos",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+      brazil: {
+        gameName: "Pânico dos Pinguins",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+    },
+    isFeatured: true,
   },
   {
     id: 3,
-    gameName: "Penguin Panic",
-    description: "Slide 3 description",
-    imageUrl:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1712829079/km-power-ball_1000x1000_en_brpc6v.jpg",
-    playUrl: "https://via.placeholder.com/800x400",
+    gameName: "Interstellar RUN",
     tags: ["tag1", "tag2"],
+    background: "background url",
+    category: "category",
+    thumbnail: "thumbnail url",
+    langProps: {
+      english: {
+        gameName: "Interstellar RUN",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+      spanish: {
+        gameName: "Panic de Pingüinos",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+      brazil: {
+        gameName: "Pânico dos Pinguins",
+        iframeUrl: "iframe url",
+        gameUrl: "game url",
+      },
+    },
+    isFeatured: true,
   },
 ];
 const EmblaCarousel: React.FC<PropType> = (props) => {
