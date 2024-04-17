@@ -20,7 +20,7 @@ const QrCode = () => {
         </button> */}
         <Refresh />
         <Image
-          className="max-w-[150px] rounded-lg"
+          className="max-w-[150px] rounded-lg mt-4"
           src={ImgQrcode}
           alt="QR Code"
           width={300}
