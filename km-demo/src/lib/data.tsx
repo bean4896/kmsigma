@@ -1,6 +1,6 @@
 const GameData = [
   {
-    id: 1,
+    id: 30,
     gameName: "Coin Pusher",
     tags: ["virtual", "Casual"],
     category: "NEXT-GEN",
@@ -18,7 +18,7 @@ const GameData = [
     isFeatured: true,
   },
   {
-    id: 2,
+    id: 31,
     gameName: "KM Virtual Animal Race",
     tags: ["Virtual", "Sports"],
     category: "NEXT-GEN",
@@ -50,7 +50,7 @@ const GameData = [
     },
   },
   {
-    id: 3,
+    id: 32,
     gameName: "KM Virtual Treadmill Racing",
     tags: ["Virtual", "Sports"],
     category: "NEXT-GEN",
@@ -222,7 +222,7 @@ const GameData = [
     isFeatured: true,
   },
   {
-    id: 11,
+    id: 33,
     gameName: "Olympus Glory",
     tags: ["Virtual", "Casual"],
     category: "NEXT-GEN",

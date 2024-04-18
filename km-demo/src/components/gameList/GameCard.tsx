@@ -65,7 +65,7 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
 
   const handleOpenDialog = () => {
     setIsDialogOpen(true);
-    console.log("Open dialog" + game.gameName );
+    console.log("Open dialog" + game.gameName);
   };
 
   const handleCloseDialog = () => {
