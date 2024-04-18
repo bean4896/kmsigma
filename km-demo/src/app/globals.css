@@ -105,6 +105,21 @@
   }
 }
 
+.overlay-container {
+  position: relative;
+
+}
+
+.overlay-image {
+  z-index: -999;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-height: 50vh;
+  object-fit: cover;
+}
+
 .embla {
   margin: auto;
   --slide-height: 19rem;

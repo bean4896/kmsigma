@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ImgQrcode from "@/assets/QrNew.png";
+import ImgQrcode from "@/assets/sale_QRcode.png";
 import Refresh from "@/components/ui/refresh";
 
 

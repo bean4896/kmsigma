@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import GameData from "@/lib/data";
 import FilterComponent from "@/components/gameList/FilterComponent";
 import GameList from "@/components/gameList/GameList";
@@ -7,6 +7,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import QrCode from "@/components/layout/qrcode";
 import Banner from "@/components/layout/qrcodeBanner";
 import NewRelease from "@/components/layout/newRelease";
+import Image from "next/image";
 
 interface Game {
   id: number;
@@ -33,6 +34,23 @@ const Home: React.FC = () => {
   // Get unique categories from game data
   const categories = Array.from(new Set(GameData.map((game) => game.category)));
 
+  useEffect(() => {
+    const overlayImage = document.getElementById("overlay-image");
+    if (selectedCategory === "NEXT-GEN") {
+      overlayImage?.setAttribute(
+        "src",
+        "https://res.cloudinary.com/detatjujs/image/upload/v1713428074/next_gen_bg_dkqcbe.png"
+      );
+    } else if (selectedCategory === "CLASSICS") {
+      overlayImage?.setAttribute(
+        "src",
+        "https://res.cloudinary.com/detatjujs/image/upload/v1713428074/classics_bg_zjjid1.png"
+      );
+    } else {
+      overlayImage?.setAttribute("src", "https://res.cloudinary.com/detatjujs/image/upload/v1713428075/slots_bg_aq5eep.png");
+    }
+  }, [selectedCategory]);
+
   const handleSelectCategory = (category: string) => {
     setIsLoading(true);
     setSelectedCategory(category);
@@ -46,6 +64,7 @@ const Home: React.FC = () => {
   );
 
   return (
+    <div className="overlay-container">
     <main className="flex min-h-screen flex-col px-4 max-w-[96vw] m-auto">
       <Banner />
       <FilterComponent
@@ -76,7 +95,18 @@ const Home: React.FC = () => {
         )}
       </div>
       <QrCode />
+
     </main>
+          <Image
+          id="overlay-image"
+          width={1000}
+          height={1000}
+          src=""
+          alt=""
+          className="overlay-image"
+          style={{ pointerEvents: "none" }}
+        />
+        </div>
   );
 };
 
