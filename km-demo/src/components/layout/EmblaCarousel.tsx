@@ -16,7 +16,7 @@ const GameSlidesinfo = [
     gameName: "Penguin Panic",
     tags: ["tag1", "tag2"],
     backgroundUrl:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1713346252/newreleases_penguinpanic_banner_jk7dcz.png",
+      "https://res.cloudinary.com/detatjujs/image/upload/v1713427361/penguinpanic_b_izcvez.png",
     category: "NEXT-GEN",
     thumbnail: "thumbnail url",
     langProps: {
@@ -42,7 +42,7 @@ const GameSlidesinfo = [
     id: 2,
     gameName: "Jackpot Jump",
     tags: ["tag1", "tag2"],
-    backgroundUrl: "background url",
+    backgroundUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1713427361/jackpotjump_b_htdyzu.png",
     category: "NEXT-GEN",
     thumbnail: "thumbnail url",
     langProps: {
@@ -68,7 +68,7 @@ const GameSlidesinfo = [
     id: 3,
     gameName: "Interstellar RUN",
     tags: ["tag1", "tag2"],
-    backgroundUrl: "background url",
+    backgroundUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1713427360/interstellarrun_b_igvy7h.png",
     category: "NEXT-GEN",
     thumbnail: "thumbnail url",
     langProps: {
@@ -94,7 +94,7 @@ const GameSlidesinfo = [
     id: 4,
     gameName: "Sugar Blast",
     tags: ["tag1", "tag2"],
-    backgroundUrl: "background url",
+    backgroundUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1713427361/sugarblast_b_v11os4.png",
     category: "SLOTS",
     thumbnail: "thumbnail url",
     langProps: {
@@ -120,7 +120,7 @@ const GameSlidesinfo = [
     id: 5,
     gameName: "Rooster Blitz",
     tags: ["tag1", "tag2"],
-    backgroundUrl: "background url",
+    backgroundUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1713427361/roosterblitz_b_vl3g4z.png",
     category: "SLOTS",
     thumbnail: "thumbnail url",
     langProps: {
@@ -146,7 +146,7 @@ const GameSlidesinfo = [
     id: 6,
     gameName: "Cleopatras Treasure",
     tags: ["tag1", "tag2"],
-    backgroundUrl: "background url",
+    backgroundUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1713427360/cleopatra_b_g4hrd7.png",
     category: "SLOTS",
     thumbnail: "thumbnail url",
     langProps: {
@@ -172,7 +172,7 @@ const GameSlidesinfo = [
     id: 7,
     gameName: "Baccarat",
     tags: ["tag1", "tag2"],
-    backgroundUrl: "background url",
+    backgroundUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1713427360/baccarat_B_zglads.png",
     category: "CLASSICS",
     thumbnail: "thumbnail url",
     langProps: {
@@ -199,7 +199,7 @@ const GameSlidesinfo = [
     gameName: "KM Power Ball",
     tags: ["tag1", "tag2"],
     backgroundUrl:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1712829079/km-power-ball_1000x1000_en_brpc6v.jpg",
+      "https://res.cloudinary.com/detatjujs/image/upload/v1713427361/powerball_b_cxijbd.png",
     category: "CLASSICS",
     thumbnail: "thumbnail url",
     langProps: {
@@ -225,7 +225,7 @@ const GameSlidesinfo = [
     id: 9,
     gameName: "KM Virtual Horse Racing",
     tags: ["tag1", "tag2"],
-    backgroundUrl: "background url",
+    backgroundUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1713427360/horseRacing_b_z1mcda.png",
     category: "CLASSICS",
     thumbnail: "thumbnail url",
     langProps: {
@@ -274,7 +274,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
               <div className="slide_inf">
                 <div
                   onClick={() => handlePlayBtnClick(slide.id)}
-                  className="rounded-xl flex flex-col lg:flex-row items-center min-h-[23vh] xl:min-h-[40vw] cursor-pointer border border-gray-300"
+                  className="rounded-xl flex flex-col lg:flex-row items-center min-h-[23vh] xl:min-h-[40vw] cursor-pointer"
                   style={{
                     backgroundImage: `url(${slide.backgroundUrl})`,
                     backgroundSize: "cover",
