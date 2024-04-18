@@ -377,7 +377,7 @@ const GameData = [
     tags: ["10 paylines"],
     category: "SLOTS",
     thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
+      "https://res.cloudinary.com/detatjujs/image/upload/v1713409785/almighty-greek_500x500_en_mm4pyx.jpg",
     langProps: {
       English: {
         gameName: "Cleopatras Treasure",
@@ -402,7 +402,7 @@ const GameData = [
     tags: ["243 win-ways"],
     category: "SLOTS",
     thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
+      "https://res.cloudinary.com/detatjujs/image/upload/v1713409785/gold-mine_500x500_en_nay4ps.jpg",
     langProps: {
       English: {
         gameName: "Gold Mines",
@@ -427,7 +427,7 @@ const GameData = [
     tags: ["-"],
     category: "SLOTS",
     thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
+      "https://res.cloudinary.com/detatjujs/image/upload/v1713409519/warriors-temple_500x500_en_vphbhx.jpg",
     langProps: {
       English: {
         gameName: "Cleopatras Treasure",
