@@ -19,7 +19,7 @@ const GameData = [
     gameName: "KM Virtual Animal Race",
     tags: ["Virtual", "Sports"],
     category: "NEXT-GEN",
-    thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1712826702/animal-race_1000x1000_en_w7inev.jpg",
+    thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1713507583/km-virtual-animal-race_500x500_en_eqaz8f.jpg",
     isFeatured: true,
     langProps: {
       English: {

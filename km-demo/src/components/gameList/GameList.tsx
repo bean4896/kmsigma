@@ -26,7 +26,7 @@ const GameList: React.FC<GameListProps> = ({ gamesToShow }) => {
   const sortedGames = gamesToShow.sort((a, b) => a.id - b.id);
 
   return (
-    <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+    <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 max-w-[96vw] m-auto">
       {sortedGames.map((game) => (
         <GameCard key={game.id} game={game} />
       ))}

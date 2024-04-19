@@ -295,8 +295,8 @@ const NewRelease = ({ selectedCategory }: NewReleaseProps) => {
   }, [selectedCategory]);
 
   return (
-    <div className="relative mt-14">
-      <div className="absolute z-10 -top-5 xl:top-10 left-0 text-black text-[1.6em] font-extrabold">
+    <div className="relative mt-5 overflow-hidden">
+      <div className="absolute z-10 xl:top-10 left-0 text-black text-[1.6em] font-extrabold ">
         <Image src={ImgLabel} alt="New Releases" />
       </div>
       {isLoading ? (

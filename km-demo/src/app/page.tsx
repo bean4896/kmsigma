@@ -65,7 +65,7 @@ const Home: React.FC = () => {
 
   return (
     <div className="overlay-container">
-    <main className="flex min-h-screen flex-col px-4 max-w-[96vw] m-auto">
+    <main className="flex min-h-screen flex-col max-w-[100vw] m-auto">
       <Banner />
       <FilterComponent
         categories={categories}
