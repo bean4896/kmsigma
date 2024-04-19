@@ -67,21 +67,22 @@ const GameData = [
       },
     },
   },
-  // {
-  //   id: 4,
-  //   gameName: "Rooster Blitz",
-  //   tags: ["Match 3"],
-  //   category: "SLOTS",
-  //   thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1713256607/rooster-blitz_500x500_en_bzie9s.jpg",
-  //   langProps: {
-  //     English: {
-  //       gameName: "Rooster Blitz",
-  //       gameUrl: "https://sademo.kmgamesdev.net/games/rooster-blitz?currency=USD&test=1",
-  //       iframeUrl: "https://sademo.kmgamesdev.net/games/rooster-blitz?currency=USD&test=1",
-  //     },
-  //   },
-  //   isFeatured: true,
-  // },
+  {
+    id: 4,
+    gameName: "Rooster Blitz",
+    tags: ["Match 3"],
+    category: "SLOTS",
+    thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1713256607/rooster-blitz_500x500_en_bzie9s.jpg",
+    langProps: {
+      English: {
+        gameName: "Rooster Blitz",
+        gameUrl: "https://sademo.kmgamesdev.net/games/rooster-blitz?currency=USD&test=1",
+        iframeUrl: "https://sademo.kmgamesdev.net/games/rooster-blitz?currency=USD&test=1",
+      },
+    },
+    isFeatured: true,
+    hide:true
+  },
   {
     id: 5,
     gameName: "Sugar Blast",

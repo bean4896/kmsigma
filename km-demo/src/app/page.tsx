@@ -25,6 +25,7 @@ interface Game {
     };
   };
   isFeatured: boolean;
+  hide: boolean;
 }
 
 const Home: React.FC = () => {
@@ -47,7 +48,10 @@ const Home: React.FC = () => {
         "https://res.cloudinary.com/detatjujs/image/upload/v1713428074/classics_bg_zjjid1.png"
       );
     } else {
-      overlayImage?.setAttribute("src", "https://res.cloudinary.com/detatjujs/image/upload/v1713428075/slots_bg_aq5eep.png");
+      overlayImage?.setAttribute(
+        "src",
+        "https://res.cloudinary.com/detatjujs/image/upload/v1713428075/slots_bg_aq5eep.png"
+      );
     }
   }, [selectedCategory]);
 
@@ -65,47 +69,49 @@ const Home: React.FC = () => {
 
   return (
     <div className="overlay-container">
-    <main className="flex min-h-screen flex-col max-w-[100vw] m-auto">
-      <Banner />
-      <FilterComponent
-        categories={categories}
-        selectedCategory={selectedCategory}
-        onSelectCategory={handleSelectCategory}
-      />
-      <NewRelease selectedCategory={selectedCategory} />
-      <div className="">
-        {isLoading ? (
-          <>
-            <div className="p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-              {gamesToShow.map((game: Game) => (
-                <div className="OneSkeleton mt-12" key={game.id}>
-                  <div className="flex flex-col space-y-3 ">
-                    <Skeleton className="h-[8em] rounded-xl bg-stone-800" />
-                    <div className="space-y-2">
-                      <Skeleton className="h-4 bg-stone-700" />
-                      <Skeleton className="h-4 bg-stone-700" />
+      <main className="flex min-h-screen flex-col max-w-[100vw] m-auto">
+        <Banner />
+        <FilterComponent
+          categories={categories}
+          selectedCategory={selectedCategory}
+          onSelectCategory={handleSelectCategory}
+        />
+        <NewRelease selectedCategory={selectedCategory} />
+        <div className="">
+          {isLoading ? (
+            <>
+              <div className="p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                {gamesToShow.map((game: Game) => (
+                  <div className="OneSkeleton mt-12" key={game.id}>
+                    <div className="flex flex-col space-y-3 ">
+                      <Skeleton className="h-[8em] rounded-xl bg-stone-800" />
+                      <div className="space-y-2">
+                        <Skeleton className="h-4 bg-stone-700" />
+                        <Skeleton className="h-4 bg-stone-700" />
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
-            </div>
-          </>
-        ) : (
-          <GameList gamesToShow={gamesToShow} />
-        )}
-      </div>
-      <QrCode />
-    </main>
-          <Image
-          id="overlay-image"
-          width={1000}
-          height={1000}
-          src=""
-          alt=""
-          className="overlay-image"
-          style={{ pointerEvents: "none" }}
-        />
+                ))}
+              </div>
+            </>
+          ) : (
+            <GameList
+              gamesToShow={gamesToShow.filter((game: Game) => !game.hide)}
+            />
+          )}
         </div>
+        <QrCode />
+      </main>
+      <Image
+        id="overlay-image"
+        width={1000}
+        height={1000}
+        src=""
+        alt=""
+        className="overlay-image"
+        style={{ pointerEvents: "none" }}
+      />
+    </div>
   );
 };
 

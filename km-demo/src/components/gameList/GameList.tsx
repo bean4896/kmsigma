@@ -15,6 +15,7 @@ interface Game {
     };
   };
   isFeatured: boolean;
+  hide: boolean;
 }
 
 interface GameListProps {
