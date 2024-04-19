@@ -218,7 +218,7 @@
   background-size: contain;
   height: 80vh;
   background-position: center;
-  max-height: 800px;
+  max-height: 1000px;
 }
 
 @media screen and (max-width: 768px) {
