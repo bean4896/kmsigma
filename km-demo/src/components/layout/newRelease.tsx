@@ -6,7 +6,7 @@ import Image from "next/image";
 import { Skeleton } from "@/components/ui/skeleton";
 import { EmblaOptionsType } from "embla-carousel";
 import GameSlidesinfo from "@/lib/gameSlides";
-import Autoplay from 'embla-carousel-autoplay'
+import Autoplay from "embla-carousel-autoplay";
 
 interface Game {
   id: number;
@@ -37,8 +37,8 @@ const NewRelease = ({ selectedCategory }: NewReleaseProps) => {
   const [isLoading, setIsLoading] = useState(true);
   const [filteredSlides, setFilteredSlides] = useState<number[]>([]);
   const [emblaRef, emblaApi] = useEmblaCarousel(OPTIONS, [
-    Autoplay({ playOnInit: true, delay: 3000 })
-  ])
+    Autoplay({ playOnInit: true, delay: 3000 }),
+  ]);
   useEffect(() => {
     setIsLoading(true);
 
@@ -58,8 +58,12 @@ const NewRelease = ({ selectedCategory }: NewReleaseProps) => {
 
   return (
     <div className="relative mt-5 overflow-hidden">
-      <div className="absolute z-10 xl:top-10 left-0 text-black text-[1.6em] font-extrabold ">
-        <Image src={ImgLabel} alt="New Releases" />
+      <div className="absolute z-10 xl:top-10 left-0 text-black ">
+        <Image
+          className="IconNew"
+          src={ImgLabel}
+          alt="New Releases"
+        />
       </div>
       {isLoading ? (
         // Show skeleton or loading state when isLoading is true

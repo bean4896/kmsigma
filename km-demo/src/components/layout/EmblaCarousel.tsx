@@ -13,11 +13,10 @@ type PropType = {
   options?: EmblaOptionsType;
 };
 
-
 const EmblaCarousel: React.FC<PropType> = (props) => {
   const { filteredSlides, options } = props;
   const [isPlaying, setIsPlaying] = useState(false);
-  
+
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [
     Autoplay({ playOnInit: true, delay: 3000 }),
   ]);
@@ -33,6 +32,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
     setSelectedGame(null);
   };
 
+
   return (
     <section className="embla">
       <div className="embla__viewport" ref={emblaRef}>
@@ -44,10 +44,9 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
               <div className="slide_inf">
                 <div
                   onClick={() => handlePlayBtnClick(slide.id)}
-                  className="min-h-[18vh] rounded-xl flex flex-col lg:flex-row items-center md:min-h-[23vh] xl:min-h-[40vw] cursor-pointer"
+                  className="rounded-xl slide flex flex-col lg:flex-row items-center cursor-pointer"
                   style={{
                     backgroundImage: `url(${slide.backgroundUrl})`,
-                    backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
                     pointerEvents: "auto",
                   }}

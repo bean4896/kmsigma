@@ -184,7 +184,7 @@ const GameData = [
     gameName: "Olympus Glory",
     tags: ["Virtual", "Casual"],
     category: "NEXT-GEN",
-    thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
+    thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1713516800/olympus-glory_1000x1000_en_e6gltr.jpg",
     langProps: {
       English: {
         gameName: "Olympus Glory",
@@ -199,7 +199,7 @@ const GameData = [
     gameName: "Jackpot Jump",
     tags: ["Virtual", "Casual"],
     category: "NEXT-GEN",
-    thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
+    thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1713516700/jackpot-jump_500x500_en_xrbsuy.jpg",
     langProps: {
       English: {
         gameName: "Jackpot Jump",
@@ -214,7 +214,7 @@ const GameData = [
     gameName: "Interstellar RUN",
     tags: ["Virtual", "Casual"],
     category: "NEXT-GEN",
-    thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
+    thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1713516865/interstellar-run_500x500_en_qmvsfp.jpg",
     langProps: {
       English: {
         gameName: "Interstellar RUN",
@@ -229,7 +229,7 @@ const GameData = [
     gameName: "Elite Aviator Club",
     tags: ["Virtual", "Casual"],
     category: "NEXT-GEN",
-    thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
+    thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1713516700/elite-aviator-club_500x500_en_uekakb.jpg",
     langProps: {
       English: {
         gameName: "Elite Aviator Club",
@@ -244,7 +244,7 @@ const GameData = [
     gameName: "Penguin Panic",
     tags: ["Virtual", "Casual"],
     category: "NEXT-GEN",
-    thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
+    thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1713516701/penguin-panic_500x500_en_zx3phe.jpg",
     langProps: {
       English: {
         gameName: "Penguin Panic",
@@ -259,7 +259,7 @@ const GameData = [
     gameName: "Cleopatras Treasure",
     tags: ["Match 3"],
     category: "SLOTS",
-    thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
+    thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1713516967/cleopatras-treasure_1000x1000_en_i3ldwr.jpg",
     langProps: {
       English: {
         gameName: "Cleopatras Treasure",

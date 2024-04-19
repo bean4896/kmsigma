@@ -120,10 +120,6 @@
   transition: opacity 0.3s ease-in;
 }
 
-.show {
-  opacity: 1;
-  z-index: 999;
-}
 
 
 .embla {
@@ -158,7 +154,6 @@
 }
 
 .embla__dots {
-  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
@@ -221,4 +216,38 @@
 .category {
   font-family: var(--font-category);
   font-weight: 800;
+}
+
+.slide {
+ background-size: contain;
+  height: 80vh
+}
+
+@media screen and (max-width: 768px) {
+  .IconNew {
+   width: 8em;
+  }
+  .slide {
+    background-size: contain;
+     height: auto;
+     min-height: 200px;
+   }
+  .qrcontainer {
+    margin-top: 20px;
+  }
+}
+
+.qrcontainer {
+  min-height: 30vh;
+}
+
+
+@media screen and (aspect-ratio: 9/16) {
+  .qrcontainer {
+    min-height: 16vh;
+  }
+  .slide {
+    background-size: contain;
+     height: 25vh
+   }
 }
