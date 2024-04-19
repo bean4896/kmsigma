@@ -4,6 +4,7 @@ import Image from "next/image";
 import EnglishFlag from "@/assets/Flag_of_the_United_Kingdom.svg";
 import SpanFlag from "@/assets/Flag_of_Spain.svg";
 import BrazilFlag from "@/assets/Flag_of_Brazil.svg";
+import BackBtn from "@/assets/btn_back.png";
 
 interface GameDialogProps {
   gameName: string;
@@ -97,9 +98,9 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
         className="fixed inset-0 bg-black opacity-80"
         onClick={handleOverlayClick}
       ></div>
-      <div className="dialogContainer relative bg-neutral-800 p-6 mx-auto w-[92%] sm:h-auto overflow-y-auto scrollbar-thumb rounded-lg scrollbar-thumb-neutral-500 scrollbar-track-neutral-300">
+<div className={`dialogContainer relative p-6 mx-auto w-[92%] sm:h-auto overflow-y-auto scrollbar-thumb rounded-lg scrollbar-thumb-neutral-500 scrollbar-track-neutral-300 ${langProps && !langProps[selectedLanguage]?.showScreenshot ? 'bg-neutral-800' : ''}`}>
         <div className="flex">
-          {langProps && (
+          {langProps && !langProps[selectedLanguage]?.showScreenshot && (
             <>
               {Object.keys(langProps).map((lang) => {
                 let languageName;
@@ -146,14 +147,19 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
                   ></iframe>
                 </div>
               ) : langProps[selectedLanguage]?.showScreenshot ? (
-                <div className="imageContainer max-w-[500px]">
+                <div className="screenshotContainer max-h-[87vh] flex flex-col justify-center items-center">
+                  <div>
                   <Image
                     src={langProps[selectedLanguage]?.screenshotUrl}
                     alt="Screenshot"
-                    width={1024}
-                    height={512}
-                    className="w-full h-72 sm:w-full sm:h-auto"
+                    width={982}
+                    height={1635}
+                    className="h-auto rounded-xl"
                   />
+                  </div>
+                  <div onClick={onClose}>
+                  <Image src={BackBtn} alt='back Btn' width={1000} height={1000} className="max-w-[10em] mt-4" />
+                  </div>
                 </div>
               ) : (
                 <p className="text-white">Coming Soon</p>
@@ -162,29 +168,31 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
           )}
         </div>
 
-        <div className="mt-6">
-          <div className="flex justify-end">
-            <button
-              className="closeButton absolute top-2 right-2"
-              onClick={onClose}
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="#ffffff"
-                className="w-10 h-10"
+        {langProps && !langProps[selectedLanguage]?.showScreenshot && (
+          <div className="mt-6">
+            <div className="flex justify-end">
+              <button
+                className="closeButton absolute top-2 right-2"
+                onClick={onClose}
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
-                />
-              </svg>
-            </button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="#ffffff"
+                  className="w-10 h-10"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                  />
+                </svg>
+              </button>
+            </div>
           </div>
-        </div>
+        )}
       </div>
     </div>
   );
