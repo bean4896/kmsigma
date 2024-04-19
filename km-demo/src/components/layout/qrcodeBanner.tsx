@@ -1,6 +1,6 @@
 import Image from "next/image";
 import bannerImage from "@/assets/banner.jpg";
-import ImgQrcode from "@/assets/QrNew.png";
+import ImgQrcode from "@/assets/kingmidasgamewebsite_QRcode.png";
 import BannerBg from "@/assets/banner_bg.png";
 
 const Banner = () => {

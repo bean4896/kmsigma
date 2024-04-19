@@ -20,8 +20,10 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [
     Autoplay({ playOnInit: true, delay: 3000 }),
   ]);
+
   const { selectedIndex, scrollSnaps, onDotButtonClick } =
     useDotButton(emblaApi);
+
   const [selectedGame, setSelectedGame] = useState<number | null>(null);
 
   const handlePlayBtnClick = (gameId: number) => {
@@ -31,7 +33,6 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
   const handleCloseDialog = () => {
     setSelectedGame(null);
   };
-
 
   return (
     <section className="embla">

@@ -115,20 +115,18 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
         </div>
 
         <div>
-          <div className="flex flex-wrap">
-            {game.tags.length > 0 ? (
-              game.tags.map((tag, index) => (
+          {game.tags.length > 0 ? (
+            <div className="flex flex-wrap">
+              {game.tags.map((tag, index) => (
                 <span
                   key={index}
                   className="text-sm mr-2 px-2 py-1 rounded-md text-white bg-[#a4782c]"
                 >
                   {tag}
                 </span>
-              ))
-            ) : (
-              <span className="text-white bg-[#a4782c]">No tags</span>
-            )}
-          </div>
+              ))}
+            </div>
+          ) : null}
         </div>
       </div>
     </>

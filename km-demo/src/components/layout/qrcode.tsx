@@ -26,7 +26,7 @@ const QrCode = () => {
           height={300}
         />
         <div className="text-white mb-4 text-xl lg:text-2xl mt-6">
-          Contact us for a business discussion!
+          Speak with us for potential opportunities!
         </div>
       </div>
     </div>
