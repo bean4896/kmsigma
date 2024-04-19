@@ -307,7 +307,7 @@ const GameData = [
   {
     id: 19,
     gameName: "Warriors Temple",
-    tags: ["-"],
+    tags: ["Match 3"],
     category: "SLOTS",
     thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1713409519/warriors-temple_500x500_en_vphbhx.jpg",
     langProps: {
