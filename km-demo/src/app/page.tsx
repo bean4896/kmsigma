@@ -95,7 +95,6 @@ const Home: React.FC = () => {
         )}
       </div>
       <QrCode />
-
     </main>
           <Image
           id="overlay-image"

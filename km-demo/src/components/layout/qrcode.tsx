@@ -2,7 +2,6 @@ import Image from "next/image";
 import ImgQrcode from "@/assets/sale_QRcode.png";
 import Refresh from "@/components/ui/refresh";
 
-
 const QrCode = () => {
   const handleRefresh = () => {
     window.location.reload();
@@ -27,7 +26,7 @@ const QrCode = () => {
           height={300}
         />
         <div className="text-white mb-4 text-xl lg:text-2xl mt-6">
-          Check out more next gen on the King Midas website!
+          Contact us for a business discussion!
         </div>
       </div>
     </div>

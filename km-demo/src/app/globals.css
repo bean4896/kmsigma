@@ -107,7 +107,6 @@
 
 .overlay-container {
   position: relative;
-
 }
 
 .overlay-image {
@@ -118,7 +117,14 @@
   width: 100%;
   max-height: 50vh;
   object-fit: cover;
+  transition: opacity 0.3s ease-in;
 }
+
+.show {
+  opacity: 1;
+  z-index: 999;
+}
+
 
 .embla {
   margin: auto;
