@@ -90,7 +90,7 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
           />
         </div>
         <div>
-          <h3 className="text-lg text-white *:font-bold">{game.gameName}</h3>
+          {/* <h3 className="text-lg text-white *:font-bold">{game.gameName}</h3> */}
         </div>
 
         {isDialogOpen && (
