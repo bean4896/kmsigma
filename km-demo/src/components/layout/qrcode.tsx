@@ -22,7 +22,7 @@ const QrCode = () => {
           className="max-w-[150px] rounded-lg mt-4"
           src={ImgQrcode}
           alt="QR Code"
-          width={300}
+          width={1000}
           height={300}
         />
         <div className="text-white mb-4 text-xl lg:text-2xl mt-6">
