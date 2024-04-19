@@ -1,10 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
 
 @layer base {
   :root {
@@ -14,8 +12,8 @@
     --text-body: 222.2 84% 4.9%;
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
-    --font-body: 'Open Sans', sans-serif;
-    --font-category: 'Montserrat', sans-serif;
+    --font-body: "Open Sans", sans-serif;
+    --font-category: "Montserrat", sans-serif;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
@@ -120,8 +118,6 @@
   transition: opacity 0.3s ease-in;
 }
 
-
-
 .embla {
   margin: auto;
   --slide-height: 19rem;
@@ -219,19 +215,21 @@
 }
 
 .slide {
- background-size: contain;
-  height: 80vh
+  background-size: contain;
+  height: 80vh;
+  background-position: center;
+  max-height: 800px;
 }
 
 @media screen and (max-width: 768px) {
   .IconNew {
-   width: 8em;
+    width: 8em;
   }
   .slide {
     background-size: contain;
-     height: auto;
-     min-height: 200px;
-   }
+    height: auto;
+    min-height: 200px;
+  }
   .qrcontainer {
     margin-top: 20px;
   }
@@ -241,13 +239,13 @@
   min-height: 30vh;
 }
 
-
 @media screen and (aspect-ratio: 9/16) {
   .qrcontainer {
     min-height: 16vh;
   }
   .slide {
     background-size: contain;
-     height: 25vh
-   }
+    height: 25vh;
+    max-height: 100%;
+  }
 }

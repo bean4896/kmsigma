@@ -31,7 +31,6 @@ const Banner = () => {
               alt="QR Code"
               width="1000"
               height="1000"
-              sizes="6vw"
               className="w-full h-auto rounded-lg max-w-[150px]"
             />
           </div>

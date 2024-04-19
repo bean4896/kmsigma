@@ -466,7 +466,7 @@ const GameData = [
         gameName: "Pirate",
         showScreenshot: true,
         screenshotUrl:
-          "https://res.cloudinary.com/detatjujs/image/upload/v1713523115/pirate_comingsoon_mvhlve.jpg",
+          "https://res.cloudinary.com/detatjujs/image/upload/v1713535636/pirate_comingsoo2_cagbsm.jpg",
         // gameUrl: "https://sademo.kmgamesdev.net/games/blackjack?currency=USD&test=1",
         // iframeUrl: "https://sademo.kmgamesdev.net/games/blackjack?currency=USD&test=1",
       },
