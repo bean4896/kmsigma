@@ -17,7 +17,7 @@ const Banner = () => {
       <div className="qrcontainer flex items-center ml-10 p-4 pt-14">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <div className="flex items-center">
-            <h3 className="text-white text-left text-xl lg:text-2xl leading-snug">
+            <h3 className="text-white text-left text-xl lg:text-[3rem] leading-snug">
               Play the full list of
               <br />
               offerings on the
@@ -29,9 +29,9 @@ const Banner = () => {
             <Image
               src={ImgQrcode}
               alt="QR Code"
-              width="1000"
-              height="1000"
-              className="w-full h-auto rounded-lg max-w-[150px]"
+              width="4000"
+              height="4000"
+              className="rounded-lg mt-4 w-[8vh] ml-10"
             />
           </div>
         </div>

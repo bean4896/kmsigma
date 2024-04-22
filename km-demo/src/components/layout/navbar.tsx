@@ -8,8 +8,8 @@ const Navbar = () => {
           <Image
             src="https://res.cloudinary.com/detatjujs/image/upload/v1712826702/kingmidas-logo-gold_2k_d7maa0.png"
             alt="Logo"
-            width={500}
-            height={500}
+            width={1000}
+            height={1000}
             className="h-10 w-auto"
           />
         </div>

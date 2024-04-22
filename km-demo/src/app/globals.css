@@ -204,7 +204,7 @@
   width: 45%;
   height: auto;
   position: absolute;
-  top: 2rem;
+  top: 5rem;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -218,7 +218,9 @@
   background-size: contain;
   height: 80vh;
   background-position: center;
-  max-height: 1000px;
+}
+.IconNew {
+  width: 50rem;
 }
 
 @media screen and (max-width: 768px) {

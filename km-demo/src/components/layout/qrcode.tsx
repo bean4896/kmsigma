@@ -19,13 +19,13 @@ const QrCode = () => {
         </button> */}
         {/* <Refresh /> */}
         <Image
-          className="max-w-[150px] rounded-lg mt-4"
+          className="rounded-lg mt-4 w-[10vh]"
           src={ImgQrcode}
           alt="QR Code"
           width={1000}
-          height={300}
+          height={1000}
         />
-        <div className="text-white mb-4 text-xl lg:text-2xl mt-6">
+        <div className="text-white text-xl lg:text-[3rem] my-6 pb-10">
           Speak with us for potential opportunities!
         </div>
       </div>

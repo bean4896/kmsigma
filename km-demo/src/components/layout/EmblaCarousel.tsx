@@ -45,11 +45,12 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
               <div className="slide_inf">
                 <div
                   onClick={() => handlePlayBtnClick(slide.id)}
-                  className="rounded-xl slide flex flex-col lg:flex-row items-center cursor-pointer"
+                  className="slide flex flex-col lg:flex-row items-center cursor-pointer"
                   style={{
                     backgroundImage: `url(${slide.backgroundUrl})`,
                     backgroundRepeat: "no-repeat",
                     pointerEvents: "auto",
+                    backgroundSize: "cover",
                   }}
                 ></div>
               </div>
