@@ -309,24 +309,24 @@ const GameData = [
     },
     isFeatured: true,
   },
-  {
-    id: 16,
-    gameName: "Cleopatras Treasure",
-    tags: ["Match 3"],
-    category: "SLOTS",
-    thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1713516967/cleopatras-treasure_1000x1000_en_i3ldwr.jpg",
-    langProps: {
-      English: {
-        gameName: "Cleopatras Treasure",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=USD&test=1",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=USD&test=1",
-      },
-    },
-    isFeatured: true,
-  },
+  // {
+  //   id: 16,
+  //   gameName: "Cleopatras Treasure",
+  //   tags: ["Match 3"],
+  //   category: "SLOTS",
+  //   thumbnail:
+  //     "https://res.cloudinary.com/detatjujs/image/upload/v1713516967/cleopatras-treasure_1000x1000_en_i3ldwr.jpg",
+  //   langProps: {
+  //     English: {
+  //       gameName: "Cleopatras Treasure",
+  //       gameUrl:
+  //         "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=USD&test=1",
+  //       iframeUrl:
+  //         "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=USD&test=1",
+  //     },
+  //   },
+  //   isFeatured: true,
+  // },
   {
     id: 17,
     gameName: "Almighty Greek",
@@ -368,21 +368,21 @@ const GameData = [
     },
     isFeatured: true,
   },
-  // {
-  //   id: 19,
-  //   gameName: "Warriors Temple",
-  //   tags: ["Match 3"],
-  //   category: "SLOTS",
-  //   thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1713409519/warriors-temple_500x500_en_vphbhx.jpg",
-  //   langProps: {
-  //     English: {
-  //       gameName: "Cleopatras Treasure",
-  //       gameUrl: "https://sademo.kmgamesdev.net/games/warriors-temple?test=1&currency=USD",
-  //       iframeUrl: "https://sademo.kmgamesdev.net/games/warriors-temple?test=1&currency=USD",
-  //     },
-  //   },
-  //   isFeatured: true,
-  // },
+  {
+    id: 16,
+    gameName: "Warriors Temple",
+    tags: ["Match 3"],
+    category: "SLOTS",
+    thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1713409519/warriors-temple_500x500_en_vphbhx.jpg",
+    langProps: {
+      English: {
+        gameName: "Cleopatras Treasure",
+        gameUrl: "https://sademo.kmgamesdev.net/games/warriors-temple?test=1&currency=USD",
+        iframeUrl: "https://sademo.kmgamesdev.net/games/warriors-temple?test=1&currency=USD",
+      },
+    },
+    isFeatured: true,
+  },
   {
     id: 20,
     gameName: "KM Virtual Greyhound racing",
