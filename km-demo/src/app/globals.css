@@ -317,14 +317,12 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-
+  .qrcodeImg {
+    width: 10rem;
+  }
   .slide {
     width: 100vw;
   }
-}
-
-.qrcodeImg {
-  width: 10rem;
 }
 
 

@@ -9,7 +9,7 @@ const QrCode = () => {
   };
 
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center mt-4">
       <div className="flex flex-col justify-center items-center">
         {/* <button
           className="bg-blue-500 px-4 py-2 rounded text-white mb-4"
