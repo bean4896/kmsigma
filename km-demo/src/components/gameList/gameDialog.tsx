@@ -172,8 +172,7 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
                       width={0}
                       height={0}
                       sizes="100vw"
-                      style={{ width: "80vw", height: "auto" }} // optional
-                      className="h-auto rounded-xl"
+                      className="h-auto screenshotImg rounded-xl"
                     />
                   </div>
                   <div onClick={onClose}>

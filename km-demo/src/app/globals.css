@@ -278,7 +278,7 @@
     height: 8rem;
   }
   .backImg {
-    width:28rem;
+    width: 28rem;
   }
   html,
   body {
@@ -315,12 +315,19 @@
     width: 20rem;
     margin-left: 1rem;
   }
+  .screenshotImg {
+    width: 80vw;
+  }
 }
 
 /* desktop and landscape mediaquery */
 @media screen and (min-device-width: 1080px) and (orientation: landscape) {
   .IconNew {
     width: 20rem;
+  }
+
+  .screenshotImg {
+    width: 80vw;
   }
   .qrcodeImg {
     width: 10rem;
@@ -340,5 +347,11 @@
   }
   .slide {
     width: 100vw;
+  }
+  .screenshotImg {
+    width: 28rem;
+  }
+  .backImg {
+    width: 10rem;
   }
 }
