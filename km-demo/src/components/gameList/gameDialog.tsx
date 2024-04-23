@@ -99,13 +99,13 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
         onClick={handleOverlayClick}
       ></div>
       <div
-        className={`dialogContainer relative p-6 mx-auto w-[98%] sm:h-auto rounded-lg scrollbar-thumb-neutral-500 scrollbar-track-neutral-300 ${
+        className={`dialogContainer relative mx-auto w-[100%] sm:h-auto rounded-lg scrollbar-thumb-neutral-500 scrollbar-track-neutral-300 ${
           langProps && !langProps[selectedLanguage]?.showScreenshot
             ? "bg-transparent"
             : ""
         }`}
       >
-        <div className="flex">
+        <div className="flex ml-4 gap-4">
           {langProps && !langProps[selectedLanguage]?.showScreenshot && (
             <>
               {Object.keys(langProps).map((lang) => {
@@ -120,7 +120,7 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
                 return (
                   <button
                     key={lang}
-                    className={`text-sm font-medium mr-2 px-1 py-1 rounded flex items-center ${
+                    className={`text-sm font-medium px-1 py-1 rounded flex items-center ${
                       selectedLanguage === lang
                         ? "bg-neutral-600 text-white rounded-full"
                         : "bg-neutral-800 text-white"
