@@ -397,3 +397,7 @@
     height: 20rem;
   }
 }
+
+.qrcodeImg {
+    width: 12rem;
+}
