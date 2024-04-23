@@ -63,27 +63,36 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
     switch (language.toLowerCase()) {
       case "english":
         return (
-          <Image
-            className="h-6 w-6 object-cover rounded-full flag"
-            src={EnglishFlag}
-            alt="English"
-          />
+          <>
+            <Image
+              className="h-6 w-6 object-cover rounded-full flag"
+              src={EnglishFlag}
+              alt="English"
+            />
+            <span className="ml-2">English</span>
+          </>
         );
       case "spanish":
         return (
-          <Image
-            className="h-6 w-6 object-cover rounded-full flag "
-            src={SpanFlag}
-            alt="Spanish"
-          />
+          <>
+            <Image
+              className="h-6 w-6 object-cover rounded-full flag"
+              src={SpanFlag}
+              alt="Spanish"
+            />
+            <span className="ml-2">Español</span>
+          </>
         );
       case "brazil":
         return (
-          <Image
-            className="h-6 w-6 object-cover rounded-full flag"
-            src={BrazilFlag}
-            alt="Brazil"
-          />
+          <>
+            <Image
+              className="h-6 w-6 object-cover rounded-full flag"
+              src={BrazilFlag}
+              alt="Brazil"
+            />
+            <span className="ml-2">Português</span>
+          </>
         );
       default:
         return null;
@@ -110,12 +119,15 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
             <>
               {Object.keys(langProps).map((lang) => {
                 let languageName;
-                if (lang === "spanish") {
-                  languageName = "Español";
-                } else if (lang === "brazil") {
-                  languageName = "Português";
-                } else {
-                  languageName = lang;
+                switch (lang) {
+                  case "spanish":
+                    languageName = "Español";
+                    break;
+                  case "brazil":
+                    languageName = "Português";
+                    break;
+                  default:
+                    languageName = lang;
                 }
                 return (
                   <button
@@ -128,7 +140,6 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
                     onClick={() => setSelectedLanguage(lang)}
                   >
                     {renderFlag(lang)}
-                    <span className="ml-2">{languageName}</span>
                   </button>
                 );
               })}
