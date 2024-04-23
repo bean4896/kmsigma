@@ -312,24 +312,25 @@ const GameData = [
     },
     isFeatured: true,
   },
-  // {
-  //   id: 16,
-  //   gameName: "Cleopatras Treasure",
-  //   tags: ["Match 3"],
-  //   category: "SLOTS",
-  //   thumbnail:
-  //     "https://res.cloudinary.com/detatjujs/image/upload/v1713516967/cleopatras-treasure_1000x1000_en_i3ldwr.jpg",
-  //   langProps: {
-  //     English: {
-  //       gameName: "Cleopatras Treasure",
-  //       gameUrl:
-  //         "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=USD&test=1",
-  //       iframeUrl:
-  //         "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=USD&test=1",
-  //     },
-  //   },
-  //   isFeatured: true,
-  // },
+  {
+    id: 16,
+    gameName: "Cleopatras Treasure",
+    tags: ["Match 3"],
+    category: "SLOTS",
+    thumbnail:
+      "https://res.cloudinary.com/detatjujs/image/upload/v1713516967/cleopatras-treasure_1000x1000_en_i3ldwr.jpg",
+    langProps: {
+      English: {
+        gameName: "Cleopatras Treasure",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=USD&test=1",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=USD&test=1",
+      },
+    },
+    isFeatured: true,
+    hide: true,
+  },
   {
     id: 17,
     gameName: "Almighty Greek",

@@ -236,11 +236,18 @@
   .title-banner {
     font-size: 1.2rem;
   }
+  .qrcodeImg {
+    width: 8rem;
+  }
 }
 
 @media only screen and (min-device-width: 1080px) and (max-device-width: 1920px) and (aspect-ratio: 9/16) {
   .logo {
     height: 3rem;
+  }
+  html,
+  body {
+    overflow: hidden;
   }
   .IconNew {
     width: 20rem;
@@ -265,6 +272,10 @@
 @media only screen and (min-device-width: 2160px) and (max-device-width: 3840px) and (aspect-ratio: 9/16) {
   .logo {
     height: 8rem;
+  }
+  html,
+  body {
+    overflow: hidden;
   }
   .IconNew {
     width: 40rem;
@@ -324,5 +335,3 @@
     width: 100vw;
   }
 }
-
-

@@ -120,7 +120,7 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
                 return (
                   <button
                     key={lang}
-                    className={`text-sm font-medium px-1 py-1 rounded flex items-center ${
+                    className={`text-sm font-medium px-3 rounded flex items-center ${
                       selectedLanguage === lang
                         ? "bg-neutral-600 text-white"
                         : "bg-neutral-800 text-white"

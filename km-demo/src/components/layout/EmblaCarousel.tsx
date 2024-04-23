@@ -35,7 +35,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
   };
 
   return (
-    <section className="embla">
+    <section className="embla overflow-hidden">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
           {GameSlidesinfo.filter((slide) =>
@@ -50,7 +50,6 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                   width="0"
                   height="0"
                   sizes="100vw"
-    
                   alt="Slide Background"
                   style={{
                     objectFit: "contain",
