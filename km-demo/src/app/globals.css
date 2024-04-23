@@ -224,6 +224,7 @@
 @media screen and (max-width: 768px) {
   .IconNew {
     width: 8em;
+    margin-top: -40px;
   }
   .qrcontainer {
     margin-top: 20px;
@@ -244,6 +245,9 @@
 @media only screen and (min-device-width: 1080px) and (max-device-width: 1920px) and (aspect-ratio: 9/16) {
   .logo {
     height: 3rem;
+  }
+  .backImg {
+    width: 10rem;
   }
   html,
   body {
@@ -272,6 +276,9 @@
 @media only screen and (min-device-width: 2160px) and (max-device-width: 3840px) and (aspect-ratio: 9/16) {
   .logo {
     height: 8rem;
+  }
+  .backImg {
+    width:28rem;
   }
   html,
   body {

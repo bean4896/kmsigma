@@ -169,8 +169,10 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
                     <Image
                       src={langProps[selectedLanguage]?.screenshotUrl}
                       alt="Screenshot"
-                      width={982}
-                      height={1635}
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "80vw", height: "auto" }} // optional
                       className="h-auto rounded-xl"
                     />
                   </div>
@@ -178,9 +180,10 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
                     <Image
                       src={BackBtn}
                       alt="back Btn"
-                      width={1000}
-                      height={1000}
-                      className="max-w-[10em] mt-4"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      className="backImg mt-4"
                     />
                   </div>
                 </div>
@@ -195,7 +198,7 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
           <div className="mt-6">
             <div className="flex justify-end">
               <button
-                className="closeButton absolute top-2 right-2"
+                className="closeButton absolute -top-2 right-3"
                 onClick={onClose}
               >
                 <svg
