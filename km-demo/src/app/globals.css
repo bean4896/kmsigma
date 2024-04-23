@@ -320,6 +320,8 @@
   }
 }
 
+
+
 /* desktop and landscape mediaquery */
 @media screen and (min-device-width: 1080px) and (orientation: landscape) {
   .IconNew {
@@ -354,4 +356,49 @@
   .backImg {
     width: 10rem;
   }
+}
+
+/* Ipad MediaQuery */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .IconNew {
+    width: 10rem;
+  }
+  .category {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .title-banner {
+    font-size: 1.2rem;
+  }
+  .qrcodeImg {
+    width: 8rem;
+  }
+  .qrcontainer {
+    height: 20rem;
+  }
+}
+
+
+
+/* general mediaQuery */
+@media screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+  .IconNew {
+    width: 10rem;
+  }
+  .category {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .title-banner {
+    font-size: 1.2rem;
+  }
+  .qrcodeImg {
+    width: 8rem;
+  }
+  .qrcontainer {
+    height: 20rem;
+  }
+  
 }

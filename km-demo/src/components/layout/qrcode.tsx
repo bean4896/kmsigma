@@ -19,7 +19,7 @@ const QrCode = () => {
         </button> */}
         {/* <Refresh /> */}
         <Image
-          className="qrcodeImg rounded-lg mt-10"
+          className="qrcodeImg w-20 rounded-lg mt-10"
           src={ImgQrcode}
           alt="QR Code"
           width={2000}
