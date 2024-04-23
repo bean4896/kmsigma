@@ -43,16 +43,20 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
           ).map((slide) => (
             <div className="embla__slide" key={slide.id}>
               <div className="slide_inf">
-                <div
+                <Image
                   onClick={() => handlePlayBtnClick(slide.id)}
-                  className="slide flex flex-col lg:flex-row items-center cursor-pointer"
+                  className="slide flex flex-col lg:flex-row items-center cursor-pointer w-full h-auto"
+                  src={slide.backgroundUrl}
+                  width="0"
+                  height="0"
+                  sizes="100vw"
+    
+                  alt="Slide Background"
                   style={{
-                    backgroundImage: `url(${slide.backgroundUrl})`,
-                    backgroundRepeat: "no-repeat",
+                    objectFit: "contain",
                     pointerEvents: "auto",
-                    backgroundSize: "cover",
                   }}
-                ></div>
+                />
               </div>
             </div>
           ))}

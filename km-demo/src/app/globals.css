@@ -204,7 +204,6 @@
   width: 45%;
   height: auto;
   position: absolute;
-  top: 5rem;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -214,60 +213,118 @@
   font-weight: 800;
 }
 
-.slide {
-  background-size: contain;
-  height: 80vh;
-  background-position: center;
-}
 .IconNew {
-  width: 50rem;
-}
-
-@media screen and (max-width: 768px) {
-  .IconNew {
-    width: 8em;
-  }
-  .slide {
-    background-size: contain;
-    height: auto;
-    min-height: 200px;
-  }
-  .qrcontainer {
-    margin-top: 20px;
-  }
-}
-
-.qrcontainer {
-  min-height: 30vh;
-}
-
-@media screen and (aspect-ratio: 9/16) {
-  .qrcontainer {
-    min-height: 16vh;
-  }
-  .slide {
-    background-size: contain;
-    height: 25vh;
-    max-height: 100%;
-  }
+  width: 20rem;
 }
 
 .logo {
   height: 2rem;
 }
 
+@media screen and (max-width: 768px) {
+  .IconNew {
+    width: 8em;
+  }
+  .qrcontainer {
+    margin-top: 20px;
+  }
+  .category {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .title-banner {
+    font-size: 1.2rem;
+  }
+}
+
 @media only screen and (min-device-width: 1080px) and (max-device-width: 1920px) and (aspect-ratio: 9/16) {
   .logo {
     height: 3rem;
   }
+  .IconNew {
+    width: 20rem;
+  }
+  .category {
+    font-size: 30px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .glowImg {
+    top: 2rem;
+  }
+  .qrcodeImg {
+    width: 10rem;
+  }
+  .qrcontainer {
+    height: 20rem;
+  }
 }
 
+/* 4k and portrait mediaquery */
 @media only screen and (min-device-width: 2160px) and (max-device-width: 3840px) and (aspect-ratio: 9/16) {
   .logo {
     height: 8rem;
+  }
+  .IconNew {
+    width: 40rem;
   }
   .flag {
     width: 3rem;
     height: 3rem;
   }
+  .qrcontainer {
+    margin-top: 5rem;
+  }
+  .glowImg {
+    top: 4rem;
+  }
+  .title-banner {
+    font-size: 4rem;
+  }
+  .qrcontainer {
+    height: 35rem;
+  }
+  .category {
+    font-size: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .slide {
+    width: 100vw;
+  }
+  .qrcodeImg {
+    width: 20rem;
+    margin-left: 1rem;
+  }
 }
+
+/* desktop and landscape mediaquery */
+@media screen and (min-device-width: 1080px) and (orientation: landscape) {
+  .IconNew {
+    width: 20rem;
+  }
+  .qrcodeImg {
+    width: 10rem;
+  }
+  .glowImg {
+    top: 0.5rem;
+  }
+  .qrcontainer {
+    min-height: 300px;
+  }
+  .category {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .slide {
+    width: 100vw;
+  }
+}
+
+.qrcodeImg {
+  width: 10rem;
+}
+
+

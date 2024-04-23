@@ -86,7 +86,7 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
             alt={game.gameName}
             placeholder="blur"
             blurDataURL="data:..."
-            className="w-full rounded-md hover:scale-105 duration-200"
+            className="w-full rounded-[3%] hover:scale-105 duration-200"
           />
         </div>
         <div>

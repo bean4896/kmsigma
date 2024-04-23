@@ -39,6 +39,7 @@ const NewRelease = ({ selectedCategory }: NewReleaseProps) => {
   const [emblaRef, emblaApi] = useEmblaCarousel(OPTIONS, [
     Autoplay({ playOnInit: true, delay: 3000 }),
   ]);
+  
   useEffect(() => {
     setIsLoading(true);
 
@@ -57,7 +58,7 @@ const NewRelease = ({ selectedCategory }: NewReleaseProps) => {
   }, [selectedCategory]);
 
   return (
-    <div className="relative mt-5 overflow-hidden">
+    <div className="relative overflow-hidden">
       <div className="absolute z-10 xl:top-10 left-0 text-black ">
         <Image
           className="IconNew"

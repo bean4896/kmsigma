@@ -9,7 +9,7 @@ const QrCode = () => {
   };
 
   return (
-    <div className="flex justify-center items-center mt-12">
+    <div className="flex justify-center items-center">
       <div className="flex flex-col justify-center items-center">
         {/* <button
           className="bg-blue-500 px-4 py-2 rounded text-white mb-4"
@@ -19,13 +19,13 @@ const QrCode = () => {
         </button> */}
         {/* <Refresh /> */}
         <Image
-          className="rounded-lg mt-4 w-[10vh]"
+          className="qrcodeImg rounded-lg mt-10"
           src={ImgQrcode}
           alt="QR Code"
-          width={1000}
-          height={1000}
+          width={2000}
+          height={2000}
         />
-        <div className="text-white text-xl lg:text-[3rem] my-6 pb-10">
+        <div className="text-white title-banner mb-6">
           Speak with us for potential opportunities!
         </div>
       </div>
