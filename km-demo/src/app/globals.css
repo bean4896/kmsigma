@@ -320,8 +320,6 @@
   }
 }
 
-
-
 /* desktop and landscape mediaquery */
 @media screen and (min-device-width: 1080px) and (orientation: landscape) {
   .IconNew {
@@ -379,8 +377,6 @@
   }
 }
 
-
-
 /* general mediaQuery */
 @media screen and (min-device-width: 320px) and (max-device-width: 1024px) {
   .IconNew {
@@ -400,5 +396,4 @@
   .qrcontainer {
     height: 20rem;
   }
-  
 }

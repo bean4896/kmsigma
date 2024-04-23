@@ -31,7 +31,7 @@ const Banner = () => {
               alt="QR Code"
               width="2000"
               height="2000"
-              className="qrcodeImg w-20"
+              className="qrcodeImg"
             />
           </div>
         </div>
