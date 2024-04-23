@@ -81,17 +81,19 @@ const Home: React.FC = () => {
           {isLoading ? (
             <>
               <div className="p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                {gamesToShow.map((game: Game) => (
-                  <div className="OneSkeleton mt-12" key={game.id}>
-                    <div className="flex flex-col space-y-3 ">
-                      <Skeleton className="h-[8em] rounded-xl bg-stone-800" />
-                      <div className="space-y-2">
-                        <Skeleton className="h-4 bg-stone-700" />
-                        <Skeleton className="h-4 bg-stone-700" />
+                {gamesToShow.map((game: Game) =>
+                  game.hide ? null : (
+                    <div className="OneSkeleton mt-12" key={game.id}>
+                      <div className="flex flex-col space-y-3 ">
+                        <Skeleton className="h-[8em] rounded-xl bg-stone-800" />
+                        <div className="space-y-2">
+                          <Skeleton className="h-4 bg-stone-700" />
+                          <Skeleton className="h-4 bg-stone-700" />
+                        </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  )
+                )}
               </div>
             </>
           ) : (
