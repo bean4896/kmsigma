@@ -160,7 +160,7 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
                     allowFullScreen={true}
                     frameBorder="0"
                     scrolling="auto"
-                    className="w-[100vw] h-[90vh] z-100"
+                    className="w-[100vw] h-[90vh] z-100 iframeGame"
                   ></iframe>
                 </div>
               ) : langProps[selectedLanguage]?.showScreenshot ? (

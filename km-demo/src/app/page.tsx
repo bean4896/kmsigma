@@ -67,6 +67,9 @@ const Home: React.FC = () => {
     (game) => game.category === selectedCategory || selectedCategory === ""
   );
 
+  useEffect(() => {
+    document.documentElement.style.setProperty("--text-color", "#000000");
+  }, []);
   return (
     <div className="overlay-container">
       <main className="flex min-h-screen flex-col max-w-[100vw] m-auto">
