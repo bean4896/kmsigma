@@ -10,7 +10,7 @@ const Navbar = () => {
             alt="Logo"
             width={1000}
             height={1000}
-            className="w-auto h-[8rem]"
+            className="w-auto h-[8rem] logo"
           />
         </div>
       </nav>

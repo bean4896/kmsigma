@@ -72,16 +72,19 @@ const GameData = [
     gameName: "Rooster Blitz",
     tags: ["Match 3"],
     category: "SLOTS",
-    thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1713256607/rooster-blitz_500x500_en_bzie9s.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/detatjujs/image/upload/v1713256607/rooster-blitz_500x500_en_bzie9s.jpg",
     langProps: {
       English: {
         gameName: "Rooster Blitz",
-        gameUrl: "https://sademo.kmgamesdev.net/games/rooster-blitz?currency=USD&test=1",
-        iframeUrl: "https://sademo.kmgamesdev.net/games/rooster-blitz?currency=USD&test=1",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/rooster-blitz?currency=USD&test=1",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/rooster-blitz?currency=USD&test=1",
       },
     },
     isFeatured: true,
-    hide:true
+    hide: true,
   },
   {
     id: 5,
@@ -373,12 +376,15 @@ const GameData = [
     gameName: "Warriors Temple",
     tags: ["Match 3"],
     category: "SLOTS",
-    thumbnail: "https://res.cloudinary.com/detatjujs/image/upload/v1713409519/warriors-temple_500x500_en_vphbhx.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/detatjujs/image/upload/v1713409519/warriors-temple_500x500_en_vphbhx.jpg",
     langProps: {
       English: {
         gameName: "Cleopatras Treasure",
-        gameUrl: "https://sademo.kmgamesdev.net/games/warriors-temple?test=1&currency=USD",
-        iframeUrl: "https://sademo.kmgamesdev.net/games/warriors-temple?test=1&currency=USD",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/warriors-temple?test=1&currency=USD",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/warriors-temple?test=1&currency=USD",
       },
     },
     isFeatured: true,

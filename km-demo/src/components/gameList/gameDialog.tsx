@@ -64,7 +64,7 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
       case "english":
         return (
           <Image
-            className="h-6 w-6 object-cover rounded-full"
+            className="h-6 w-6 object-cover rounded-full flag"
             src={EnglishFlag}
             alt="English"
           />
@@ -72,7 +72,7 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
       case "spanish":
         return (
           <Image
-            className="h-6 w-6 object-cover rounded-full"
+            className="h-6 w-6 object-cover rounded-full flag "
             src={SpanFlag}
             alt="Spanish"
           />
@@ -80,7 +80,7 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
       case "brazil":
         return (
           <Image
-            className="h-6 w-6 object-cover rounded-full"
+            className="h-6 w-6 object-cover rounded-full flag"
             src={BrazilFlag}
             alt="Brazil"
           />
@@ -95,10 +95,16 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
   return (
     <div className="fixed inset-0 z-10 flex items-center justify-center">
       <div
-        className="fixed inset-0 bg-black opacity-80"
+        className="fixed inset-0 bg-black"
         onClick={handleOverlayClick}
       ></div>
-<div className={`dialogContainer relative p-6 mx-auto w-[92%] sm:h-auto overflow-y-auto scrollbar-thumb rounded-lg scrollbar-thumb-neutral-500 scrollbar-track-neutral-300 ${langProps && !langProps[selectedLanguage]?.showScreenshot ? 'bg-neutral-800' : ''}`}>
+      <div
+        className={`dialogContainer relative p-6 mx-auto w-[98%] sm:h-auto rounded-lg scrollbar-thumb-neutral-500 scrollbar-track-neutral-300 ${
+          langProps && !langProps[selectedLanguage]?.showScreenshot
+            ? "bg-transparent"
+            : ""
+        }`}
+      >
         <div className="flex">
           {langProps && !langProps[selectedLanguage]?.showScreenshot && (
             <>
@@ -114,15 +120,15 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
                 return (
                   <button
                     key={lang}
-                    className={`text-sm font-medium mr-2 px-2 py-1 rounded flex items-center ${
+                    className={`text-sm font-medium mr-2 px-1 py-1 rounded flex items-center ${
                       selectedLanguage === lang
-                        ? "bg-neutral-600 text-white"
+                        ? "bg-neutral-600 text-white rounded-full"
                         : "bg-neutral-800 text-white"
                     }`}
                     onClick={() => setSelectedLanguage(lang)}
                   >
                     {renderFlag(lang)}
-                    <span className="ml-2">{languageName}</span>
+                    {/* <span className="ml-2">{languageName}</span> */}
                   </button>
                 );
               })}
@@ -143,22 +149,28 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
                     allowFullScreen={true}
                     frameBorder="0"
                     scrolling="auto"
-                    className="w-full h-[65vh]"
+                    className="w-[100vw] h-[90vh] z-100"
                   ></iframe>
                 </div>
               ) : langProps[selectedLanguage]?.showScreenshot ? (
                 <div className="screenshotContainer max-h-[87vh] flex flex-col justify-center items-center">
                   <div>
-                  <Image
-                    src={langProps[selectedLanguage]?.screenshotUrl}
-                    alt="Screenshot"
-                    width={982}
-                    height={1635}
-                    className="h-auto rounded-xl"
-                  />
+                    <Image
+                      src={langProps[selectedLanguage]?.screenshotUrl}
+                      alt="Screenshot"
+                      width={982}
+                      height={1635}
+                      className="h-auto rounded-xl"
+                    />
                   </div>
                   <div onClick={onClose}>
-                  <Image src={BackBtn} alt='back Btn' width={1000} height={1000} className="max-w-[10em] mt-4" />
+                    <Image
+                      src={BackBtn}
+                      alt="back Btn"
+                      width={1000}
+                      height={1000}
+                      className="max-w-[10em] mt-4"
+                    />
                   </div>
                 </div>
               ) : (
