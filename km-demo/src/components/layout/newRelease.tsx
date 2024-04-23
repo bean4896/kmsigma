@@ -51,24 +51,23 @@ const NewRelease = ({ selectedCategory }: NewReleaseProps) => {
 
     setTimeout(() => {
       setIsLoading(false);
-    }, 200);
-    // console.log("filteredSlides", filteredSlides);
-    // console.log("selectedCategory", selectedCategory);
-    // console.log("filteredGames", filteredGames);
+    }, 100);
   }, [selectedCategory]);
 
   return (
     <div className="relative">
-      <div className="absolute xl:top-10 left-0 text-black ">
-        <Image className="IconNew" src={ImgLabel} alt="New Releases" />
-      </div>
       {isLoading ? (
         // Show skeleton or loading state when isLoading is true
         <div className="flex flex-col space-y-3 ">
           <Skeleton className="h-[12em] rounded-xl bg-stone-800 p-4"></Skeleton>
         </div>
       ) : (
-        <EmblaCarousel filteredSlides={filteredSlides} options={OPTIONS} />
+        <div className="relative">
+          <EmblaCarousel filteredSlides={filteredSlides} options={OPTIONS} />
+          <div className="absolute top-10 left-0">
+            <Image className="IconNew" src={ImgLabel} alt="New Releases" />
+          </div>
+        </div>
       )}
     </div>
   );
