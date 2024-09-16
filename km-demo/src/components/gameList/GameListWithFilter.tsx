@@ -8,12 +8,12 @@ import LanguageFilter from "./LanguageFilter";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Game, GameListWithFilterProps } from "@/lib/types";
 import NewRelease from "../layout/newRelease";
-
+import { useLanguage } from "@/context/LanguageContext"; // Import the useLanguage hook
 
 const GameListWithFilter: React.FC<GameListWithFilterProps> = ({ games, categories }) => {
   const [selectedCategory, setSelectedCategory] = useState("NEXT-GEN");
-  const [selectedLanguage, setSelectedLanguage] = useState<string>("English");
   const [isLoading, setIsLoading] = useState(false);
+  const { selectedLanguage, setSelectedLanguage } = useLanguage(); // Use the context
 
   useEffect(() => {
     const overlayImage = document.getElementById("overlay-image");
@@ -55,8 +55,12 @@ const GameListWithFilter: React.FC<GameListWithFilterProps> = ({ games, categori
 
   return (
     <>
-    <FilterComponent categories={categories} selectedCategory={selectedCategory} onSelectCategory={handleSelectCategory} />
-    <NewRelease selectedCategory={selectedCategory} />
+      <FilterComponent
+        categories={categories}
+        selectedCategory={selectedCategory}
+        onSelectCategory={handleSelectCategory}
+      />
+      <NewRelease selectedCategory={selectedCategory} />
       <LanguageFilter selectedLanguage={selectedLanguage} onSelectLanguage={handleSelectLanguage} />
       <div>
         {isLoading ? (

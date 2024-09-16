@@ -8,23 +8,8 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { EmblaOptionsType } from "embla-carousel";
 import GameSlidesinfo from "@/lib/gameSlides";
 import Autoplay from "embla-carousel-autoplay";
-
-interface Game {
-  id: number;
-  gameName: string;
-  tags: string[];
-  category: string;
-  backgroundUrl: string;
-  thumbnail: string;
-  langProps: {
-    [key: string]: {
-      gameName: string;
-      iframeUrl: string;
-      gameUrl: string;
-    };
-  };
-  isFeatured: boolean;
-}
+import { Game } from "@/lib/types"; // Import Game type
+import { convertToGameType } from "@/lib/helpers"; // Import the helper function
 
 const OPTIONS: EmblaOptionsType = {
   loop: true, // Enable looping
@@ -44,10 +29,14 @@ const NewRelease = ({ selectedCategory }: NewReleaseProps) => {
   useEffect(() => {
     setIsLoading(true);
 
-    const filteredGames = GameSlidesinfo.filter(
-      (game: Game) =>
-        game.category === selectedCategory || selectedCategory === ""
-    );
+    // Convert GameSlidesinfo to Game type using the helper function
+    const filteredGames = GameSlidesinfo
+      .map((gameSlide) => convertToGameType(gameSlide))
+      .filter(
+        (game: Game) =>
+          game.category === selectedCategory || selectedCategory === ""
+      );
+
     setFilteredSlides(filteredGames.map((game: Game) => game.id));
 
     setTimeout(() => {

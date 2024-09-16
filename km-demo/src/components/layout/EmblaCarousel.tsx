@@ -1,4 +1,5 @@
-import React, { useCallback, useEffect, useState } from "react";
+// components/EmblaCarousel.tsx
+import React, { useState } from "react";
 import { EmblaOptionsType } from "embla-carousel";
 import { DotButton, useDotButton } from "./EmblaCarouselDotButton";
 import Image from "next/image";
@@ -6,27 +7,27 @@ import useEmblaCarousel from "embla-carousel-react";
 import GameDialog from "@/components/gameList/gameDialog";
 import Autoplay from "embla-carousel-autoplay";
 import GameSlidesinfo from "@/lib/gameSlides";
+import { convertToGameType } from "@/lib/helpers"; // Import the helper function
+import { Game } from "@/lib/types"; // Import Game type
 
 type PropType = {
   filteredSlides: number[];
   options?: EmblaOptionsType;
 };
 
-const EmblaCarousel: React.FC<PropType> = (props) => {
-  const { filteredSlides, options } = props;
-  const [isPlaying, setIsPlaying] = useState(false);
-
+const EmblaCarousel: React.FC<PropType> = ({ filteredSlides, options }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [
     Autoplay({ playOnInit: true, delay: 3000 }),
   ]);
 
-  const { selectedIndex, scrollSnaps, onDotButtonClick } =
-    useDotButton(emblaApi);
-
-  const [selectedGame, setSelectedGame] = useState<number | null>(null);
+  const { selectedIndex, scrollSnaps, onDotButtonClick } = useDotButton(emblaApi);
+  const [selectedGame, setSelectedGame] = useState<Game | null>(null);
 
   const handlePlayBtnClick = (gameId: number) => {
-    setSelectedGame(gameId);
+    const gameSlide = GameSlidesinfo.find((slide) => slide.id === gameId);
+    if (gameSlide) {
+      setSelectedGame(convertToGameType(gameSlide)); // Use the helper function here
+    }
   };
 
   const handleCloseDialog = () => {
@@ -37,9 +38,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
     <section className="embla overflow-hidden">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
-          {GameSlidesinfo.filter((slide) =>
-            filteredSlides.includes(slide.id)
-          ).map((slide) => (
+          {GameSlidesinfo.filter((slide) => filteredSlides.includes(slide.id)).map((slide) => (
             <div className="embla__slide" key={slide.id}>
               <div className="slide_inf">
                 <Image
@@ -68,8 +67,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
               key={index}
               onClick={() => onDotButtonClick(index)}
               className={
-                "embla__dot" +
-                (index === selectedIndex ? " embla__dot--selected" : "")
+                "embla__dot" + (index === selectedIndex ? " embla__dot--selected" : "")
               }
             />
           ))}
@@ -78,29 +76,10 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
 
       {selectedGame && (
         <GameDialog
-          gameName={GameSlidesinfo[selectedGame - 1].gameName}
+          gameName={selectedGame.gameName}
           onClose={handleCloseDialog}
-          langProps={{}}
-          game={
-            GameSlidesinfo[selectedGame - 1] as {
-              id: number;
-              gameName: string;
-              tags: string[];
-              category: string;
-              thumbnail: string;
-              langProps: {
-                [key: string]: {
-                  gameName: string;
-                  iframeUrl: string;
-                  gameUrl: string;
-                };
-              };
-              isFeatured: boolean;
-              description?: string;
-              imageUrl?: string;
-              playUrl?: string;
-            }
-          }
+          langProps={selectedGame.langProps}
+          game={selectedGame}
         />
       )}
     </section>

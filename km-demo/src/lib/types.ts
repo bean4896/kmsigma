@@ -18,6 +18,7 @@ export interface GameLangProps {
     thumbnail?: string;
     langProps: {
       [key: string]: GameLangProps;
+      
     };
     isFeatured: boolean;
     hide?: boolean;

@@ -1,13 +1,12 @@
+'use client'
 import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/navbar";
 const font = Open_Sans({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "KingMidasGames",
-  description: "demo site",
-};
+import { LanguageProvider } from "@/context/LanguageContext";
+
 
 export default function RootLayout({
   children,
@@ -18,8 +17,10 @@ export default function RootLayout({
     <>
       <html>
         <body className={font.className}>
+        <LanguageProvider>
           <Navbar />
           {children}
+          </LanguageProvider>
         </body>
       </html> 
     </>

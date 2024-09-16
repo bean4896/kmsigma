@@ -5,7 +5,7 @@ const GameData: Game[] = [
     id: 1,
     order: 1,
     gameName: "Iron Dome",
-    tags: ["RTP: 97.00", "Max Win: 125X"],
+    tags: ["RTP: 97.00", "Max Win: 125x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
@@ -47,7 +47,7 @@ const GameData: Game[] = [
     id: 2,
     order: 2,
     gameName: "Toon Crash",
-    tags: ["RTP: 97.00", "Max Win: 125X"],
+    tags: ["RTP: 97.00", "Max Win: 125x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
@@ -89,7 +89,7 @@ const GameData: Game[] = [
     id: 3,
     order: 3,
     gameName: "Jackpot Jump",
-    tags: ["RTP: 97.00", "Max Win: 125X"],
+    tags: ["RTP: 97.00", "Max Win: 200x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
@@ -131,7 +131,7 @@ const GameData: Game[] = [
     id: 4,
     order: 4,
     gameName: "Penguin Panic",
-    tags: ["RTP: 97.00", "Max Win: 125X"],
+    tags: ["RTP: 97.00", "Max Win: 200x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
@@ -173,7 +173,7 @@ const GameData: Game[] = [
     id: 5,
     order: 5,
     gameName: "Olympus Glory",
-    tags: ["RTP: 97.00", "Max Win: 125X"],
+    tags: ["RTP: 96.61", "Max Win: 12x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
@@ -215,7 +215,7 @@ const GameData: Game[] = [
     id: 6,
     order: 6,
     gameName: "Interstellar Run",
-    tags: ["Match 3"],
+    tags: ["RTP: 97.00", "Max Win: 125x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
@@ -257,7 +257,7 @@ const GameData: Game[] = [
     id: 7,
     order: 7,
     gameName: "Coin Pusher",
-    tags: ["Match 3"],
+    tags: ["RTP: 97.00", "Max Win: 1000x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
@@ -291,7 +291,7 @@ const GameData: Game[] = [
     id: 8,
     order: 8,
     gameName: "KM Virtual Treadmill Racing",
-    tags: ["Match 3"],
+    tags: ["RTP: 97.36", "Max Win: 7.5x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
@@ -333,7 +333,7 @@ const GameData: Game[] = [
     id: 9,
     order: 9,
     gameName: "KM Virtual Animal Race",
-    tags: ["Match 3"],
+    tags: ["RTP: 97.00", "Max Win: 4.25x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
@@ -375,7 +375,7 @@ const GameData: Game[] = [
     id: 10,
     order: 10,
     gameName: "Elite Aviator Club",
-    tags: ["Match 3"],
+    tags: ["RTP: 97.00", "Max Win: 125x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
@@ -417,7 +417,7 @@ const GameData: Game[] = [
     id: 11,
     order: 11,
     gameName: "Heist",
-    tags: ["Match 3"],
+    tags: ["RTP: 97.00", "Max Win: 62.31x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
@@ -459,7 +459,7 @@ const GameData: Game[] = [
     id: 12,
     order: 12,
     gameName: "Minesweeper",
-    tags: ["Match 3"],
+    tags: ["RTP: 96.00", "Max Win: 2330x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
@@ -485,7 +485,7 @@ const GameData: Game[] = [
     id: 13,
     order: 13,
     gameName: "Cash Rocket",
-    tags: ["Match 3"],
+    tags: ["RTP: 96.55", "Max Win: 200x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
@@ -527,7 +527,7 @@ const GameData: Game[] = [
     id: 14,
     order: 14,
     gameName: "KM Marble Knockout",
-    tags: ["Match 3"],
+    tags: ["RTP: 97.00", "Max Win: 5x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
@@ -553,7 +553,7 @@ const GameData: Game[] = [
     id: 15,
     order: 15,
     gameName: "Monkey King Roulette",
-    tags: ["Match 3"],
+    tags: ["RTP: 97.00", "Max Win: 44x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
