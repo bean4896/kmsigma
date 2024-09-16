@@ -11,6 +11,11 @@ const nextConfig = {
           hostname: 'res.cloudinary.com',
           pathname: '**',
         },
+        {
+          protocol: 'https',
+          hostname: 'publiccdn.kingdomhall729.com',
+          pathname: '**',
+        }
       ],
     },
     swcMinify: true,

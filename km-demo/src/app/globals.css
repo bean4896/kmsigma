@@ -217,10 +217,19 @@
   width: 20rem;
 }
 
-.logo {
-  height: 2rem;
+.tag {
+  font-size: 14px;
 }
-
+.logo {
+  max-width: 200px;
+  height: 100%;
+}
+.qrcodeImg {
+  max-width: 8rem;
+}
+.qrcontainer {
+  height: 200px;
+}
 @media screen and (max-width: 768px) {
   .IconNew {
     width: 8em;
@@ -268,7 +277,10 @@
     width: 10rem;
   }
   .qrcontainer {
-    height: 20rem;
+    height: 200px;
+  }
+  .tag {
+    font-size: 8px;
   }
 }
 
@@ -300,9 +312,7 @@
   .title-banner {
     font-size: 4rem;
   }
-  .qrcontainer {
-    height: 35rem;
-  }
+
   .category {
     font-size: 4rem;
     margin-top: 2rem;
@@ -312,7 +322,6 @@
     width: 100vw;
   }
   .qrcodeImg {
-    width: 20rem;
     margin-left: 1rem;
   }
   .screenshotImg {
@@ -325,7 +334,6 @@
   .IconNew {
     width: 20rem;
   }
-
   .screenshotImg {
     width: 80vw;
   }
@@ -334,9 +342,6 @@
   }
   .glowImg {
     top: 0.5rem;
-  }
-  .qrcontainer {
-    min-height: 300px;
   }
   .category {
     margin-top: 1rem;
@@ -348,12 +353,9 @@
   .slide {
     width: 100vw;
   }
-  .screenshotImg {
-    width: 28rem;
-  }
-  .backImg {
-    width: 10rem;
-  }
+.qrcontainer{
+  height: 350px;
+}
 }
 
 /* Ipad MediaQuery */
@@ -373,7 +375,7 @@
     width: 8rem;
   }
   .qrcontainer {
-    height: 20rem;
+    height: 100px;
   }
 }
 
@@ -396,8 +398,4 @@
   .qrcontainer {
     height: 20rem;
   }
-}
-
-.qrcodeImg {
-  width: 8rem;
 }

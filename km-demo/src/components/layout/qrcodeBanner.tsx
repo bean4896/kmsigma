@@ -1,7 +1,6 @@
 import Image from "next/image";
-import bannerImage from "@/assets/banner.jpg";
 import ImgQrcode from "@/assets/kingmidasgamewebsite_QRcode.png";
-import BannerBg from "@/assets/banner_bg.png";
+
 
 const Banner = () => {
   return (
@@ -11,7 +10,7 @@ const Banner = () => {
         backgroundImage: `url('https://res.cloudinary.com/detatjujs/image/upload/v1713507584/top_banner_zle1vn.png')`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        backgroundPosition: "bottom center",
+        backgroundPosition: "center center",
       }}
     >
       <div className="qrcontainer flex items-center ml-10 p-4">

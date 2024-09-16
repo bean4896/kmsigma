@@ -1,313 +1,576 @@
-const GameData = [
+import { Game } from "@/lib/types";
+
+const GameData: Game[] = [
   {
-    id: 30,
-    gameName: "Coin Pusher",
-    tags: ["virtual", "Casual"],
+    id: 1,
+    order: 1,
+    gameName: "Iron Dome",
+    tags: ["RTP: 97.00", "Max Win: 125X"],
     category: "NEXT-GEN",
-    thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1712826703/coin-pusher_1000x1000_en_aey0mh.png",
     langProps: {
       English: {
         gameName: "Coin Pusher",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/iron-dome_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/coin-dozer?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/iron-dome?currency=GBP&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/coin-dozer?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/iron-dome?currency=GBP&test=1",
       },
-    },
-    isFeatured: true,
-  },
-  {
-    id: 31,
-    gameName: "KM Virtual Animal Race",
-    tags: ["Virtual", "Sports"],
-    category: "NEXT-GEN",
-    thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1713507583/km-virtual-animal-race_500x500_en_eqaz8f.jpg",
-    isFeatured: true,
-    langProps: {
-      English: {
-        gameName: "KM Virtual Animal Race",
+      Chinese: {
+        gameName: "Coin Pusher",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/iron-dome_500x500_cn.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/animal-racing?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/iron-dome?currency=GBP&test=1&lang=cn",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/animal-racing?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/iron-dome?currency=GBP&test=1&lang=cn",
+      },
+      Portuguese: {
+        gameName: "Coin Pusher",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/iron-dome_500x500_ptbr.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/iron-dome?currency=GBP&test=1&lang=ptbr",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/iron-dome?currency=GBP&test=1&lang=ptbr",
       },
       Spanish: {
-        gameName: "Máquina de monedas",
+        gameName: "Coin Pusher",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/iron-dome_500x500_esla.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/animal-racing?currency=USD&test=1&lang=esla",
+          "https://demo8.kingmidasdev.net/games/iron-dome?currency=GBP&test=1&lang=esla",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/animal-racing?currency=USD&test=1&lang=esla",
-      },
-      Brazil: {
-        gameName: "Máquina de monedas",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/animal-racing?currency=USD&test=1&lang=ptbr",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/animal-racing?currency=USD&test=1&lang=ptbr",
+          "https://demo8.kingmidasdev.net/games/iron-dome?currency=GBP&test=1&lang=esla",
       },
     },
+    isFeatured: true,
   },
   {
-    id: 32,
-    gameName: "KM Virtual Treadmill Racing",
-    tags: ["Virtual", "Sports"],
+    id: 2,
+    order: 2,
+    gameName: "Toon Crash",
+    tags: ["RTP: 97.00", "Max Win: 125X"],
     category: "NEXT-GEN",
-    thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1712826702/treadmill-racing_1000x1000_en_mfmxzw.jpg",
-    isFeatured: true,
     langProps: {
       English: {
-        gameName: "KM Virtual Treadmill Racing",
+        gameName: "Toon Crash",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toon-crash_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/treadmill-racing?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/toon-crash?currency=GBP&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/treadmill-racing?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/toon-crash?currency=GBP&test=1",
+      },
+      Chinese: {
+        gameName: "Toon Crash",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toon-crash_500x500_cn.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/toon-crash?currency=GBP&test=1&lang=cn",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/toon-crash?currency=GBP&test=1&lang=cn",
+      },
+      Portuguese: {
+        gameName: "Toon Crash",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toon-crash_500x500_ptbr.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/toon-crash?currency=GBP&test=1&lang=ptbr",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/toon-crash?currency=GBP&test=1&lang=ptbr",
+      },
+      Spanish: {
+        gameName: "Toon Crash",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toon-crash_500x500_esla.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/toon-crash?currency=GBP&test=1&lang=esla",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/toon-crash?currency=GBP&test=1&lang=esla",
       },
     },
+    isFeatured: true,
+  },
+  {
+    id: 3,
+    order: 3,
+    gameName: "Jackpot Jump",
+    tags: ["RTP: 97.00", "Max Win: 125X"],
+    category: "NEXT-GEN",
+    langProps: {
+      English: {
+        gameName: "Jackpot Jump",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jackpot-jump_500x500_en.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/jackpot-jump?currency=GBP&test=1",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/jackpot-jump?currency=GBP&test=1",
+      },
+      Chinese: {
+        gameName: "Jackpot Jump",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jackpot-jump_500x500_cn.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/jackpot-jump?currency=GBP&test=1&lang=cn",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/jackpot-jump?currency=GBP&test=1&lang=cn",
+      },
+      Portuguese: {
+        gameName: "Jackpot Jump",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jackpot-jump_500x500_ptbr.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/jackpot-jump?currency=GBP&test=1&lang=ptbr",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/jackpot-jump?currency=GBP&test=1&lang=ptbr",
+      },
+      Spanish: {
+        gameName: "Toon Crash",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jackpot-jump_500x500_esla.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/jackpot-jump?currency=GBP&test=1&lang=esla",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/jackpot-jump?currency=GBP&test=1&lang=esla",
+      },
+    },
+    isFeatured: true,
   },
   {
     id: 4,
-    gameName: "Rooster Blitz",
-    tags: ["Match 3"],
-    category: "SLOTS",
-    thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1713256607/rooster-blitz_500x500_en_bzie9s.jpg",
+    order: 4,
+    gameName: "Penguin Panic",
+    tags: ["RTP: 97.00", "Max Win: 125X"],
+    category: "NEXT-GEN",
     langProps: {
       English: {
-        gameName: "Rooster Blitz",
+        gameName: "Penguin Panic",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/penguin-panic_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/rooster-blitz?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/penguin-panic?currency=GBP&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/rooster-blitz?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/penguin-panic?currency=GBP&test=1",
+      },
+      Chinese: {
+        gameName: "Penguin Panic",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/penguin-panic_500x500_cn.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/penguin-panic?currency=GBP&test=1&lang=cn",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/penguin-panic?currency=GBP&test=1&lang=cn",
+      },
+      Portuguese: {
+        gameName: "Penguin Panic",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/penguin-panic_500x500_ptbr.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/penguin-panic?currency=GBP&test=1&lang=ptbr",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/penguin-panic?currency=GBP&test=1&lang=ptbr",
+      },
+      Spanish: {
+        gameName: "Penguin Panic",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/penguin-panic_500x500_esla.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/penguin-panic?currency=GBP&test=1&lang=esla",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/penguin-panic?currency=GBP&test=1&lang=esla",
       },
     },
     isFeatured: true,
-    hide: true,
   },
   {
     id: 5,
-    gameName: "Sugar Blast",
-    tags: ["Match 3"],
-    category: "SLOTS",
-    thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1713492141/sugar-blast-frenzy_500x500_en_ldu9gt.jpg",
+    order: 5,
+    gameName: "Olympus Glory",
+    tags: ["RTP: 97.00", "Max Win: 125X"],
+    category: "NEXT-GEN",
     langProps: {
       English: {
-        gameName: "Sugar Blast",
+        gameName: "Olympus Glory",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/olympus-glory_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/sugar-blast-2?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/olympus-glory?currency=GBP&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/sugar-blast-2?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/olympus-glory?currency=GBP&test=1",
+      },
+      Chinese: {
+        gameName: "Olympus Glory",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/olympus-glory_500x500_cn.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/olympus-glory?currency=GBP&test=1&lang=cn",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/olympus-glory?currency=GBP&test=1&lang=cn",
+      },
+      Portuguese: {
+        gameName: "Olympus Glory",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/olympus-glory_500x500_ptbr.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/olympus-glory?currency=GBP&test=1&lang=ptbr",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/olympus-glory?currency=GBP&test=1&lang=ptbr",
       },
       Spanish: {
-        gameName: "Sugar Blast",
+        gameName: "Olympus Glory",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/olympus-glory_500x500_esla.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/sugar-blast-2?currency=USD&test=1&lang=esla",
+          "https://demo8.kingmidasdev.net/games/olympus-glory?currency=GBP&test=1&lang=esla",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/sugar-blast-2?currency=USD&test=1&lang=esla",
-      },
-      Brazil: {
-        gameName: "Sugar Blast",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/sugar-blast-2?currency=USD&test=1&lang=ptbr",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/sugar-blast-2?currency=USD&test=1&lang=ptbr",
+          "https://demo8.kingmidasdev.net/games/olympus-glory?currency=GBP&test=1&lang=esla",
       },
     },
     isFeatured: true,
   },
   {
     id: 6,
-    gameName: "Gems of Valhalla",
+    order: 6,
+    gameName: "Interstellar Run",
     tags: ["Match 3"],
-    category: "SLOTS",
-    thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1712828672/gems-of-valhalla_500x500_en_jn5tkj.png",
+    category: "NEXT-GEN",
     langProps: {
       English: {
-        gameName: "Gems of Valhalla",
+        gameName: "Interstellar Run",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/interstellar-run_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/viking-blast?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/interstellar-run?currency=GBP&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/viking-blast?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/interstellar-run?currency=GBP&test=1",
+      },
+      Chinese: {
+        gameName: "Interstellar Run",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/interstellar-run_500x500_cn.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/interstellar-run?currency=GBP&test=1&lang=cn",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/interstellar-run?currency=GBP&test=1&lang=cn",
+      },
+      Portuguese: {
+        gameName: "Interstellar Run",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/interstellar-run_500x500_ptbr.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/interstellar-run?currency=GBP&test=1&lang=ptbr",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/interstellar-run?currency=GBP&test=1&lang=ptbr",
       },
       Spanish: {
-        gameName: "Máquina de monedas",
+        gameName: "Interstellar Run",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/interstellar-run_500x500_esla.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/viking-blast?currency=USD&test=1&lang=esla",
+          "https://demo8.kingmidasdev.net/games/interstellar-run?currency=GBP&test=1&lang=esla",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/viking-blast?currency=USD&test=1&lang=esla",
-      },
-      Brazil: {
-        gameName: "Máquina de monedas",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/viking-blast?currency=USD&test=1&lang=ptbrr",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/viking-blast?currency=USD&test=1&lang=ptbr",
+          "https://demo8.kingmidasdev.net/games/interstellar-run?currency=GBP&test=1&lang=esla",
       },
     },
     isFeatured: true,
   },
   {
     id: 7,
-    gameName: "Baccarat",
-    tags: ["Table", "Card"],
-    category: "CLASSICS",
-    thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1712828960/Baccarat_1000x1000_en_h2qema.jpg",
+    order: 7,
+    gameName: "Coin Pusher",
+    tags: ["Match 3"],
+    category: "NEXT-GEN",
     langProps: {
       English: {
-        gameName: "Baccarat",
+        gameName: "Coin Pusher",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/coin-pusher_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/baccarat?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/coin-dozer?currency=GBP&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/baccarat?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/coin-dozer?currency=GBP&test=1",
+      },
+      Chinese: {
+        gameName: "Coin Pusher",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/coin-pusher_500x500_cn.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/coin-dozer?currency=GBP&test=1&lang=cn",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/coin-dozer?currency=GBP&test=1&lang=cn",
+      },
+      Portuguese: {
+        gameName: "Coin Pusher",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/coin-pusher_500x500_ptbr.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/coin-dozer?currency=GBP&test=1&lang=ptbr",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/coin-dozer?currency=GBP&test=1&lang=ptbr",
       },
     },
     isFeatured: true,
   },
   {
     id: 8,
-    gameName: "KM Power Ball",
-    tags: ["Virtual", "Lottery"],
-    category: "CLASSICS",
-    thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1712829079/km-power-ball_1000x1000_en_brpc6v.jpg",
+    order: 8,
+    gameName: "KM Virtual Treadmill Racing",
+    tags: ["Match 3"],
+    category: "NEXT-GEN",
     langProps: {
       English: {
-        gameName: "KM Power Ball",
+        gameName: "KM Virtual Treadmill Racing",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-treadmill-racing_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/bingo?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/treadmill-racing?currency=GBP&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/bingo?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/treadmill-racing?currency=GBP&test=1",
+      },
+      Chinese: {
+        gameName: "KM Virtual Treadmill Racing",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-treadmill-racing_500x500_cn.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/treadmill-racing?currency=GBP&test=1&lang=cn",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/treadmill-racing?currency=GBP&test=1&lang=cn",
+      },
+      Portuguese: {
+        gameName: "KM Virtual Treadmill Racing",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-treadmill-racing_500x500_ptbr.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/treadmill-racing?currency=GBP&test=1&lang=ptbr",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/treadmill-racing?currency=GBP&test=1&lang=ptbr",
+      },
+      Spanish: {
+        gameName: "KM Virtual Treadmill Racing",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-treadmill-racing_500x500_esla.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/treadmill-racing?currency=GBP&test=1&lang=esla",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/treadmill-racing?currency=GBP&test=1&lang=esla",
       },
     },
     isFeatured: true,
   },
   {
     id: 9,
-    gameName: "Poker Roulette",
-    tags: ["Table", "Roulette"],
-    category: "CLASSICS",
-    thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1713153382/poker-roulette_1000x1000_en_cstqgz.jpg",
+    order: 9,
+    gameName: "KM Virtual Animal Race",
+    tags: ["Match 3"],
+    category: "NEXT-GEN",
     langProps: {
       English: {
-        gameName: "Poker Roulette",
+        gameName: "KM Virtual Animal Race",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-animal-race_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/animal-racing?currency=GBP&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/animal-racing?currency=GBP&test=1",
+      },
+      Chinese: {
+        gameName: "KM Virtual Animal Race",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-animal-race_500x500_cn.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/animal-racing?currency=GBP&test=1&lang=cn",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/animal-racing?currency=GBP&test=1&lang=cn",
+      },
+      Portuguese: {
+        gameName: "KM Virtual Animal Race",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-animal-race_500x500_ptbr.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/animal-racing?currency=GBP&test=1&lang=ptbr",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/animal-racing?currency=GBP&test=1&lang=ptbr",
+      },
+      Spanish: {
+        gameName: "KM Virtual Animal Race",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-animal-race_500x500_esla.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/animal-racing?currency=GBP&test=1&lang=esla",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/animal-racing?currency=GBP&test=1&lang=esla",
       },
     },
     isFeatured: true,
   },
   {
     id: 10,
-    gameName: "Bonus Dice",
-    tags: ["Table", "Dice"],
-    category: "CLASSICS",
-    thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1713357067/bonus-dice_500x500_en_btw9vk.jpg",
+    order: 10,
+    gameName: "Elite Aviator Club",
+    tags: ["Match 3"],
+    category: "NEXT-GEN",
     langProps: {
       English: {
-        gameName: "Bonus Dice",
+        gameName: "Elite Aviator Club",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/elite-aviator-club_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/bonus-dice?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/elite-aviator-club?currency=GBP&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/bonus-dice?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/elite-aviator-club?currency=GBP&test=1",
+      },
+      Chinese: {
+        gameName: "Elite Aviator Club",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/elite-aviator-club_500x500_en.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/elite-aviator-club?currency=GBP&test=1&lang=cn",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/elite-aviator-club?currency=GBP&test=1&lang=cn",
+      },
+      Portuguese: {
+        gameName: "Elite Aviator Club",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/elite-aviator-club_500x500_ptbr.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/elite-aviator-club?currency=GBP&test=1&lang=ptbr",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/elite-aviator-club?currency=GBP&test=1&lang=ptbr",
+      },
+      Spanish: {
+        gameName: "KM Virtual Animal Race",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/elite-aviator-club_500x500_esla.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/elite-aviator-club?currency=GBP&test=1&lang=esla",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/elite-aviator-club?currency=GBP&test=1&lang=esla",
       },
     },
     isFeatured: true,
   },
   {
-    id: 33,
-    gameName: "Olympus Glory",
-    tags: ["Virtual", "Casual"],
+    id: 11,
+    order: 11,
+    gameName: "Heist",
+    tags: ["Match 3"],
     category: "NEXT-GEN",
-    thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1713516800/olympus-glory_1000x1000_en_e6gltr.jpg",
     langProps: {
       English: {
-        gameName: "Olympus Glory",
+        gameName: "Heist",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/heist_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/olympus-glory?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/heist?currency=GBP&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/olympus-glory?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/heist?currency=GBP&test=1",
+      },
+      Chinese: {
+        gameName: "Heist",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/heist_500x500_cn.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/heist?currency=GBP&test=1&lang=cn",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/heist?currency=GBP&test=1&lang=cn",
+      },
+      Portuguese: {
+        gameName: "Heist",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/heist_500x500_ptbr.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/heist?currency=GBP&test=1&lang=ptbr",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/heist?currency=GBP&test=1&lang=ptbr",
+      },
+      Spanish: {
+        gameName: "Heist",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/heist_500x500_esla.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/heist?currency=GBP&test=1&lang=esla",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/heist?currency=GBP&test=1&lang=esla",
       },
     },
     isFeatured: true,
   },
   {
     id: 12,
-    gameName: "Jackpot Jump",
-    tags: ["Virtual", "Casual"],
+    order: 12,
+    gameName: "Minesweeper",
+    tags: ["Match 3"],
     category: "NEXT-GEN",
-    thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1713516700/jackpot-jump_500x500_en_xrbsuy.jpg",
     langProps: {
       English: {
-        gameName: "Jackpot Jump",
+        gameName: "Minesweeper",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/mine-sweeper_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/jackpot-jump?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/mine-sweeper?currency=GBP&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/jackpot-jump?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/mine-sweeper?currency=GBP&test=1",
+      },
+      Chinese: {
+        gameName: "Minesweeper",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/mine-sweeper_500x500_cn.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/minesweeper?currency=GBP&test=1&lang=cn",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/minesweeper?currency=GBP&test=1&lang=cn",
       },
     },
     isFeatured: true,
   },
   {
     id: 13,
-    gameName: "Interstellar RUN",
-    tags: ["Virtual", "Casual"],
+    order: 13,
+    gameName: "Cash Rocket",
+    tags: ["Match 3"],
     category: "NEXT-GEN",
-    thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1713516865/interstellar-run_500x500_en_qmvsfp.jpg",
     langProps: {
       English: {
-        gameName: "Interstellar RUN",
+        gameName: "Cash Rocket",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cash-rocket_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/interstellar-run/index.html?currency=BRL&test=1",
+          "https://demo8.kingmidasdev.net/games/cash-rocket?currency=GBP&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/interstellar-run/index.html?currency=BRL&test=1",
+          "https://demo8.kingmidasdev.net/games/cash-rocket?currency=GBP&test=1",
+      },
+      Chinese: {
+        gameName: "Cash Rocket",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cash-rocket_500x500_cn.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/cash-rocket?currency=GBP&test=1&lang=cn",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/cash-rocket?currency=GBP&test=1&lang=cn",
+      },
+      Portuguese: {
+        gameName: "Cash Rocket",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cash-rocket_500x500_en.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/cash-rocket?currency=GBP&test=1&lang=ptbr",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/cash-rocket?currency=GBP&test=1&lang=ptbr",
+      },
+      Spanish: {
+        gameName: "Cash Rocket",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cash-rocket_500x500_en.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/cash-rocket?currency=GBP&test=1&lang=esla",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/cash-rocket?currency=GBP&test=1&lang=esla",
       },
     },
     isFeatured: true,
   },
   {
     id: 14,
-    gameName: "Elite Aviator Club",
-    tags: ["Virtual", "Casual"],
+    order: 14,
+    gameName: "KM Marble Knockout",
+    tags: ["Match 3"],
     category: "NEXT-GEN",
-    thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1713516700/elite-aviator-club_500x500_en_uekakb.jpg",
     langProps: {
       English: {
-        gameName: "Elite Aviator Club",
+        gameName: "KM Marble Knockout",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-marble-knockout_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/elite-aviator-club?currency=BRL&test=1",
+          "https://demo8.kingmidasdev.net/games/marble-racing?currency=GBP&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/elite-aviator-club?currency=BRL&test=1",
+          "https://demo8.kingmidasdev.net/games/marble-racing?currency=GBP&test=1",
+      },
+      Chinese: {
+        gameName: "KM Marble Knockout",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-marble-knockout_500x500_cn.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/marble-racing?currency=GBP&test=1&lang=cn",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/marble-racing?currency=GBP&test=1&lang=cn",
       },
     },
     isFeatured: true,
   },
   {
     id: 15,
-    gameName: "Penguin Panic",
-    tags: ["Virtual", "Casual"],
+    order: 15,
+    gameName: "Monkey King Roulette",
+    tags: ["Match 3"],
     category: "NEXT-GEN",
-    thumbnail:
-      "https://res.cloudinary.com/detatjujs/image/upload/v1713516701/penguin-panic_500x500_en_zx3phe.jpg",
     langProps: {
       English: {
-        gameName: "Penguin Panic",
+        gameName: "Monkey King Roulette",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/monkey-king-roulette_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/monkey-king-roulette?currency=GBP&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=USD&test=1",
+          "https://demo8.kingmidasdev.net/games/monkey-king-roulette?currency=GBP&test=1",
+      },
+      Chinese: {
+        gameName: "Monkey King Roulette",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/monkey-king-roulette_500x500_cn.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/monkey-king-roulette?currency=GBP&test=1&lang=cn",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/monkey-king-roulette?currency=GBP&test=1&lang=cn",
       },
     },
     isFeatured: true,
@@ -329,7 +592,6 @@ const GameData = [
       },
     },
     isFeatured: true,
-    hide: true,
   },
   {
     id: 17,

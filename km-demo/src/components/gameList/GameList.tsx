@@ -1,22 +1,6 @@
 import React from "react";
 import GameCard from "@/components/gameList/GameCard";
-
-interface Game {
-  id: number;
-  gameName: string;
-  tags: string[];
-  category: string;
-  thumbnail: string;
-  langProps: {
-    [key: string]: {
-      gameName: string;
-      gameUrl: string;
-      iframeUrl: string;
-    };
-  };
-  isFeatured: boolean;
-  hide: boolean;
-}
+import { Game } from "@/lib/types";
 
 interface GameListProps {
   gamesToShow: Game[];
@@ -27,7 +11,7 @@ const GameList: React.FC<GameListProps> = ({ gamesToShow }) => {
   const sortedGames = gamesToShow.sort((a, b) => a.id - b.id);
 
   return (
-    <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 max-w-[96vw] m-auto">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 px-6 m-auto">
       {sortedGames.map((game) => (
         <GameCard key={game.id} game={game} />
       ))}

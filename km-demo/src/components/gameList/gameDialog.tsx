@@ -1,42 +1,23 @@
+// components/gameList/GameDialog.tsx
+
+"use client";
 import React, { useEffect, useState } from "react";
-import GameData from "@/lib/data";
 import Image from "next/image";
+import { GameDialogProps } from "@/lib/types";
 import EnglishFlag from "@/assets/Flag_of_the_United_Kingdom.svg";
 import SpanFlag from "@/assets/Flag_of_Spain.svg";
 import BrazilFlag from "@/assets/Flag_of_Brazil.svg";
+import ChinaFlag from "@/assets/Flag_of_China.svg";
 import BackBtn from "@/assets/btn_back.png";
+import "../../app/iframe-styles.css";
 
-interface GameDialogProps {
-  gameName: string;
-
-  onClose: () => void;
-  langProps: {
-    [key: string]: {
-      gameName: string;
-      iframeUrl: string;
-      gameUrl: string;
-    };
-  };
-  game: {
-    id: number;
-    gameName: string;
-    tags: string[];
-    category: string;
-    thumbnail: string;
-    langProps: {
-      [key: string]: {
-        gameName: string;
-        iframeUrl: string;
-        gameUrl: string;
-      };
-    };
-    isFeatured: boolean;
-  };
-}
-
-const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
+const GameDialog: React.FC<GameDialogProps> = ({ onClose, langProps }) => {
+  // set default language to English
   const [selectedLanguage, setSelectedLanguage] = useState<string>("English");
-  const [gameData, setGameData] = useState<any>(null);
+
+  const handleChangeLanguage = (language: string) => {
+    setSelectedLanguage(language);
+  };
 
   useEffect(() => {
     // Disable scrolling when the modal is open
@@ -48,9 +29,6 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
     };
   }, []);
 
-  useEffect(() => {
-    setGameData(GameData.find((data) => data.gameName === gameName) || null);
-  }, [gameName]);
 
   const handleOverlayClick = (e: React.MouseEvent<HTMLDivElement>) => {
     // Close the modal only if the click is outside the dialog content
@@ -64,34 +42,29 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
       case "english":
         return (
           <>
-            <Image
-              className="h-6 w-6 object-cover rounded-full flag"
-              src={EnglishFlag}
-              alt="English"
-            />
+            <Image className="h-6 w-6 object-cover rounded-full flag" src={EnglishFlag} alt="English" />
             <span className="ml-2">English</span>
           </>
         );
       case "spanish":
         return (
           <>
-            <Image
-              className="h-6 w-6 object-cover rounded-full flag"
-              src={SpanFlag}
-              alt="Spanish"
-            />
+            <Image className="h-6 w-6 object-cover rounded-full flag" src={SpanFlag} alt="Spanish" />
             <span className="ml-2">Español</span>
           </>
         );
-      case "brazil":
+      case "portuguese":
         return (
           <>
-            <Image
-              className="h-6 w-6 object-cover rounded-full flag"
-              src={BrazilFlag}
-              alt="Brazil"
-            />
+            <Image className="h-6 w-6 object-cover rounded-full flag" src={BrazilFlag} alt="Portuguese" />
             <span className="ml-2">Português</span>
+          </>
+        );
+      case "chinese":
+        return (
+          <>
+            <Image className="h-6 w-6 object-cover rounded-full flag" src={ChinaFlag} alt="Chinese" />
+            <span className="ml-2">中文</span>
           </>
         );
       default:
@@ -99,50 +72,22 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
     }
   };
 
-  const langProps = gameData?.langProps || null;
-
   return (
     <div className="fixed inset-0 z-10 flex items-center justify-center">
-      <div
-        className="fixed inset-0 bg-black"
-        onClick={handleOverlayClick}
-      ></div>
-      <div
-        className={`dialogContainer relative mx-auto w-[100%] sm:h-auto rounded-lg scrollbar-thumb-neutral-500 scrollbar-track-neutral-300 ${
-          langProps && !langProps[selectedLanguage]?.showScreenshot
-            ? "bg-transparent"
-            : ""
-        }`}
-      >
+      <div className="fixed inset-0 bg-black" onClick={handleOverlayClick}></div>
+      <div className={`dialogContainer relative mx-auto w-[100%] sm:h-auto rounded-lg ${langProps && !langProps[selectedLanguage]?.showScreenshot ? "bg-transparent" : ""}`}>
         <div className="flex ml-4 gap-4">
           {langProps && !langProps[selectedLanguage]?.showScreenshot && (
             <>
-              {Object.keys(langProps).map((lang) => {
-                let languageName;
-                switch (lang) {
-                  case "spanish":
-                    languageName = "Español";
-                    break;
-                  case "brazil":
-                    languageName = "Português";
-                    break;
-                  default:
-                    languageName = lang;
-                }
-                return (
-                  <button
-                    key={lang}
-                    className={`text-sm font-medium px-3 rounded flex items-center ${
-                      selectedLanguage === lang
-                        ? "bg-neutral-600 text-white"
-                        : "bg-neutral-800 text-white"
-                    }`}
-                    onClick={() => setSelectedLanguage(lang)}
-                  >
-                    {renderFlag(lang)}
-                  </button>
-                );
-              })}
+              {["English", "Chinese", "Portuguese", "Spanish"].map((lang) => (
+                <button
+                  key={lang}
+                  className={`text-sm font-medium px-3 rounded flex items-center ${selectedLanguage === lang ? "bg-neutral-600 text-white" : "bg-neutral-800 text-white"}`}
+                  onClick={() => handleChangeLanguage(lang)}
+                >
+                  {renderFlag(lang)}
+                </button>
+              ))}
             </>
           )}
         </div>
@@ -150,35 +95,29 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
         <div className="mt-4">
           {langProps && (
             <>
-              {/* <h2 className="text-xl font-bold text-white mb-2">
-                {langProps[selectedLanguage]?.gameName}
-              </h2> */}
               {langProps[selectedLanguage]?.iframeUrl ? (
-                <div className="iframeContainer">
+                <div className="iframeContainer" style={{ backgroundColor: "black" }}>
                   <iframe
+                    id="gameIframe"
                     src={langProps[selectedLanguage]?.iframeUrl}
-                    allowFullScreen={true}
-                    frameBorder="0"
-                    scrolling="auto"
                     className="w-[100vw] h-[90vh] z-100 iframeGame"
                   ></iframe>
                 </div>
+
               ) : langProps[selectedLanguage]?.showScreenshot ? (
                 <div className="screenshotContainer max-h-[87vh] flex flex-col justify-center items-center">
-                  <div>
-                    <Image
-                      src={langProps[selectedLanguage]?.screenshotUrl}
-                      alt="Screenshot"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      className="h-auto screenshotImg rounded-xl"
-                    />
-                  </div>
+                  <Image
+                    src={langProps[selectedLanguage]?.screenshotUrl as string}
+                    alt="Screenshot"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    className="h-auto screenshotImg rounded-xl"
+                  />
                   <div onClick={onClose}>
                     <Image
                       src={BackBtn}
-                      alt="back Btn"
+                      alt="Back Button"
                       width={0}
                       height={0}
                       sizes="100vw"
@@ -196,23 +135,9 @@ const GameDialog: React.FC<GameDialogProps> = ({ gameName, onClose }) => {
         {langProps && !langProps[selectedLanguage]?.showScreenshot && (
           <div className="mt-6">
             <div className="flex justify-end">
-              <button
-                className="closeButton absolute -top-2 right-3"
-                onClick={onClose}
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="#ffffff"
-                  className="w-10 h-10"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
-                  />
+              <button className="closeButton absolute -top-2 right-3" onClick={onClose}>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="#ffffff" className="w-10 h-10">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                 </svg>
               </button>
             </div>

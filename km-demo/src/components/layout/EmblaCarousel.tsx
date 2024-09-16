@@ -3,7 +3,6 @@ import { EmblaOptionsType } from "embla-carousel";
 import { DotButton, useDotButton } from "./EmblaCarouselDotButton";
 import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
-import PlayBtn from "@/assets/playnow_button.png";
 import GameDialog from "@/components/gameList/gameDialog";
 import Autoplay from "embla-carousel-autoplay";
 import GameSlidesinfo from "@/lib/gameSlides";

@@ -1,12 +1,7 @@
 import React from "react";
 import ImgCategoryGlow from "@/assets/category_selection.png";
 import Image from "next/image";
-
-interface FilterComponentProps {
-  categories: string[];
-  selectedCategory: string;
-  onSelectCategory: (category: string) => void;
-}
+import { FilterComponentProps } from "@/lib/types";
 
 const FilterComponent: React.FC<FilterComponentProps> = ({
   categories,
@@ -18,11 +13,10 @@ const FilterComponent: React.FC<FilterComponentProps> = ({
       {categories.map((category, index) => (
         <button
           key={index}
-          className={`flex-1 category relative font-bold ${
-            category === selectedCategory
-              ? "outline-none bg-gradient-to-r from-[#ffa100] to-[#ffde00] text-transparent bg-clip-text"
-              : "text-white hover:text-white"
-          }`}
+          className={`flex-1 category relative font-bold ${category === selectedCategory
+            ? "outline-none bg-gradient-to-r from-[#ffa100] to-[#ffde00] text-transparent bg-clip-text"
+            : "text-white hover:text-white"
+            }`}
           onClick={() => onSelectCategory(category)}
         >
           {category}
@@ -31,9 +25,8 @@ const FilterComponent: React.FC<FilterComponentProps> = ({
               src={ImgCategoryGlow}
               alt={`${category} glow`}
               layout="contain"
-              className={`glowImg ${
-                category === selectedCategory ? "visible" : "hidden"
-              }`}
+              className={`glowImg ${category === selectedCategory ? "visible" : "hidden"
+                }`}
             />
           )}
         </button>
