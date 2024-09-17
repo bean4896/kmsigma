@@ -104,20 +104,37 @@ const GameSlidesinfo = [
     category: "SLOTS",
     thumbnail: "thumbnail url",
     langProps: {
-      english: {
-        gameName: "Sugar Blast",
-        iframeUrl: "iframe url",
-        gameUrl: "game url",
+      English: {
+        gameName: "Sugar Blast Frenzy",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast-frenzy_500x500_en.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/sugar-blast-2?currency=GBP&test=1",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/sugar-blast-2?currency=GBP&test=1",
       },
-      spanish: {
-        gameName: "Panic de Pingüinos",
-        iframeUrl: "iframe url",
-        gameUrl: "game url",
+      Chinese: {
+        gameName: "Sugar Blast Frenzy",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast-frenzy_500x500_cn.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/sugar-blast-2?currency=GBP&test=1&lang=cn",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/sugar-blast-2?currency=GBP&test=1&lang=cn",
       },
-      brazil: {
-        gameName: "Pânico dos Pinguins",
-        iframeUrl: "iframe url",
-        gameUrl: "game url",
+      Portuguese: {
+        gameName: "Sugar Blast Frenzy",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast-frenzy_500x500_ptbr.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/sugar-blast-2?currency=GBP&test=1&lang=ptbr",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/sugar-blast-2?currency=GBP&test=1&lang=ptbr",
+      },
+      Spanish: {
+        gameName: "Sugar Blast Frenzy",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast-frenzy_500x500_esla.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/sugar-blast-2?currency=GBP&test=1&lang=esla",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/sugar-blast-2?currency=GBP&test=1&lang=esla",
       },
     },
     isFeatured: true,
@@ -131,20 +148,37 @@ const GameSlidesinfo = [
     category: "SLOTS",
     thumbnail: "thumbnail url",
     langProps: {
-      english: {
+      English: {
         gameName: "Rooster Blitz",
-        iframeUrl: "iframe url",
-        gameUrl: "game url",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/rooster-blitz_500x500_en.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/rooster-blitz?currency=GBP&test=1",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/rooster-blitz?currency=GBP&test=1",
       },
-      spanish: {
-        gameName: "Panic de Pingüinos",
-        iframeUrl: "iframe url",
-        gameUrl: "game url",
+      Chinese: {
+        gameName: "Rooster Blitz",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/rooster-blitz_500x500_cn.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/rooster-blitz?currency=GBP&test=1&lang=cn",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/rooster-blitz?currency=GBP&test=1&lang=cn",
       },
-      brazil: {
-        gameName: "Pânico dos Pinguins",
-        iframeUrl: "iframe url",
-        gameUrl: "game url",
+      Portuguese: {
+        gameName: "Rooster Blitz",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/rooster-blitz_500x500_ptbr.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/rooster-blitz?currency=GBP&test=1&lang=ptbr",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/rooster-blitz?currency=GBP&test=1&lang=ptbr",
+      },
+      Spanish: {
+        gameName: "Rooster Blitz",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/rooster-blitz_500x500_esla.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/rooster-blitz?currency=GBP&test=1&lang=esla",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/rooster-blitz?currency=GBP&test=1&lang=esla",
       },
     },
     isFeatured: true,
@@ -158,20 +192,37 @@ const GameSlidesinfo = [
     category: "SLOTS",
     thumbnail: "thumbnail url",
     langProps: {
-      english: {
-        gameName: "Cleopatras Treasure",
-        iframeUrl: "iframe url",
-        gameUrl: "game url",
+      English: {
+        gameName: "Cleopatra's Treasure",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cleopatras-treasure_500x500_en.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/cleopatras-treasure?currency=GBP&test=1",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/cleopatras-treasure?currency=GBP&test=1",
       },
-      spanish: {
-        gameName: "Panic de Pingüinos",
-        iframeUrl: "iframe url",
-        gameUrl: "game url",
+      Chinese: {
+        gameName: "Cleopatra's Treasure",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cleopatras-treasure_500x500_cn.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/cleopatras-treasure?currency=GBP&test=1&lang=cn",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/cleopatras-treasure?currency=GBP&test=1&lang=cn",
       },
-      brazil: {
-        gameName: "Pânico dos Pinguins",
-        iframeUrl: "iframe url",
-        gameUrl: "game url",
+      Portuguese: {
+        gameName: "Cleopatra's Treasure",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cleopatras-treasure_500x500_ptbr.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/cleopatras-treasure?currency=GBP&test=1&lang=ptbr",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/cleopatras-treasure?currency=GBP&test=1&lang=ptbr",
+      },
+      Spanish: {
+        gameName: "Cleopatra's Treasure",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cleopatras-treasure_500x500_esla.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/cleopatras-treasure?currency=GBP&test=1&lang=esla",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/cleopatras-treasure?currency=GBP&test=1&lang=esla",
       },
     },
     isFeatured: true,
@@ -182,23 +233,24 @@ const GameSlidesinfo = [
     tags: ["tag1", "tag2"],
     backgroundUrl:
       "https://res.cloudinary.com/detatjujs/image/upload/v1713511409/ns-baccarat_w1zqsc.png",
-    category: "CLASSICS",
+    category: "CLASSIC",
     thumbnail: "thumbnail url",
     langProps: {
-      english: {
+      English: {
         gameName: "Baccarat",
-        iframeUrl: "iframe url",
-        gameUrl: "game url",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/baccarat_500x500_en.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/baccarat?currency=GBP&test=1",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/baccarat?currency=GBP&test=1",
       },
-      spanish: {
-        gameName: "Panic de Pingüinos",
-        iframeUrl: "iframe url",
-        gameUrl: "game url",
-      },
-      brazil: {
-        gameName: "Pânico dos Pinguins",
-        iframeUrl: "iframe url",
-        gameUrl: "game url",
+      Chinese: {
+        gameName: "Baccarat",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/baccarat_500x500_cn.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/baccarat?currency=GBP&test=1&lang=cn",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/baccarat?currency=GBP&test=1&lang=cn",
       },
     },
     isFeatured: true,
@@ -209,23 +261,40 @@ const GameSlidesinfo = [
     tags: ["tag1", "tag2"],
     backgroundUrl:
       "https://res.cloudinary.com/detatjujs/image/upload/v1713511410/ns-kmball_ktscxc.png",
-    category: "CLASSICS",
+    category: "CLASSIC",
     thumbnail: "thumbnail url",
     langProps: {
-      english: {
+      English: {
         gameName: "KM Power Ball",
-        iframeUrl: "iframe url",
-        gameUrl: "game url",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-power-ball_500x500_en.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/bingo?currency=GBP&test=1",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/bingo?currency=GBP&test=1",
       },
-      spanish: {
-        gameName: "Panic de Pingüinos",
-        iframeUrl: "iframe url",
-        gameUrl: "game url",
+      Chinese: {
+        gameName: "KM Power Ball",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-power-ball_500x500_cn.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/bingo?currency=GBP&test=1&lang=cn",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/bingo?currency=GBP&test=1&lang=cn",
       },
-      brazil: {
-        gameName: "Pânico dos Pinguins",
-        iframeUrl: "iframe url",
-        gameUrl: "game url",
+      Portuguese: {
+        gameName: "KM Power Ball",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-power-ball_500x500_ptbr.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/bingo?currency=GBP&test=1&lang=ptbr",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/bingo?currency=GBP&test=1&lang=ptbr",
+      },
+      Spanish: {
+        gameName: "KM Power Ball",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-power-ball_500x500_esla.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/bingo?currency=GBP&test=1&lang=esla",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/bingo?currency=GBP&test=1&lang=esla",
       },
     },
     isFeatured: true,
@@ -236,7 +305,7 @@ const GameSlidesinfo = [
     tags: ["tag1", "tag2"],
     backgroundUrl:
       "https://res.cloudinary.com/detatjujs/image/upload/v1713511410/ns-horse_zlz29w.png",
-    category: "CLASSICS",
+    category: "CLASSIC",
     thumbnail: "thumbnail url",
     langProps: {
       english: {

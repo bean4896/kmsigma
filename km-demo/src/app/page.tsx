@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import GameData from "@/lib/data";
 import GameListWithFilter from "@/components/gameList/GameListWithFilter";
 import QrCode from "@/components/layout/qrcode";
@@ -19,7 +19,7 @@ const Home: React.FC = () => {
         <GameListWithFilter games={GameData} categories={categories} />
         <QrCode />
       </main>
-      <Image
+      {/* <Image
         id="overlay-image"
         width={1000}
         height={1000}
@@ -27,7 +27,7 @@ const Home: React.FC = () => {
         alt=""
         className="overlay-image"
         style={{ pointerEvents: "none" }}
-      />
+      /> */}
     </div>
   );
 };

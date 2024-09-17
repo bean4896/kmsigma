@@ -228,8 +228,9 @@
   max-width: 8rem;
 }
 .qrcontainer {
-  height: 200px;
+  height: 14vh;
 }
+
 @media screen and (max-width: 768px) {
   .IconNew {
     width: 8em;
@@ -276,9 +277,11 @@
   .qrcodeImg {
     width: 10rem;
   }
+
   .qrcontainer {
-    height: 200px;
+    height: 14vh;
   }
+
   .tag {
     font-size: 8px;
   }
@@ -353,9 +356,9 @@
   .slide {
     width: 100vw;
   }
-.qrcontainer{
-  height: 350px;
-}
+  .qrcontainer {
+    height: 350px;
+  }
 }
 
 /* Ipad MediaQuery */
@@ -394,8 +397,5 @@
   }
   .qrcodeImg {
     width: 8rem;
-  }
-  .qrcontainer {
-    height: 20rem;
   }
 }

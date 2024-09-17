@@ -41,8 +41,8 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
 
   return (
     <>
-      <div className="px-4 pt-4">
-        <div className="trigger mb-2 cursor-pointer hover:scale-105" onClick={handleOpenDialog}>
+      <div className="pt-4">
+        <div className="trigger mb-2 cursor-pointer hover:scale-101" onClick={handleOpenDialog}>
           <Image
             src={langProps[selectedLanguage]?.thumbnailUrl || ""}
             width={1000}
@@ -63,7 +63,7 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
           {game.tags.length > 0 && (
             <div className="flex flex-wrap">
               {game.tags.map((tag, index) => (
-                <span key={index} className="text-sm mr-2 px-2 py-1 rounded-md text-white bg-[#a4782c]">
+                <span key={index} className="text-sm mr-2 px-2 py-1 rounded-md text-white border-2 border-neutral-400">
                   {tag}
                 </span>
               ))}

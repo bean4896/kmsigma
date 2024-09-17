@@ -43,7 +43,7 @@ const LanguageFilter: React.FC<LanguageFilterProps> = ({ selectedLanguage, onSel
   };
 
   return (
-    <div className="ml-6 relative">
+    <div className="ml-10 relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="p-2 rounded-md bg-stone-800 text-white text-sm flex items-center"

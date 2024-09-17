@@ -1,5 +1,4 @@
 // components/gameList/GameListWithFilter.tsx
-
 "use client";
 import React, { useState, useEffect } from "react";
 import GameList from "@/components/gameList/GameList";
@@ -15,32 +14,32 @@ const GameListWithFilter: React.FC<GameListWithFilterProps> = ({ games, categori
   const [isLoading, setIsLoading] = useState(false);
   const { selectedLanguage, setSelectedLanguage } = useLanguage(); // Use the context
 
-  useEffect(() => {
-    const overlayImage = document.getElementById("overlay-image");
-    if (selectedCategory === "NEXT-GEN") {
-      overlayImage?.setAttribute(
-        "src",
-        "https://res.cloudinary.com/detatjujs/image/upload/v1713428074/next_gen_bg_dkqcbe.png"
-      );
-    } else if (selectedCategory === "CLASSICS") {
-      overlayImage?.setAttribute(
-        "src",
-        "https://res.cloudinary.com/detatjujs/image/upload/v1713428074/classics_bg_zjjid1.png"
-      );
-    } else {
-      overlayImage?.setAttribute(
-        "src",
-        "https://res.cloudinary.com/detatjujs/image/upload/v1713428075/slots_bg_aq5eep.png"
-      );
-    }
-  }, [selectedCategory]);
+  // useEffect(() => {
+  //   const overlayImage = document.getElementById("overlay-image");
+  //   if (selectedCategory === "NEXT-GEN") {
+  //     overlayImage?.setAttribute(
+  //       "src",
+  //       "https://res.cloudinary.com/detatjujs/image/upload/v1713428074/next_gen_bg_dkqcbe.png"
+  //     );
+  //   } else if (selectedCategory === "CLASSICS") {
+  //     overlayImage?.setAttribute(
+  //       "src",
+  //       "https://res.cloudinary.com/detatjujs/image/upload/v1713428074/classics_bg_zjjid1.png"
+  //     );
+  //   } else {
+  //     overlayImage?.setAttribute(
+  //       "src",
+  //       "https://res.cloudinary.com/detatjujs/image/upload/v1713428075/slots_bg_aq5eep.png"
+  //     );
+  //   }
+  // }, [selectedCategory]);
 
   const handleSelectCategory = (category: string) => {
     setIsLoading(true);
     setSelectedCategory(category);
     setTimeout(() => {
       setIsLoading(false);
-    }, 200);
+    }, 400);
   };
 
   const handleSelectLanguage = (language: string) => {
@@ -63,8 +62,9 @@ const GameListWithFilter: React.FC<GameListWithFilterProps> = ({ games, categori
       <NewRelease selectedCategory={selectedCategory} />
       <LanguageFilter selectedLanguage={selectedLanguage} onSelectLanguage={handleSelectLanguage} />
       <div>
+        {/* skeleton */}
         {isLoading ? (
-          <div className="p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
+          <div className="px-10 mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
             {gamesToShow.map((game: Game) =>
               game.hide ? null : (
                 <div className="OneSkeleton" key={game.id}>

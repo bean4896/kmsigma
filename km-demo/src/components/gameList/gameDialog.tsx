@@ -79,18 +79,22 @@ const GameDialog: React.FC<GameDialogProps> = ({ onClose, langProps }) => {
         <div className="flex ml-4 gap-4">
           {langProps && !langProps[selectedLanguage]?.showScreenshot && (
             <>
-              {["English", "Chinese", "Portuguese", "Spanish"].map((lang) => (
-                <button
-                  key={lang}
-                  className={`text-sm font-medium px-3 rounded flex items-center ${selectedLanguage === lang ? "bg-neutral-600 text-white" : "bg-neutral-800 text-white"}`}
-                  onClick={() => handleChangeLanguage(lang)}
-                >
-                  {renderFlag(lang)}
-                </button>
-              ))}
+              {["English", "Chinese", "Portuguese", "Spanish"]
+                .filter((lang) => langProps[lang]) // Only include languages present in langProps
+                .map((lang) => (
+                  <button
+                    key={lang}
+                    className={`text-sm font-medium px-3 rounded flex items-center ${selectedLanguage === lang ? "bg-neutral-600 text-white" : "bg-neutral-800 text-white"
+                      }`}
+                    onClick={() => handleChangeLanguage(lang)}
+                  >
+                    {renderFlag(lang)}
+                  </button>
+                ))}
             </>
           )}
         </div>
+
 
         <div className="mt-4">
           {langProps && (

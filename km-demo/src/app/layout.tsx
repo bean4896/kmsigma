@@ -17,12 +17,12 @@ export default function RootLayout({
     <>
       <html>
         <body className={font.className}>
-        <LanguageProvider>
-          <Navbar />
-          {children}
+          <LanguageProvider>
+            <Navbar />
+            {children}
           </LanguageProvider>
         </body>
-      </html> 
+      </html>
     </>
   );
 }
