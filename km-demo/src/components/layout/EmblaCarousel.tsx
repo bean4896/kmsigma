@@ -9,6 +9,7 @@ import Autoplay from "embla-carousel-autoplay";
 import GameSlidesinfo from "@/lib/gameSlides";
 import { convertToGameType } from "@/lib/helpers"; // Import the helper function
 import { Game } from "@/lib/types"; // Import Game type
+import { useLanguage } from "@/context/LanguageContext"; // Import the useLanguage hook
 
 type PropType = {
   filteredSlides: number[];
@@ -16,6 +17,7 @@ type PropType = {
 };
 
 const EmblaCarousel: React.FC<PropType> = ({ filteredSlides, options }) => {
+  const { selectedLanguage } = useLanguage(); // Use the context
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [
     Autoplay({ playOnInit: true, delay: 3000 }),
   ]);
@@ -80,6 +82,7 @@ const EmblaCarousel: React.FC<PropType> = ({ filteredSlides, options }) => {
           onClose={handleCloseDialog}
           langProps={selectedGame.langProps}
           game={selectedGame}
+          selectedLanguage={selectedLanguage} // Pass selected language to GameDialog
         />
       )}
     </section>
