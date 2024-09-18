@@ -55,9 +55,14 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
         </div>
 
         {isDialogOpen && (
-          <GameDialog game={game} gameName={game.gameName} langProps={langProps} onClose={handleCloseDialog} />
+          <GameDialog
+            game={game}
+            gameName={game.gameName}
+            langProps={langProps}
+            onClose={handleCloseDialog}
+            selectedLanguage={selectedLanguage} // Pass selected language to GameDialog
+          />
         )}
-
 
         <div>
           {game.tags.length > 0 && (

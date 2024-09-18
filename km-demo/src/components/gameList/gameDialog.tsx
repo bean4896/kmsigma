@@ -11,13 +11,18 @@ import ChinaFlag from "@/assets/Flag_of_China.svg";
 import BackBtn from "@/assets/btn_back.png";
 import "../../app/iframe-styles.css";
 
-const GameDialog: React.FC<GameDialogProps> = ({ onClose, langProps }) => {
-  // set default language to English
-  const [selectedLanguage, setSelectedLanguage] = useState<string>("English");
+const GameDialog: React.FC<GameDialogProps & { selectedLanguage: string }> = ({ onClose, langProps, selectedLanguage }) => {
+  // Initialize language state with the selectedLanguage prop
+  const [currentLanguage, setCurrentLanguage] = useState<string>(selectedLanguage);
 
   const handleChangeLanguage = (language: string) => {
-    setSelectedLanguage(language);
+    setCurrentLanguage(language);
   };
+
+  useEffect(() => {
+    // Update current language if the selectedLanguage prop changes
+    setCurrentLanguage(selectedLanguage);
+  }, [selectedLanguage]);
 
   useEffect(() => {
     // Disable scrolling when the modal is open
@@ -29,9 +34,7 @@ const GameDialog: React.FC<GameDialogProps> = ({ onClose, langProps }) => {
     };
   }, []);
 
-
   const handleOverlayClick = (e: React.MouseEvent<HTMLDivElement>) => {
-    // Close the modal only if the click is outside the dialog content
     if (e.target === e.currentTarget) {
       onClose();
     }
@@ -75,16 +78,16 @@ const GameDialog: React.FC<GameDialogProps> = ({ onClose, langProps }) => {
   return (
     <div className="fixed inset-0 z-10 flex items-center justify-center">
       <div className="fixed inset-0 bg-black" onClick={handleOverlayClick}></div>
-      <div className={`dialogContainer relative mx-auto w-[100%] sm:h-auto rounded-lg ${langProps && !langProps[selectedLanguage]?.showScreenshot ? "bg-transparent" : ""}`}>
+      <div className={`dialogContainer relative mx-auto w-[100%] sm:h-auto rounded-lg ${langProps && !langProps[currentLanguage]?.showScreenshot ? "bg-transparent" : ""}`}>
         <div className="flex ml-4 gap-4">
-          {langProps && !langProps[selectedLanguage]?.showScreenshot && (
+          {langProps && !langProps[currentLanguage]?.showScreenshot && (
             <>
               {["English", "Chinese", "Portuguese", "Spanish"]
-                .filter((lang) => langProps[lang]) // Only include languages present in langProps
+                .filter((lang) => langProps[lang])
                 .map((lang) => (
                   <button
                     key={lang}
-                    className={`text-sm font-medium px-3 rounded flex items-center ${selectedLanguage === lang ? "bg-neutral-600 text-white" : "bg-neutral-800 text-white"
+                    className={`text-sm font-medium px-3 rounded flex items-center ${currentLanguage === lang ? "bg-neutral-600 text-white" : "bg-neutral-800 text-white"
                       }`}
                     onClick={() => handleChangeLanguage(lang)}
                   >
@@ -95,23 +98,21 @@ const GameDialog: React.FC<GameDialogProps> = ({ onClose, langProps }) => {
           )}
         </div>
 
-
         <div className="mt-4">
           {langProps && (
             <>
-              {langProps[selectedLanguage]?.iframeUrl ? (
+              {langProps[currentLanguage]?.iframeUrl ? (
                 <div className="iframeContainer" style={{ backgroundColor: "black" }}>
                   <iframe
                     id="gameIframe"
-                    src={langProps[selectedLanguage]?.iframeUrl}
+                    src={langProps[currentLanguage]?.iframeUrl}
                     className="w-[100vw] h-[90vh] z-100 iframeGame"
                   ></iframe>
                 </div>
-
-              ) : langProps[selectedLanguage]?.showScreenshot ? (
+              ) : langProps[currentLanguage]?.showScreenshot ? (
                 <div className="screenshotContainer max-h-[87vh] flex flex-col justify-center items-center">
                   <Image
-                    src={langProps[selectedLanguage]?.screenshotUrl as string}
+                    src={langProps[currentLanguage]?.screenshotUrl as string}
                     alt="Screenshot"
                     width={0}
                     height={0}
@@ -136,7 +137,7 @@ const GameDialog: React.FC<GameDialogProps> = ({ onClose, langProps }) => {
           )}
         </div>
 
-        {langProps && !langProps[selectedLanguage]?.showScreenshot && (
+        {langProps && !langProps[currentLanguage]?.showScreenshot && (
           <div className="mt-6">
             <div className="flex justify-end">
               <button className="closeButton absolute -top-2 right-3" onClick={onClose}>

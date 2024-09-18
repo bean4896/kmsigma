@@ -51,4 +51,5 @@ export interface GameLangProps {
       [key: string]: GameLangProps | undefined;
     };
     game: Game;
+    selectedLanguage: string;
   }
