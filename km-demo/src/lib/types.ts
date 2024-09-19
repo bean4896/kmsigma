@@ -7,6 +7,7 @@ export interface GameLangProps {
     iframeUrl?: string;
     showScreenshot?: boolean;
     screenshotUrl?: string;
+    placeholderUrl?: string;
   }
   
   export interface Game {
@@ -16,6 +17,7 @@ export interface GameLangProps {
     tags: string[];
     category: string;
     thumbnail?: string;
+    showPlaceholder?: boolean;
     langProps: {
       [key: string]: GameLangProps;
       

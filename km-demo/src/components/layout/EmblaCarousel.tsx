@@ -1,4 +1,4 @@
-// components/EmblaCarousel.tsx
+// EmblaCarousel.tsx
 import React, { useState } from "react";
 import { EmblaOptionsType } from "embla-carousel";
 import { DotButton, useDotButton } from "./EmblaCarouselDotButton";
@@ -7,9 +7,9 @@ import useEmblaCarousel from "embla-carousel-react";
 import GameDialog from "@/components/gameList/gameDialog";
 import Autoplay from "embla-carousel-autoplay";
 import GameSlidesinfo from "@/lib/gameSlides";
-import { convertToGameType } from "@/lib/helpers"; // Import the helper function
-import { Game } from "@/lib/types"; // Import Game type
-import { useLanguage } from "@/context/LanguageContext"; // Import the useLanguage hook
+import { convertToGameType } from "@/lib/helpers";
+import { Game } from "@/lib/types";
+import { useLanguage } from "@/context/LanguageContext";
 
 type PropType = {
   filteredSlides: number[];
@@ -17,7 +17,7 @@ type PropType = {
 };
 
 const EmblaCarousel: React.FC<PropType> = ({ filteredSlides, options }) => {
-  const { selectedLanguage } = useLanguage(); // Use the context
+  const { selectedLanguage } = useLanguage();
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [
     Autoplay({ playOnInit: true, delay: 3000 }),
   ]);
@@ -28,7 +28,8 @@ const EmblaCarousel: React.FC<PropType> = ({ filteredSlides, options }) => {
   const handlePlayBtnClick = (gameId: number) => {
     const gameSlide = GameSlidesinfo.find((slide) => slide.id === gameId);
     if (gameSlide) {
-      setSelectedGame(convertToGameType(gameSlide)); // Use the helper function here
+      const game = convertToGameType(gameSlide);
+      setSelectedGame(game);
     }
   };
 

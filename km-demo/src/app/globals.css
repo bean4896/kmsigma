@@ -218,7 +218,7 @@
 }
 
 .tag {
-  font-size: 14px;
+  font-size: 10px;
 }
 .logo {
   max-width: 200px;
@@ -228,9 +228,13 @@
   max-width: 8rem;
 }
 .qrcontainer {
-  height: 14vh;
+  height: 12vh;
 }
-
+.screenshotImg {
+  height: 100%;
+  width: 100%;
+  max-width: 500px;
+}
 @media screen and (max-width: 768px) {
   .IconNew {
     width: 8em;
@@ -279,11 +283,11 @@
   }
 
   .qrcontainer {
-    height: 14vh;
+    height: 240px;
   }
 
   .tag {
-    font-size: 8px;
+    font-size: 10px;
   }
 }
 
@@ -328,7 +332,9 @@
     margin-left: 1rem;
   }
   .screenshotImg {
-    width: 80vw;
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
   }
 }
 
@@ -338,7 +344,9 @@
     width: 20rem;
   }
   .screenshotImg {
-    width: 80vw;
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
   }
   .qrcodeImg {
     width: 10rem;

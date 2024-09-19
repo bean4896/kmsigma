@@ -1717,7 +1717,132 @@ const GameData: Game[] = [
     },
     isFeatured: true
   },
-        
+  {
+    id: 43,
+    order: 43,
+    gameName: "Poker Roulette",
+    tags: ["Visualisation Only"],
+    category: "SLOTS",
+    langProps: {
+      English: {
+        gameName: "Poker Roulette",
+        thumbnailUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_500x500_en_lar2h1.jpg",
+        gameUrl: "",
+        iframeUrl: "",
+        showScreenshot:true,
+        screenshotUrl:"https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_visualisation_v5gj8x.jpg"
+      },
+      Chinese: {
+        gameName: "Poker Roulette",
+        thumbnailUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_500x500_en_lar2h1.jpg",
+        gameUrl: "",
+        iframeUrl: "",
+                showScreenshot:true,
+        screenshotUrl:"https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_visualisation_v5gj8x.jpg"
+      },
+      Portuguese: {
+        gameName: "Poker Roulette",
+        thumbnailUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_500x500_en_lar2h1.jpg",
+        gameUrl: "",
+        iframeUrl: "",
+                        showScreenshot:true,
+        screenshotUrl:"https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_visualisation_v5gj8x.jpg"
+      },
+      Spanish: {
+        gameName: "Poker Roulette",
+        thumbnailUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_500x500_en_lar2h1.jpg",
+        gameUrl: "",
+        iframeUrl: "",
+                        showScreenshot:true,
+        screenshotUrl:"https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_visualisation_v5gj8x.jpg"
+      }
+    },
+    isFeatured: true
+  },  
+  {
+    id: 44,
+    order: 44,
+    gameName: "Wild West Theme",
+    tags: ["Visualisation Only"],
+    category: "SLOTS",
+    langProps: {
+      English: {
+        gameName: "Wild West Theme",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/wild-west-slot_500x500_en.jpg",
+        gameUrl: "",
+        iframeUrl: "",
+        showScreenshot:true,
+        screenshotUrl:"https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/visualisation_lisbon-2024/wild-west-slot_visualisation.jpg"
+      },
+      Chinese: {
+        gameName: "Wild West Theme",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/wild-west-slot_500x500_en.jpg",
+        gameUrl: "",
+        iframeUrl: "",
+                showScreenshot:true,
+        screenshotUrl:"https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/visualisation_lisbon-2024/wild-west-slot_visualisation.jpg"
+      },
+      Portuguese: {
+        gameName: "Wild West Theme",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/wild-west-slot_500x500_en.jpg",
+        gameUrl: "",
+        iframeUrl: "",
+                        showScreenshot:true,
+        screenshotUrl:"https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/visualisation_lisbon-2024/wild-west-slot_visualisation.jpg"
+      },
+      Spanish: {
+        gameName: "Wild West Theme",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/wild-west-slot_500x500_en.jpg",
+        gameUrl: "",
+        iframeUrl: "",
+                        showScreenshot:true,
+        screenshotUrl:"https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/visualisation_lisbon-2024/wild-west-slot_visualisation.jpg"
+      }
+    },
+    isFeatured: true
+  },     
+  {
+    id: 45,
+    order: 45,
+    gameName: "Buffalo Theme",
+    tags: ["Visualisation Only"],
+    category: "SLOTS",
+    langProps: {
+      English: {
+        gameName: "Buffalo Theme",
+        thumbnailUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_500x500_en_gvsaof.jpg",
+        gameUrl: "",
+        iframeUrl: "",
+        showScreenshot:true,
+        screenshotUrl:"https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_visualisation_qsldvm.jpg"
+      },
+      Chinese: {
+        gameName: "Buffalo Theme",
+        thumbnailUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_500x500_en_gvsaof.jpg",
+        gameUrl: "",
+        iframeUrl: "",
+                showScreenshot:true,
+        screenshotUrl:"https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_visualisation_qsldvm.jpg"
+      },
+      Portuguese: {
+        gameName: "Buffalo Theme",
+        thumbnailUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_500x500_en_gvsaof.jpg",
+        gameUrl: "",
+        iframeUrl: "",
+                        showScreenshot:true,
+        screenshotUrl:"https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_visualisation_qsldvm.jpg"
+      },
+      Spanish: {
+        gameName: "Buffalo Theme",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/wild-west-slot_500x500_en.jpg",
+        gameUrl: "",
+        iframeUrl: "",
+                        showScreenshot:true,
+        screenshotUrl:"https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_visualisation_qsldvm.jpg"
+      }
+    },
+    isFeatured: true
+  },  
 ];
 
 export default GameData;

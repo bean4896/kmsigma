@@ -116,7 +116,7 @@ const GameDialog: React.FC<GameDialogProps & { selectedLanguage: string }> = ({ 
                     alt="Screenshot"
                     width={0}
                     height={0}
-                    sizes="100vw"
+                    sizes="100"
                     className="h-auto screenshotImg rounded-xl"
                   />
                   <div onClick={onClose}>
