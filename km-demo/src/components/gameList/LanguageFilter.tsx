@@ -48,7 +48,7 @@ const LanguageFilter: React.FC<LanguageFilterProps> = ({ selectedLanguage, onSel
   const selectedLanguageLocalized = languages.find(lang => lang.name === selectedLanguage)?.localizedName || selectedLanguage;
 
   return (
-    <div className="ml-10 relative">
+    <div className="ml-10 relative mt-8 lg:mt-4">
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="p-2 rounded-md bg-stone-800 text-white text-sm flex items-center border-[#9b7a35] border-2"
