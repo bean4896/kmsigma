@@ -284,6 +284,14 @@ const GameData: Game[] = [
         iframeUrl:
           "https://demo8.kingmidasdev.net/games/coin-dozer?currency=GBP&test=1&lang=ptbr",
       },
+      Spanish: {
+        gameName: "Coin Pusher",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/coin-pusher_500x500_en.jpg",
+        gameUrl:
+          "https://demo8.kingmidasdev.net/games/coin-dozer?currency=GBP&test=1",
+        iframeUrl:
+          "https://demo8.kingmidasdev.net/games/coin-dozer?currency=GBP&test=1",
+      },
     },
     isFeatured: true,
   },
@@ -388,7 +396,7 @@ const GameData: Game[] = [
       },
       Chinese: {
         gameName: "Elite Aviator Club",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/elite-aviator-club_500x500_en.jpg",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/elite-aviator-club_500x500_cn.jpg",
         gameUrl:
           "https://demo8.kingmidasdev.net/games/elite-aviator-club?currency=GBP&test=1&lang=cn",
         iframeUrl:
@@ -928,33 +936,33 @@ const GameData: Game[] = [
           gameName: "Sugar Blast",
           thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast_500x500_en.jpg",
           gameUrl:
-            "https://demo8.kingmidasdev.net/games/viking-blast?currency=GBP&test=1",
+            "https://demo8.kingmidasdev.net/games/sugar-blast?currency=GBP&test=1",
           iframeUrl:
-            "https://demo8.kingmidasdev.net/games/viking-blast?currency=GBP&test=1",
+            "https://demo8.kingmidasdev.net/games/sugar-blast?currency=GBP&test=1",
         },
         Chinese: {
           gameName: "Sugar Blast",
           thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast_500x500_cn.jpg",
           gameUrl:
-            "https://demo8.kingmidasdev.net/games/viking-blast?currency=GBP&test=1&lang=cn",
+            "https://demo8.kingmidasdev.net/games/sugar-blast?currency=GBP&test=1&lang=cn",
           iframeUrl:
-            "https://demo8.kingmidasdev.net/games/viking-blast?currency=GBP&test=1&lang=cn",
+            "https://demo8.kingmidasdev.net/games/sugar-blast?currency=GBP&test=1&lang=cn",
         },
         Portuguese: {
           gameName: "Sugar Blast",
           thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast_500x500_en.jpg",
           gameUrl:
-            "https://demo8.kingmidasdev.net/games/viking-blast?currency=GBP&test=1",
+            "https://demo8.kingmidasdev.net/games/sugar-blast?currency=GBP&test=1",
           iframeUrl:
-            "https://demo8.kingmidasdev.net/games/viking-blast?currency=GBP&test=1",
+            "https://demo8.kingmidasdev.net/games/sugar-blast?currency=GBP&test=1",
         },
         Spanish: {
           gameName: "Sugar Blast",
           thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast_500x500_en.jpg",
           gameUrl:
-            "https://demo8.kingmidasdev.net/games/viking-blast?currency=GBP&test=1",
+            "https://demo8.kingmidasdev.net/games/sugar-blast?currency=GBP&test=1",
           iframeUrl:
-            "https://demo8.kingmidasdev.net/games/viking-blast?currency=GBP&test=1",
+            "https://demo8.kingmidasdev.net/games/sugar-blast?currency=GBP&test=1",
         },
       },
     isFeatured: true,
@@ -1834,7 +1842,7 @@ const GameData: Game[] = [
       },
       Spanish: {
         gameName: "Buffalo Theme",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/wild-west-slot_500x500_en.jpg",
+        thumbnailUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_500x500_en_gvsaof.jpg",
         gameUrl: "",
         iframeUrl: "",
                         showScreenshot:true,
