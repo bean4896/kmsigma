@@ -1,8 +1,19 @@
+'use client'
 import Image from "next/image";
-import ImgQrcode from "@/assets/kingmidasgamewebsite_QRcode.png";
-
+import ImgQrcode from "@/assets/KM_UK.png";
+import { useLanguage } from "@/context/LanguageContext";
+import { translations } from "@/lib/constent";
+import React from "react";
 
 const Banner = () => {
+  const { selectedLanguage } = useLanguage();
+
+  // Get the translated top banner message based on the selected language
+  const topBannerMessage = translations.topBannerMessage[selectedLanguage as keyof typeof translations.topBannerMessage]
+    || translations.topBannerMessage.English;
+
+  // Split the message by newline characters to retain <br /> for line breaks
+  const bannerLines = topBannerMessage.split('\n');
   return (
     <div
       className="bannerContainer"
@@ -17,11 +28,12 @@ const Banner = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <div className="flex items-center">
             <h3 className="text-white text-left title-banner leading-snug">
-              Play the full list of
-              <br />
-              offerings on the
-              <br />
-              KingMidas website!
+              {bannerLines.map((line, index) => (
+                <React.Fragment key={index}>
+                  {line}
+                  <br />
+                </React.Fragment>
+              ))}
             </h3>
           </div>
           <div className="flex items-center">

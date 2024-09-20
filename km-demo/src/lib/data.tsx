@@ -1131,7 +1131,7 @@ const GameData: Game[] = [
     id: 28,
     order: 28,
     gameName: "Perya 4 Balls",
-    tags: ["RTP: 96.00", "Max Win: 2595x"],
+    tags: ["RTP: 97.00", "Max Win: 7x"],
     category: "CLASSIC",
       langProps: {
         English: {
@@ -1173,7 +1173,7 @@ const GameData: Game[] = [
     id: 29,
     order: 29,
     gameName: "Perya Roleta",
-    tags: ["RTP: 96.00", "Max Win: 2595x"],
+    tags: ["RTP: 96.97", "Max Win: 4x"],
     category: "CLASSIC",
       langProps: {
         English: {
@@ -1215,7 +1215,7 @@ const GameData: Game[] = [
     id: 30,
     order: 30,
     gameName: "Perya Drop Ball Card",
-    tags: ["RTP: 96.00", "Max Win: 2595x"],
+    tags: ["RTP: 97.00", "Max Win: 6x"],
     category: "CLASSIC",
       langProps: {
         English: {
@@ -1257,7 +1257,7 @@ const GameData: Game[] = [
     id: 31,
     order: 31,
     gameName: "Perya Drop Ball Color",
-    tags: ["RTP: 96.00", "Max Win: 2595x"],
+    tags: ["RTP: 97.05", "Max Win: 7x"],
     category: "CLASSIC",
       langProps: {
         English: {
@@ -1299,7 +1299,7 @@ const GameData: Game[] = [
     id: 32,
     order: 32,
     gameName: "Video Poker",
-    tags: ["RTP: 96.00", "Max Win: 2595x"],
+    tags: ["RTP: 96.80", "Max Win: 250x"],
     category: "CLASSIC",
       langProps: {
         English: {
@@ -1341,7 +1341,7 @@ const GameData: Game[] = [
     id: 33,
     order: 33,
     gameName: "Cockfighting Arena",
-    tags: ["RTP: 96.00", "Max Win: 2595x"],
+    tags: ["RTP: 96.79", "Max Win: 7x"],
     category: "CLASSIC",
     langProps: {
       English: {
@@ -1383,7 +1383,7 @@ const GameData: Game[] = [
     id: 34,
     order: 34,
     gameName: "Baccarat",
-    tags: ["RTP: 96.00", "Max Win: 2595x"],
+    tags: ["RTP: 97.00", "Max Win: 75x"],
     category: "CLASSIC",
     langProps: {
       English: {
@@ -1425,7 +1425,7 @@ const GameData: Game[] = [
     id: 35,
     order: 35,
     gameName: "KM Power Ball",
-    tags: ["RTP: 96.00", "Max Win: 2595x"],
+    tags: ["RTP: 97.20", "Max Win: 1500x"],
     category: "CLASSIC",
     langProps: {
       English: {
@@ -1467,7 +1467,7 @@ const GameData: Game[] = [
     id: 36,
     order: 36,
     gameName: "Blackjack",
-    tags: ["RTP: 96.00", "Max Win: 2595x"],
+    tags: ["RTP: 99.28", "Max Win: 100x"],
     category: "CLASSIC",
     langProps: {
       English: {
@@ -1509,7 +1509,7 @@ const GameData: Game[] = [
     id: 37,
     order: 37,
     gameName: "KM Virtual Horse Racing",
-    tags: ["RTP: 96.00", "Max Win: 2595x"],
+    tags: ["RTP: 96.60", "Max Win: 680x"],
     category: "CLASSIC",
     langProps: {
       English: {
@@ -1551,7 +1551,7 @@ const GameData: Game[] = [
     id: 38,
     order: 38,
     gameName: "KM Virtual Greyhound Racing",
-    tags: ["RTP: 96.00", "Max Win: 2595x"],
+    tags: ["RTP: 95.78", "Max Win: 320x"],
     category: "CLASSIC",
     langProps: {
       English: {
@@ -1585,7 +1585,7 @@ const GameData: Game[] = [
     id: 39,
     order: 39,
     gameName: "Coin Toss",
-    tags: ["RTP: 96.00"],
+    tags: ["RTP: 97.00", "Max Win: 13.5x"],
     category: "CLASSIC",
     langProps: {
       English: {
@@ -1619,7 +1619,7 @@ const GameData: Game[] = [
     id: 40,
     order: 40,
     gameName: "Bonus Dice",
-    tags: ["RTP: 95.00"],
+    tags: ["RTP: 97.00","Max Win: 150x"],
     category: "CLASSIC",
     langProps: {
       English: {
@@ -1653,7 +1653,7 @@ const GameData: Game[] = [
     id: 41,
     order: 41,
     gameName: "European Roulette",
-    tags: ["RTP: 97.30"],
+    tags: ["RTP: 97.30","Max Win: 29x"],
     category: "CLASSIC",
     langProps: {
       English: {
@@ -1687,7 +1687,7 @@ const GameData: Game[] = [
     id: 42,
     order: 42,
     gameName: "Poker Roulette",
-    tags: ["RTP: 98.50"],
+    tags: ["RTP: 97.00","Max Win: 10x"],
     category: "CLASSIC",
     langProps: {
       English: {

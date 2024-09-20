@@ -15,11 +15,13 @@ interface LanguageFilterProps {
 
 const LanguageFilter: React.FC<LanguageFilterProps> = ({ selectedLanguage, onSelectLanguage }) => {
   const [isOpen, setIsOpen] = useState(false);
+
+  // Adding localizedName for each language
   const languages = [
-    { name: "English", flag: EnglishFlag },
-    { name: "Chinese", flag: ChinaFlag },
-    { name: "Portuguese", flag: BrazilFlag },
-    { name: "Spanish", flag: SpanFlag },
+    { name: "English", localizedName: "English", flag: EnglishFlag },
+    { name: "Chinese", localizedName: "中文", flag: ChinaFlag },
+    { name: "Portuguese", localizedName: "Português Brasileiro", flag: BrazilFlag },
+    { name: "Spanish", localizedName: "Español", flag: SpanFlag },
   ];
 
   const handleLanguageSelect = (language: string) => {
@@ -42,14 +44,17 @@ const LanguageFilter: React.FC<LanguageFilterProps> = ({ selectedLanguage, onSel
     }
   };
 
+  // Find the localized name for the selected language
+  const selectedLanguageLocalized = languages.find(lang => lang.name === selectedLanguage)?.localizedName || selectedLanguage;
+
   return (
     <div className="ml-10 relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="p-2 rounded-md bg-stone-800 text-white text-sm flex items-center"
+        className="p-2 rounded-md bg-stone-800 text-white text-sm flex items-center border-[#9b7a35] border-2"
       >
         {renderFlag(selectedLanguage)}
-        <span>{selectedLanguage}</span>
+        <span>{selectedLanguageLocalized}</span>
         <svg
           className="w-4 h-4 ml-2"
           xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +66,7 @@ const LanguageFilter: React.FC<LanguageFilterProps> = ({ selectedLanguage, onSel
         </svg>
       </button>
       {isOpen && (
-        <ul className="absolute mt-2 bg-stone-800 rounded-md text-white text-sm">
+        <ul className="absolute mt-2 bg-stone-800 rounded-md text-white text-sm border-2 border-[#9b7a35]">
           {languages.map((language) => (
             <li
               key={language.name}
@@ -69,7 +74,7 @@ const LanguageFilter: React.FC<LanguageFilterProps> = ({ selectedLanguage, onSel
               onClick={() => handleLanguageSelect(language.name)}
             >
               <Image src={language.flag} alt={language.name} width={20} height={20} className="mr-2" />
-              <span>{language.name}</span>
+              <span>{language.localizedName}</span>
             </li>
           ))}
         </ul>

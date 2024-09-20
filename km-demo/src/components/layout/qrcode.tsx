@@ -1,8 +1,18 @@
+'use client'
+import React from "react";
 import Image from "next/image";
 import ImgQrcode from "@/assets/sale_QRcode.png";
 import Refresh from "@/components/ui/refresh";
+import { useLanguage } from "@/context/LanguageContext";
+import { translations } from "@/lib/constent";
 
 const QrCode = () => {
+  const { selectedLanguage } = useLanguage();
+
+  // Get the translated footer message based on the selected language
+  const footerMessage = translations.footerMessage[selectedLanguage as keyof typeof translations.footerMessage]
+    || translations.footerMessage.English;
+
   const handleRefresh = () => {
     window.location.reload();
     window.scrollTo(0, 0);
@@ -11,13 +21,6 @@ const QrCode = () => {
   return (
     <div className="flex justify-center items-center mt-4">
       <div className="flex flex-col justify-center items-center">
-        {/* <button
-          className="bg-blue-500 px-4 py-2 rounded text-white mb-4"
-          onClick={handleRefresh}
-        >
-          Refresh
-        </button> */}
-        {/* <Refresh /> */}
         <Image
           className="qrcodeImg rounded-lg mt-10"
           src={ImgQrcode}
@@ -26,8 +29,9 @@ const QrCode = () => {
           height={2000}
         />
         <div className="text-white title-banner mb-6">
-          Speak with us for potential opportunities!
+          {footerMessage} {/* Use the localized message */}
         </div>
+        {/* Optionally, you can add the Refresh button or component here */}
       </div>
     </div>
   );

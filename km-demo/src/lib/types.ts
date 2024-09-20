@@ -20,7 +20,6 @@ export interface GameLangProps {
     showPlaceholder?: boolean;
     langProps: {
       [key: string]: GameLangProps;
-      
     };
     isFeatured: boolean;
     hide?: boolean;
@@ -38,6 +37,7 @@ export interface GameLangProps {
   
   export interface FilterComponentProps {
     categories: string[];
+
     selectedCategory: string;
     onSelectCategory: (category: string) => void;
   }
