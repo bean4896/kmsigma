@@ -19,10 +19,10 @@ const QrCode = () => {
   };
 
   return (
-    <div className="flex justify-center items-center mt-4">
+    <div className="flex justify-center items-center mt-8">
       <div className="flex flex-col justify-center items-center">
         <Image
-          className="qrcodeImg rounded-lg mt-10"
+          className="qrcodeImg rounded-lg"
           src={ImgQrcode}
           alt="QR Code"
           width={2000}

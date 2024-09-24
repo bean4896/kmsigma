@@ -37,7 +37,7 @@ export interface GameLangProps {
   
   export interface FilterComponentProps {
     categories: string[];
-
+    
     selectedCategory: string;
     onSelectCategory: (category: string) => void;
   }
