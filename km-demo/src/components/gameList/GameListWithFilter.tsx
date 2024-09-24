@@ -1,6 +1,5 @@
-// components/gameList/GameListWithFilter.tsx
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import GameList from "@/components/gameList/GameList";
 import FilterComponent from "@/components/gameList/FilterComponent";
 import LanguageFilter from "./LanguageFilter";
@@ -14,26 +13,6 @@ const GameListWithFilter: React.FC<GameListWithFilterProps> = ({ games, categori
   const [isLoading, setIsLoading] = useState(false);
   const { selectedLanguage, setSelectedLanguage } = useLanguage(); // Use the context
 
-  // useEffect(() => {
-  //   const overlayImage = document.getElementById("overlay-image");
-  //   if (selectedCategory === "NEXT-GEN") {
-  //     overlayImage?.setAttribute(
-  //       "src",
-  //       "https://res.cloudinary.com/detatjujs/image/upload/v1713428074/next_gen_bg_dkqcbe.png"
-  //     );
-  //   } else if (selectedCategory === "CLASSICS") {
-  //     overlayImage?.setAttribute(
-  //       "src",
-  //       "https://res.cloudinary.com/detatjujs/image/upload/v1713428074/classics_bg_zjjid1.png"
-  //     );
-  //   } else {
-  //     overlayImage?.setAttribute(
-  //       "src",
-  //       "https://res.cloudinary.com/detatjujs/image/upload/v1713428075/slots_bg_aq5eep.png"
-  //     );
-  //   }
-  // }, [selectedCategory]);
-
   const handleSelectCategory = (category: string) => {
     setIsLoading(true);
     setSelectedCategory(category);
@@ -46,11 +25,17 @@ const GameListWithFilter: React.FC<GameListWithFilterProps> = ({ games, categori
     setSelectedLanguage(language);
   };
 
-  const gamesToShow = games.filter(
-    (game) =>
-      (game.category === selectedCategory || selectedCategory === "") &&
-      game.langProps[selectedLanguage]
-  );
+  // Use useMemo to optimize gamesToShow calculation and add console log
+  const gamesToShow = useMemo(() => {
+    console.log("Recalculating gamesToShow");
+    const filteredGames = games.filter(
+      (game) =>
+        (game.category === selectedCategory || selectedCategory === "") &&
+        game.langProps[selectedLanguage]
+    );
+    console.log("Filtered Games: ", filteredGames);
+    return filteredGames;
+  }, [games, selectedCategory, selectedLanguage]);
 
   return (
     <>
