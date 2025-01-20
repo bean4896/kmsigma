@@ -2,463 +2,507 @@ import { Game } from "@/lib/types";
 
 const GameData: Game[] = [
   {
+    id: 11,
+    order:1,
+    gameName: "Egyptian Mines",
+    tags: ["RTP: 97.00", "Max Win: 62.31x"],
+    category: "NEXT-GEN",
+    langProps: {
+      English: {
+        gameName: "Egyptian Mines",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/egyptian-mines_500x500_en.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1",
+      },
+      Chinese: {
+        gameName: "Egyptian Mines",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/egyptian-mines_500x500_cn.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1&lang=cn",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1&lang=cn",
+      },
+      Portuguese: {
+        gameName: "Egyptian Mines",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/egyptian-mines_500x500_ptbr.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1&lang=ptbr",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1&lang=ptbr",
+      },
+      Spanish: {
+        gameName: "Egyptian Mines",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/egyptian-mines_500x500_esla.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1&lang=esla",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1&lang=esla",
+      },
+    },
+    isFeatured: true,
+  },
+  {
     id: 1,
-    order: 1,
+    order: 4,
     gameName: "Iron Dome",
     tags: ["RTP: 97.00", "Max Win: 125x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
         gameName: "Iron Dome",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/iron-dome_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/iron-dome_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/iron-dome?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/iron-dome?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/iron-dome?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/iron-dome?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Iron Dome",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/iron-dome_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/iron-dome_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/iron-dome?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/iron-dome?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/iron-dome?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/iron-dome?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Iron Dome",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/iron-dome_500x500_ptbr.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/iron-dome_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/iron-dome?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/iron-dome?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/iron-dome?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/iron-dome?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "Iron Dome",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/iron-dome_500x500_esla.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/iron-dome_500x500_esla.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/iron-dome?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/iron-dome?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/iron-dome?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/iron-dome?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: true,
   },
   {
     id: 2,
-    order: 2,
+    order: 5,
     gameName: "Toon Crash",
     tags: ["RTP: 97.00", "Max Win: 125x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
         gameName: "Toon Crash",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toon-crash_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toon-crash_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/toon-crash?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/toon-crash?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/toon-crash?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/toon-crash?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Toon Crash",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toon-crash_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toon-crash_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/toon-crash?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/toon-crash?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/toon-crash?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/toon-crash?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Toon Crash",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toon-crash_500x500_ptbr.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toon-crash_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/toon-crash?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/toon-crash?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/toon-crash?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/toon-crash?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "Toon Crash",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toon-crash_500x500_esla.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toon-crash_500x500_esla.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/toon-crash?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/toon-crash?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/toon-crash?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/toon-crash?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: true,
   },
   {
     id: 3,
-    order: 3,
+    order: 6,
     gameName: "Jackpot Jump",
     tags: ["RTP: 97.00", "Max Win: 200x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
         gameName: "Jackpot Jump",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jackpot-jump_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jackpot-jump_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/jackpot-jump?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/jackpot-jump?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/jackpot-jump?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/jackpot-jump?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Jackpot Jump",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jackpot-jump_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jackpot-jump_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/jackpot-jump?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/jackpot-jump?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/jackpot-jump?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/jackpot-jump?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Jackpot Jump",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jackpot-jump_500x500_ptbr.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jackpot-jump_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/jackpot-jump?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/jackpot-jump?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/jackpot-jump?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/jackpot-jump?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "Toon Crash",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jackpot-jump_500x500_esla.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jackpot-jump_500x500_esla.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/jackpot-jump?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/jackpot-jump?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/jackpot-jump?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/jackpot-jump?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: true,
   },
   {
     id: 4,
-    order: 4,
+    order: 7,
     gameName: "Penguin Panic",
     tags: ["RTP: 97.00", "Max Win: 200x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
         gameName: "Penguin Panic",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/penguin-panic_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/penguin-panic_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/penguin-panic?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/penguin-panic?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Penguin Panic",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/penguin-panic_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/penguin-panic_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/penguin-panic?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/penguin-panic?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Penguin Panic",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/penguin-panic_500x500_ptbr.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/penguin-panic_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/penguin-panic?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/penguin-panic?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "Penguin Panic",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/penguin-panic_500x500_esla.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/penguin-panic_500x500_esla.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/penguin-panic?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/penguin-panic?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: true,
   },
   {
     id: 5,
-    order: 5,
+    order: 8,
     gameName: "Olympus Glory",
     tags: ["RTP: 96.61", "Max Win: 12x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
         gameName: "Olympus Glory",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/olympus-glory_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/olympus-glory_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/olympus-glory?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/olympus-glory?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/olympus-glory?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/olympus-glory?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Olympus Glory",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/olympus-glory_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/olympus-glory_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/olympus-glory?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/olympus-glory?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/olympus-glory?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/olympus-glory?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Olympus Glory",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/olympus-glory_500x500_ptbr.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/olympus-glory_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/olympus-glory?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/olympus-glory?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/olympus-glory?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/olympus-glory?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "Olympus Glory",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/olympus-glory_500x500_esla.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/olympus-glory_500x500_esla.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/olympus-glory?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/olympus-glory?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/olympus-glory?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/olympus-glory?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: true,
   },
   {
     id: 6,
-    order: 6,
+    order: 9,
     gameName: "Interstellar Run",
     tags: ["RTP: 97.00", "Max Win: 125x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
         gameName: "Interstellar Run",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/interstellar-run_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/interstellar-run_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/interstellar-run?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/interstellar-run?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/interstellar-run?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/interstellar-run?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Interstellar Run",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/interstellar-run_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/interstellar-run_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/interstellar-run?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/interstellar-run?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/interstellar-run?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/interstellar-run?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Interstellar Run",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/interstellar-run_500x500_ptbr.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/interstellar-run_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/interstellar-run?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/interstellar-run?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/interstellar-run?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/interstellar-run?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "Interstellar Run",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/interstellar-run_500x500_esla.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/interstellar-run_500x500_esla.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/interstellar-run?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/interstellar-run?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/interstellar-run?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/interstellar-run?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: true,
   },
   {
     id: 7,
-    order: 7,
+    order: 10,
     gameName: "Coin Pusher",
     tags: ["RTP: 97.00", "Max Win: 1000x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
         gameName: "Coin Pusher",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/coin-pusher_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/coin-pusher_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/coin-dozer?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/coin-dozer?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/coin-dozer?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/coin-dozer?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Coin Pusher",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/coin-pusher_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/coin-pusher_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/coin-dozer?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/coin-dozer?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/coin-dozer?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/coin-dozer?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Coin Pusher",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/coin-pusher_500x500_ptbr.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/coin-pusher_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/coin-dozer?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/coin-dozer?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/coin-dozer?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/coin-dozer?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "Coin Pusher",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/coin-pusher_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/coin-pusher_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/coin-dozer?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/coin-dozer?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/coin-dozer?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/coin-dozer?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: true,
   },
   {
     id: 8,
-    order: 8,
+    order: 11,
     gameName: "KM Virtual Treadmill Racing",
     tags: ["RTP: 97.36", "Max Win: 7.5x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
         gameName: "KM Virtual Treadmill Racing",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-treadmill-racing_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-treadmill-racing_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/treadmill-racing?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/treadmill-racing?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/treadmill-racing?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/treadmill-racing?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "KM Virtual Treadmill Racing",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-treadmill-racing_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-treadmill-racing_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/treadmill-racing?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/treadmill-racing?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/treadmill-racing?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/treadmill-racing?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "KM Virtual Treadmill Racing",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-treadmill-racing_500x500_ptbr.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-treadmill-racing_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/treadmill-racing?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/treadmill-racing?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/treadmill-racing?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/treadmill-racing?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "KM Virtual Treadmill Racing",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-treadmill-racing_500x500_esla.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-treadmill-racing_500x500_esla.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/treadmill-racing?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/treadmill-racing?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/treadmill-racing?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/treadmill-racing?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: true,
   },
   {
     id: 9,
-    order: 9,
+    order: 12,
     gameName: "KM Virtual Animal Race",
     tags: ["RTP: 97.00", "Max Win: 4.25x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
         gameName: "KM Virtual Animal Race",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-animal-race_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-animal-race_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/animal-racing?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/animal-racing?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/animal-racing?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/animal-racing?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "KM Virtual Animal Race",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-animal-race_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-animal-race_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/animal-racing?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/animal-racing?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/animal-racing?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/animal-racing?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "KM Virtual Animal Race",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-animal-race_500x500_ptbr.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-animal-race_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/animal-racing?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/animal-racing?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/animal-racing?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/animal-racing?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "KM Virtual Animal Race",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-animal-race_500x500_esla.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-animal-race_500x500_esla.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/animal-racing?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/animal-racing?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/animal-racing?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/animal-racing?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: true,
   },
   {
     id: 10,
-    order: 10,
+    order: 13,
     gameName: "Elite Aviator Club",
     tags: ["RTP: 97.00", "Max Win: 125x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
         gameName: "Elite Aviator Club",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/elite-aviator-club_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/elite-aviator-club_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/elite-aviator-club?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/elite-aviator-club?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/elite-aviator-club?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/elite-aviator-club?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Elite Aviator Club",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/elite-aviator-club_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/elite-aviator-club_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/elite-aviator-club?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/elite-aviator-club?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/elite-aviator-club?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/elite-aviator-club?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Elite Aviator Club",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/elite-aviator-club_500x500_ptbr.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/elite-aviator-club_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/elite-aviator-club?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/elite-aviator-club?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/elite-aviator-club?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/elite-aviator-club?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "KM Virtual Animal Race",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/elite-aviator-club_500x500_esla.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/elite-aviator-club_500x500_esla.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/elite-aviator-club?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/elite-aviator-club?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/elite-aviator-club?currency=GBP&test=1&lang=esla",
-      },
-    },
-    isFeatured: true,
-  },
-  {
-    id: 11,
-    order: 11,
-    gameName: "Heist",
-    tags: ["RTP: 97.00", "Max Win: 62.31x"],
-    category: "NEXT-GEN",
-    langProps: {
-      English: {
-        gameName: "Heist",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/heist_500x500_en.jpg",
-        gameUrl:
-          "https://demo8.kingmidasdev.net/games/heist?currency=GBP&test=1",
-        iframeUrl:
-          "https://demo8.kingmidasdev.net/games/heist?currency=GBP&test=1",
-      },
-      Chinese: {
-        gameName: "Heist",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/heist_500x500_cn.jpg",
-        gameUrl:
-          "https://demo8.kingmidasdev.net/games/heist?currency=GBP&test=1&lang=cn",
-        iframeUrl:
-          "https://demo8.kingmidasdev.net/games/heist?currency=GBP&test=1&lang=cn",
-      },
-      Portuguese: {
-        gameName: "Heist",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/heist_500x500_ptbr.jpg",
-        gameUrl:
-          "https://demo8.kingmidasdev.net/games/heist?currency=GBP&test=1&lang=ptbr",
-        iframeUrl:
-          "https://demo8.kingmidasdev.net/games/heist?currency=GBP&test=1&lang=ptbr",
-      },
-      Spanish: {
-        gameName: "Heist",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/heist_500x500_esla.jpg",
-        gameUrl:
-          "https://demo8.kingmidasdev.net/games/heist?currency=GBP&test=1&lang=esla",
-        iframeUrl:
-          "https://demo8.kingmidasdev.net/games/heist?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/elite-aviator-club?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: true,
@@ -472,161 +516,177 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Minesweeper",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/mine-sweeper_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/mine-sweeper_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/mine-sweeper?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/mine-sweeper?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/mine-sweeper?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/mine-sweeper?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Minesweeper",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/mine-sweeper_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/mine-sweeper_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/minesweeper?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/minesweeper?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/minesweeper?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/minesweeper?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Minesweeper",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/mine-sweeper_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/mine-sweeper_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/mine-sweeper?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/mine-sweeper?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/mine-sweeper?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/mine-sweeper?currency=BRL&test=1",
       },
       Spanish: {
         gameName: "Minesweeper",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/mine-sweeper_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/mine-sweeper_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/mine-sweeper?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/mine-sweeper?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/mine-sweeper?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/mine-sweeper?currency=BRL&test=1",
       },
     },
     isFeatured: true,
   },
   {
     id: 13,
-    order: 13,
-    gameName: "Cash Rocket",
+    order:2,
+    gameName: "Toridama Crash",
     tags: ["RTP: 96.55", "Max Win: 200x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
-        gameName: "Cash Rocket",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cash-rocket_500x500_en.jpg",
+        gameName: "Toridama Crash",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-crash_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/cash-rocket?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/cash-rocket?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/cash-rocket?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/cash-rocket?currency=BRL&test=1",
       },
       Chinese: {
-        gameName: "Cash Rocket",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cash-rocket_500x500_cn.jpg",
+        gameName: "Toridama Crash",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-crash_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/cash-rocket?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/cash-rocket?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/cash-rocket?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/cash-rocket?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
-        gameName: "Cash Rocket",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cash-rocket_500x500_en.jpg",
+        gameName: "Toridama Crash",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-crash_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/cash-rocket?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/cash-rocket?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/cash-rocket?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/cash-rocket?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
-        gameName: "Cash Rocket",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cash-rocket_500x500_en.jpg",
+        gameName: "Toridama Crash",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-crash_500x500_esla.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/cash-rocket?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/cash-rocket?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/cash-rocket?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/cash-rocket?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: true,
   },
   {
     id: 14,
-    order: 14,
-    gameName: "KM Marble Knockout",
+    order: 15,
+    gameName: "Toridama Racing",
     tags: ["RTP: 97.00", "Max Win: 5x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
         gameName: "KM Marble Knockout",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-marble-knockout_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-racing_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/marble-racing?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/marble-racing?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/marble-racing?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/marble-racing?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "KM Marble Knockout",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-marble-knockout_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-racing_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/marble-racing?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/marble-racing?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/marble-racing?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/marble-racing?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "KM Marble Knockout",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-marble-knockout_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-racing_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/marble-racing?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/marble-racing?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/marble-racing?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/marble-racing?currency=BRL&test=1",
       },
       Spanish: {
         gameName: "KM Marble Knockout",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-marble-knockout_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-racing_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/marble-racing?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/marble-racing?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/marble-racing?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/marble-racing?currency=BRL&test=1",
       },
     },
     isFeatured: true,
   },
   {
     id: 15,
-    order: 15,
-    gameName: "Monkey King Roulette",
+    order:3,
+    gameName: "Toridama Rock Paper Scissors",
     tags: ["RTP: 97.00", "Max Win: 44x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
-        gameName: "Monkey King Roulette",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/monkey-king-roulette_500x500_en.jpg",
+        gameName: "Toridama Rock Paper Scissors",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-rock-paper-scissors_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/monkey-king-roulette?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/toridama-rock-paper-scissors?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/monkey-king-roulette?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/toridama-rock-paper-scissors?currency=BRL&test=1",
       },
       Chinese: {
-        gameName: "Monkey King Roulette",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/monkey-king-roulette_500x500_cn.jpg",
+        gameName: "Toridama Rock Paper Scissors",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-rock-paper-scissors_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/monkey-king-roulette?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/toridama-rock-paper-scissors?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/monkey-king-roulette?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/toridama-rock-paper-scissors?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
-        gameName: "Monkey King Roulette",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/monkey-king-roulette_500x500_en.jpg",
+        gameName: "Toridama Rock Paper Scissors",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-rock-paper-scissors_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/monkey-king-roulette?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/toridama-rock-paper-scissors?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/monkey-king-roulette?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/toridama-rock-paper-scissors?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
-        gameName: "Monkey King Roulette",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/monkey-king-roulette_500x500_en.jpg",
+        gameName: "Toridama Rock Paper Scissors",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-rock-paper-scissors_500x500_esla.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/monkey-king-roulette?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/toridama-rock-paper-scissors?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/monkey-king-roulette?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/toridama-rock-paper-scissors?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: true,
@@ -640,35 +700,39 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Cleopatra's Treasure",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cleopatras-treasure_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cleopatras-treasure_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/cleopatras-treasure?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/cleopatras-treasure?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Cleopatra's Treasure",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cleopatras-treasure_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cleopatras-treasure_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/cleopatras-treasure?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/cleopatras-treasure?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Cleopatra's Treasure",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cleopatras-treasure_500x500_ptbr.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cleopatras-treasure_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/cleopatras-treasure?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/cleopatras-treasure?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "Cleopatra's Treasure",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cleopatras-treasure_500x500_esla.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cleopatras-treasure_500x500_esla.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/cleopatras-treasure?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/cleopatras-treasure?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: true,
@@ -682,35 +746,39 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Rooster Blitz",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/rooster-blitz_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/rooster-blitz_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/rooster-blitz?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/rooster-blitz?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/rooster-blitz?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/rooster-blitz?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Rooster Blitz",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/rooster-blitz_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/rooster-blitz_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/rooster-blitz?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/rooster-blitz?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/rooster-blitz?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/rooster-blitz?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Rooster Blitz",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/rooster-blitz_500x500_ptbr.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/rooster-blitz_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/rooster-blitz?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/rooster-blitz?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/rooster-blitz?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/rooster-blitz?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "Rooster Blitz",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/rooster-blitz_500x500_esla.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/rooster-blitz_500x500_esla.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/rooster-blitz?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/rooster-blitz?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/rooster-blitz?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/rooster-blitz?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: true,
@@ -724,35 +792,39 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Sugar Blast Frenzy",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast-frenzy_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast-frenzy_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/sugar-blast-2?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/sugar-blast-2?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/sugar-blast-2?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/sugar-blast-2?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Sugar Blast Frenzy",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast-frenzy_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast-frenzy_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/sugar-blast-2?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/sugar-blast-2?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/sugar-blast-2?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/sugar-blast-2?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Sugar Blast Frenzy",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast-frenzy_500x500_ptbr.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast-frenzy_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/sugar-blast-2?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/sugar-blast-2?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/sugar-blast-2?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/sugar-blast-2?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "Sugar Blast Frenzy",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast-frenzy_500x500_esla.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast-frenzy_500x500_esla.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/sugar-blast-2?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/sugar-blast-2?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/sugar-blast-2?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/sugar-blast-2?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: true,
@@ -766,7 +838,8 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Warriors Temple",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/warriors-temple_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/warriors-temple_500x500_en.jpg",
         gameUrl:
           "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/warriors-temple?currency=USD&lang=en&test=1",
         iframeUrl:
@@ -774,7 +847,8 @@ const GameData: Game[] = [
       },
       Chinese: {
         gameName: "Warriors Temple",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/warriors-temple_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/warriors-temple_500x500_cn.jpg",
         gameUrl:
           "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/warriors-temple?currency=USD&lang=hans&test=1",
         iframeUrl:
@@ -782,7 +856,8 @@ const GameData: Game[] = [
       },
       Portuguese: {
         gameName: "Warriors Temple",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/warriors-temple_500x500_ptbr.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/warriors-temple_500x500_ptbr.jpg",
         gameUrl:
           "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/warriors-temple?currency=USD&lang=ptbr&test=1",
         iframeUrl:
@@ -790,7 +865,8 @@ const GameData: Game[] = [
       },
       Spanish: {
         gameName: "Warriors Temple",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/warriors-temple_500x500_esla.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/warriors-temple_500x500_esla.jpg",
         gameUrl:
           "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/warriors-temple?currency=USD&lang=esla&test=1",
         iframeUrl:
@@ -808,7 +884,8 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Almighty Greek",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/almighty-greek_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/almighty-greek_500x500_en.jpg",
         gameUrl:
           "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/almighty-greek?currency=USD&lang=en&test=1",
         iframeUrl:
@@ -816,7 +893,8 @@ const GameData: Game[] = [
       },
       Chinese: {
         gameName: "Almighty Greek",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/almighty-greek_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/almighty-greek_500x500_cn.jpg",
         gameUrl:
           "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/almighty-greek?currency=USD&lang=hans&test=1",
         iframeUrl:
@@ -824,7 +902,8 @@ const GameData: Game[] = [
       },
       Portuguese: {
         gameName: "Almighty Greek",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/almighty-greek_500x500_ptbr.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/almighty-greek_500x500_ptbr.jpg",
         gameUrl:
           "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/almighty-greek?currency=USD&lang=ptbr&test=1",
         iframeUrl:
@@ -832,7 +911,8 @@ const GameData: Game[] = [
       },
       Spanish: {
         gameName: "Almighty Greek",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/almighty-greek_500x500_esla.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/almighty-greek_500x500_esla.jpg",
         gameUrl:
           "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/almighty-greek?currency=USD&lang=esla&test=1",
         iframeUrl:
@@ -850,7 +930,8 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Gold Mine",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/gold-mine_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/gold-mine_500x500_en.jpg",
         gameUrl:
           "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/gold-mines?currency=USD&lang=en&test=1",
         iframeUrl:
@@ -858,7 +939,8 @@ const GameData: Game[] = [
       },
       Chinese: {
         gameName: "Gold Mine",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/gold-mine_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/gold-mine_500x500_cn.jpg",
         gameUrl:
           "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/gold-mines?currency=USD&lang=hans&test=1",
         iframeUrl:
@@ -866,7 +948,8 @@ const GameData: Game[] = [
       },
       Portuguese: {
         gameName: "Gold Mine",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/gold-mine_500x500_ptbr.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/gold-mine_500x500_ptbr.jpg",
         gameUrl:
           "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/gold-mines?currency=USD&lang=ptbr&test=1",
         iframeUrl:
@@ -874,7 +957,8 @@ const GameData: Game[] = [
       },
       Spanish: {
         gameName: "Gold Mine",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/gold-mine_500x500_esla.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/gold-mine_500x500_esla.jpg",
         gameUrl:
           "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/gold-mines?currency=USD&lang=esla&test=1",
         iframeUrl:
@@ -892,35 +976,39 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Gems of Valhalla",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/gems-of-valhalla_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/gems-of-valhalla_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/viking-blast?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/viking-blast?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/viking-blast?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/viking-blast?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Gems of Valhalla",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/gems-of-valhalla_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/gems-of-valhalla_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/viking-blast?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/viking-blast?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/viking-blast?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/viking-blast?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Gems of Valhalla",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/gems-of-valhalla_500x500_ptbr.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/gems-of-valhalla_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/viking-blast?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/viking-blast?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/viking-blast?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/viking-blast?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "Gems of Valhalla",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/gems-of-valhalla_500x500_esla.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/gems-of-valhalla_500x500_esla.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/viking-blast?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/viking-blast?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/viking-blast?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/viking-blast?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: true,
@@ -934,35 +1022,39 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Sugar Blast",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/sugar-blast?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/sugar-blast?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/sugar-blast?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/sugar-blast?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Sugar Blast",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/sugar-blast?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/sugar-blast?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/sugar-blast?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/sugar-blast?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Sugar Blast",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/sugar-blast?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/sugar-blast?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/sugar-blast?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/sugar-blast?currency=BRL&test=1",
       },
       Spanish: {
         gameName: "Sugar Blast",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/sugar-blast_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/sugar-blast?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/sugar-blast?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/sugar-blast?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/sugar-blast?currency=BRL&test=1",
       },
     },
     isFeatured: true,
@@ -976,7 +1068,8 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Farm of Fortune",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/farm-of-fortune_520x520_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/farm-of-fortune_520x520_en.jpg",
         gameUrl:
           "https://gp-og-game.og1-net.com/GameLauncher/LaunchGame/FarmOfFortune_06_33_1?CurrencyCode=RMB&PlatformId=UGS1&locale=en",
         iframeUrl:
@@ -984,7 +1077,8 @@ const GameData: Game[] = [
       },
       Chinese: {
         gameName: "Farm of Fortune",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/one-game/game-icon/cn/farm-of-fortune_520x520_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/one-game/game-icon/cn/farm-of-fortune_520x520_cn.jpg",
         gameUrl:
           "https://gp-og-game.og1-net.com/GameLauncher/LaunchGame/FarmOfFortune_06_33_1?CurrencyCode=RMB&PlatformId=UGS1&locale=zh",
         iframeUrl:
@@ -992,7 +1086,8 @@ const GameData: Game[] = [
       },
       Portuguese: {
         gameName: "Farm of Fortune",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/farm-of-fortune_520x520_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/farm-of-fortune_520x520_en.jpg",
         gameUrl:
           "https://gp-og-game.og1-net.com/GameLauncher/LaunchGame/FarmOfFortune_06_33_1?CurrencyCode=RMB&PlatformId=UGS1&locale=en",
         iframeUrl:
@@ -1000,7 +1095,8 @@ const GameData: Game[] = [
       },
       Spanish: {
         gameName: "Farm of Fortune",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/farm-of-fortune_520x520_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/farm-of-fortune_520x520_en.jpg",
         gameUrl:
           "https://gp-og-game.og1-net.com/GameLauncher/LaunchGame/FarmOfFortune_06_33_1?CurrencyCode=RMB&PlatformId=UGS1&locale=en",
         iframeUrl:
@@ -1018,7 +1114,8 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Royal Treasures",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/royal-treasures_520x520_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/royal-treasures_520x520_en.jpg",
         gameUrl:
           "https://gp-og-game.og1-net.com/GameLauncher/LaunchGame/RoyalTreasures_06_38_1?CurrencyCode=RMB&PlatformId=UGS1&locale=en",
         iframeUrl:
@@ -1026,7 +1123,8 @@ const GameData: Game[] = [
       },
       Chinese: {
         gameName: "Royal Treasures",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/royal-treasures_520x520_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/royal-treasures_520x520_en.jpg",
         gameUrl:
           "https://gp-og-game.og1-net.com/GameLauncher/LaunchGame/RoyalTreasures_06_38_1?CurrencyCode=RMB&PlatformId=UGS1&locale=en",
         iframeUrl:
@@ -1034,7 +1132,8 @@ const GameData: Game[] = [
       },
       Portuguese: {
         gameName: "Royal Treasures",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/royal-treasures_520x520_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/royal-treasures_520x520_en.jpg",
         gameUrl:
           "https://gp-og-game.og1-net.com/GameLauncher/LaunchGame/RoyalTreasures_06_38_1?CurrencyCode=RMB&PlatformId=UGS1&locale=en",
         iframeUrl:
@@ -1042,7 +1141,8 @@ const GameData: Game[] = [
       },
       Spanish: {
         gameName: "Royal Treasures",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/royal-treasures_520x520_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/royal-treasures_520x520_en.jpg",
         gameUrl:
           "https://gp-og-game.og1-net.com/GameLauncher/LaunchGame/RoyalTreasures_06_38_1?CurrencyCode=RMB&PlatformId=UGS1&locale=en",
         iframeUrl:
@@ -1060,7 +1160,8 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Vikings Fate of Prosperity",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/vikings-fate-of-prosperity_520x520_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/vikings-fate-of-prosperity_520x520_en.jpg",
         gameUrl:
           "https://gp-og-game.og1-net.com/GameLauncher/LaunchGame/VikingsFateOfProsperity_06_40_1?CurrencyCode=RMB&PlatformId=UGS1&locale=en",
         iframeUrl:
@@ -1068,7 +1169,8 @@ const GameData: Game[] = [
       },
       Chinese: {
         gameName: "Vikings Fate of Prosperity",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/vikings-fate-of-prosperity_520x520_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/vikings-fate-of-prosperity_520x520_en.jpg",
         gameUrl:
           "https://gp-og-game.og1-net.com/GameLauncher/LaunchGame/VikingsFateOfProsperity_06_40_1?CurrencyCode=RMB&PlatformId=UGS1&locale=en",
         iframeUrl:
@@ -1076,7 +1178,8 @@ const GameData: Game[] = [
       },
       Portuguese: {
         gameName: "Vikings Fate of Prosperity",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/vikings-fate-of-prosperity_520x520_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/vikings-fate-of-prosperity_520x520_en.jpg",
         gameUrl:
           "https://gp-og-game.og1-net.com/GameLauncher/LaunchGame/VikingsFateOfProsperity_06_40_1?CurrencyCode=RMB&PlatformId=UGS1&locale=en",
         iframeUrl:
@@ -1084,7 +1187,8 @@ const GameData: Game[] = [
       },
       Spanish: {
         gameName: "Vikings Fate of Prosperity",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/vikings-fate-of-prosperity_520x520_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/vikings-fate-of-prosperity_520x520_en.jpg",
         gameUrl:
           "https://gp-og-game.og1-net.com/GameLauncher/LaunchGame/VikingsFateOfProsperity_06_40_1?CurrencyCode=RMB&PlatformId=UGS1&locale=en",
         iframeUrl:
@@ -1102,7 +1206,8 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "The Legend Of Banyan Tree",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/the-legend-of-banyan-tree_520x520_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/the-legend-of-banyan-tree_520x520_en.jpg",
         gameUrl:
           "https://gp-og-game.og1-net.com/GameLauncher/LaunchGame/TheLegendOfBanyanTree_06_36_1?CurrencyCode=RMB&PlatformId=UGS1&locale=en",
         iframeUrl:
@@ -1110,7 +1215,8 @@ const GameData: Game[] = [
       },
       Chinese: {
         gameName: "The Legend Of Banyan Tree",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/the-legend-of-banyan-tree_520x520_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/the-legend-of-banyan-tree_520x520_en.jpg",
         gameUrl:
           "https://gp-og-game.og1-net.com/GameLauncher/LaunchGame/TheLegendOfBanyanTree_06_36_1?CurrencyCode=RMB&PlatformId=UGS1&locale=en",
         iframeUrl:
@@ -1118,7 +1224,8 @@ const GameData: Game[] = [
       },
       Portuguese: {
         gameName: "The Legend Of Banyan Tree",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/the-legend-of-banyan-tree_520x520_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/the-legend-of-banyan-tree_520x520_en.jpg",
         gameUrl:
           "https://gp-og-game.og1-net.com/GameLauncher/LaunchGame/TheLegendOfBanyanTree_06_36_1?CurrencyCode=RMB&PlatformId=UGS1&locale=en",
         iframeUrl:
@@ -1126,7 +1233,8 @@ const GameData: Game[] = [
       },
       Spanish: {
         gameName: "The Legend Of Banyan Tree",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/the-legend-of-banyan-tree_520x520_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/one-game/game-icon/en/the-legend-of-banyan-tree_520x520_en.jpg",
         gameUrl:
           "https://gp-og-game.og1-net.com/GameLauncher/LaunchGame/TheLegendOfBanyanTree_06_36_1?CurrencyCode=RMB&PlatformId=UGS1&locale=en",
         iframeUrl:
@@ -1144,35 +1252,39 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Perya 4 Balls",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-4-balls_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-4-balls_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/perya-4-balls?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/perya-4-balls?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Perya 4 Balls",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-4-balls_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-4-balls_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/perya-4-balls?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/perya-4-balls?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1",
       },
       Portuguese: {
         gameName: "Perya 4 Balls",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-4-balls_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-4-balls_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/perya-4-balls?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/perya-4-balls?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1",
       },
       Spanish: {
         gameName: "Perya 4 Balls",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-4-balls_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-4-balls_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/perya-4-balls?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/perya-4-balls?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1",
       },
     },
     isFeatured: true,
@@ -1186,35 +1298,39 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Perya Roleta",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-roleta_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-roleta_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/perya-roleta?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-roleta?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/perya-roleta?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-roleta?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Perya Roleta",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-roleta_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-roleta_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/perya-roleta?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-roleta?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/perya-roleta?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-roleta?currency=BRL&test=1",
       },
       Portuguese: {
         gameName: "Perya Roleta",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-roleta_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-roleta_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/perya-roleta?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-roleta?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/perya-roleta?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-roleta?currency=BRL&test=1",
       },
       Spanish: {
         gameName: "Perya Roleta",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-roleta_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-roleta_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/perya-roleta?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-roleta?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/perya-roleta?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-roleta?currency=BRL&test=1",
       },
     },
     isFeatured: true,
@@ -1228,35 +1344,39 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Perya Drop Ball Card",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-drop-ball-card_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-drop-ball-card_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/perya-drop-ball-card?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-drop-ball-card?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/perya-drop-ball-card?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-drop-ball-card?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Perya Drop Ball Card",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-drop-ball-card_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-drop-ball-card_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/perya-drop-ball-card?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-drop-ball-card?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/perya-drop-ball-card?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-drop-ball-card?currency=BRL&test=1",
       },
       Portuguese: {
         gameName: "Perya Drop Ball Card",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-drop-ball-card_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-drop-ball-card_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/perya-drop-ball-card?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-drop-ball-card?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/perya-drop-ball-card?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-drop-ball-card?currency=BRL&test=1",
       },
       Spanish: {
         gameName: "Perya Drop Ball Card",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-drop-ball-card_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-drop-ball-card_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/perya-drop-ball-card?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-drop-ball-card?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/perya-drop-ball-card?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-drop-ball-card?currency=BRL&test=1",
       },
     },
     isFeatured: true,
@@ -1270,35 +1390,39 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Perya Drop Ball Color",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-drop-ball-color_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-drop-ball-color_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/perya-drop-ball-color?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-drop-ball-color?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/perya-drop-ball-color?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-drop-ball-color?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Perya Drop Ball Color",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-drop-ball-color_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-drop-ball-color_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/perya-drop-ball-color?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-drop-ball-color?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/perya-drop-ball-color?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-drop-ball-color?currency=BRL&test=1",
       },
       Portuguese: {
         gameName: "Perya Drop Ball Color",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-drop-ball-color_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-drop-ball-color_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/perya-drop-ball-color?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-drop-ball-color?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/perya-drop-ball-color?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-drop-ball-color?currency=BRL&test=1",
       },
       Spanish: {
         gameName: "Perya Drop Ball Color",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-drop-ball-color_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/perya-drop-ball-color_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/perya-drop-ball-color?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-drop-ball-color?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/perya-drop-ball-color?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/perya-drop-ball-color?currency=BRL&test=1",
       },
     },
     isFeatured: true,
@@ -1312,35 +1436,39 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Video Poker",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/video-poker_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/video-poker_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/video-poker?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/video-poker?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/video-poker?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/video-poker?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Video Poker",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/video-poker_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/video-poker_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/video-poker?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/video-poker?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/video-poker?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/video-poker?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Video Poker",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/video-poker_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/video-poker_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/video-poker?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/video-poker?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/video-poker?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/video-poker?currency=BRL&test=1",
       },
       Spanish: {
         gameName: "Video Poker",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/video-poker_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/video-poker_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/video-poker?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/video-poker?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/video-poker?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/video-poker?currency=BRL&test=1",
       },
     },
     isFeatured: true,
@@ -1354,35 +1482,39 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Cockfighting Arena",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cockfighting-arena_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cockfighting-arena_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/cock-fighting?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/cock-fighting?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/cock-fighting?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/cock-fighting?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Cockfighting Arena",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cockfighting-arena_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cockfighting-arena_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/cock-fighting?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/cock-fighting?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/cock-fighting?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/cock-fighting?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Cockfighting Arena",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cockfighting-arena_500x500_ptbr.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cockfighting-arena_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/cock-fighting?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/cock-fighting?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/cock-fighting?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/cock-fighting?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "Cockfighting Arena",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cockfighting-arena_500x500_esla.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cockfighting-arena_500x500_esla.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/cock-fighting?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/cock-fighting?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/cock-fighting?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/cock-fighting?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: true,
@@ -1396,35 +1528,39 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Baccarat",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/baccarat_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/baccarat_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/baccarat?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/baccarat?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/baccarat?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/baccarat?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Baccarat",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/baccarat_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/baccarat_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/baccarat?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/baccarat?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/baccarat?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/baccarat?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Baccarat",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/baccarat_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/baccarat_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/baccarat?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/baccarat?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/baccarat?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/baccarat?currency=BRL&test=1",
       },
       Spanish: {
         gameName: "Baccarat",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/baccarat_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/baccarat_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/baccarat?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/baccarat?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/baccarat?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/baccarat?currency=BRL&test=1",
       },
     },
     isFeatured: true,
@@ -1438,35 +1574,39 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "KM Power Ball",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-power-ball_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-power-ball_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/bingo?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/bingo?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/bingo?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/bingo?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "KM Power Ball",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-power-ball_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-power-ball_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/bingo?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/bingo?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/bingo?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/bingo?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "KM Power Ball",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-power-ball_500x500_ptbr.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-power-ball_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/bingo?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/bingo?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/bingo?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/bingo?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "KM Power Ball",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-power-ball_500x500_esla.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-power-ball_500x500_esla.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/bingo?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/bingo?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/bingo?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/bingo?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: true,
@@ -1480,35 +1620,39 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Blackjack",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/blackjack_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/blackjack_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/blackjack?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/blackjack?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/blackjack?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/blackjack?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Blackjack",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/blackjack_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/blackjack_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/blackjack?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/blackjack?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/blackjack?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/blackjack?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Blackjack",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/blackjack_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/blackjack_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/blackjack?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/blackjack?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/blackjack?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/blackjack?currency=BRL&test=1",
       },
       Spanish: {
         gameName: "Blackjack",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/blackjack_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/blackjack_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/blackjack?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/blackjack?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/blackjack?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/blackjack?currency=BRL&test=1",
       },
     },
     isFeatured: true,
@@ -1522,35 +1666,39 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "KM Virtual Horse Racing",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-horse-racing_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-horse-racing_500x500_en.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/horse-racing?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/horse-racing?currency=BRL&test=1",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/horse-racing?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/horse-racing?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "KM Virtual Horse Racing",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-horse-racing_500x500_cn.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-horse-racing_500x500_cn.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/horse-racing?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/horse-racing?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/horse-racing?currency=GBP&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/horse-racing?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "KM Virtual Horse Racing",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-horse-racing_500x500_ptbr.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-horse-racing_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/horse-racing?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/horse-racing?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/horse-racing?currency=GBP&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/horse-racing?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "KM Virtual Horse Racing",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-horse-racing_500x500_esla.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-horse-racing_500x500_esla.jpg",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/horse-racing?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/horse-racing?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/horse-racing?currency=GBP&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/horse-racing?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: true,
@@ -1564,30 +1712,42 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "KM Virtual Greyhound Racing",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-greyhound-racing_500x500_en.jpg",
-        gameUrl: "https://demo8.kingmidasdev.net/games/hound-racing?currency=GBP&test=1",
-        iframeUrl: "https://demo8.kingmidasdev.net/games/hound-racing?currency=GBP&test=1"
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-greyhound-racing_500x500_en.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/hound-racing?currency=BRL&test=1",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/hound-racing?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "KM Virtual Greyhound Racing",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-greyhound-racing_500x500_cn.jpg",
-        gameUrl: "https://demo8.kingmidasdev.net/games/hound-racing?currency=GBP&test=1&lang=cn",
-        iframeUrl: "https://demo8.kingmidasdev.net/games/hound-racing?currency=GBP&test=1&lang=cn"
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-greyhound-racing_500x500_cn.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/hound-racing?currency=BRL&test=1&lang=cn",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/hound-racing?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "KM Virtual Greyhound Racing",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-greyhound-racing_500x500_ptbr.jpg",
-        gameUrl: "https://demo8.kingmidasdev.net/games/hound-racing?currency=GBP&test=1&lang=ptbr",
-        iframeUrl: "https://demo8.kingmidasdev.net/games/hound-racing?currency=GBP&test=1&lang=ptbr"
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-greyhound-racing_500x500_ptbr.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/hound-racing?currency=BRL&test=1&lang=ptbr",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/hound-racing?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "KM Virtual Greyhound Racing",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-greyhound-racing_500x500_esla.jpg",
-        gameUrl: "https://demo8.kingmidasdev.net/games/hound-racing?currency=GBP&test=1&lang=esla",
-        iframeUrl: "https://demo8.kingmidasdev.net/games/hound-racing?currency=GBP&test=1&lang=esla"
-      }
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/km-virtual-greyhound-racing_500x500_esla.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/hound-racing?currency=BRL&test=1&lang=esla",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/hound-racing?currency=BRL&test=1&lang=esla",
+      },
     },
-    isFeatured: true
+    isFeatured: true,
   },
   {
     id: 39,
@@ -1598,30 +1758,42 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Coin Toss",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/coin-toss_500x500_en.jpg",
-        gameUrl: "https://demo8.kingmidasdev.net/games/coin-toss?currency=GBP&test=1",
-        iframeUrl: "https://demo8.kingmidasdev.net/games/coin-toss?currency=GBP&test=1"
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/coin-toss_500x500_en.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/coin-toss?currency=BRL&test=1",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/coin-toss?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Coin Toss",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/coin-toss_500x500_cn.jpg",
-        gameUrl: "https://demo8.kingmidasdev.net/games/coin-toss?currency=GBP&test=1&lang=cn",
-        iframeUrl: "https://demo8.kingmidasdev.net/games/coin-toss?currency=GBP&test=1&lang=cn"
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/coin-toss_500x500_cn.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/coin-toss?currency=BRL&test=1&lang=cn",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/coin-toss?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Coin Toss",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/coin-toss_500x500_en.jpg",
-        gameUrl: "https://demo8.kingmidasdev.net/games/coin-toss?currency=GBP&test=1",
-        iframeUrl: "https://demo8.kingmidasdev.net/games/coin-toss?currency=GBP&test=1"
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/coin-toss_500x500_en.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/coin-toss?currency=BRL&test=1",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/coin-toss?currency=BRL&test=1",
       },
       Spanish: {
         gameName: "Coin Toss",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/coin-toss_500x500_en.jpg",
-        gameUrl: "https://demo8.kingmidasdev.net/games/coin-toss?currency=GBP&test=1",
-        iframeUrl: "https://demo8.kingmidasdev.net/games/coin-toss?currency=GBP&test=1"
-      }
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/coin-toss_500x500_en.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/coin-toss?currency=BRL&test=1",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/coin-toss?currency=BRL&test=1",
+      },
     },
-    isFeatured: false
+    isFeatured: false,
   },
   {
     id: 40,
@@ -1632,30 +1804,42 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Bonus Dice",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/bonus-dice_500x500_en.jpg",
-        gameUrl: "https://demo8.kingmidasdev.net/games/bonus-dice?currency=GBP&test=1",
-        iframeUrl: "https://demo8.kingmidasdev.net/games/bonus-dice?currency=GBP&test=1"
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/bonus-dice_500x500_en.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/bonus-dice?currency=BRL&test=1",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/bonus-dice?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Bonus Dice",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/bonus-dice_500x500_cn.jpg",
-        gameUrl: "https://demo8.kingmidasdev.net/games/bonus-dice?currency=GBP&test=1&lang=cn",
-        iframeUrl: "https://demo8.kingmidasdev.net/games/bonus-dice?currency=GBP&test=1&lang=cn"
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/bonus-dice_500x500_cn.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/bonus-dice?currency=BRL&test=1&lang=cn",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/bonus-dice?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Bonus Dice",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/bonus-dice_500x500_en.jpg",
-        gameUrl: "https://demo8.kingmidasdev.net/games/bonus-dice?currency=GBP&test=1",
-        iframeUrl: "https://demo8.kingmidasdev.net/games/bonus-dice?currency=GBP&test=1"
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/bonus-dice_500x500_en.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/bonus-dice?currency=BRL&test=1",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/bonus-dice?currency=BRL&test=1",
       },
       Spanish: {
         gameName: "Bonus Dice",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/bonus-dice_500x500_en.jpg",
-        gameUrl: "https://demo8.kingmidasdev.net/games/bonus-dice?currency=GBP&test=1",
-        iframeUrl: "https://demo8.kingmidasdev.net/games/bonus-dice?currency=GBP&test=1"
-      }
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/bonus-dice_500x500_en.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/bonus-dice?currency=BRL&test=1",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/bonus-dice?currency=BRL&test=1",
+      },
     },
-    isFeatured: false
+    isFeatured: false,
   },
   {
     id: 41,
@@ -1666,30 +1850,42 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "European Roulette",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/european-roulette_500x500_en.jpg",
-        gameUrl: "https://demo8.kingmidasdev.net/games/european-roulette?currency=GBP&test=1",
-        iframeUrl: "https://demo8.kingmidasdev.net/games/european-roulette?currency=GBP&test=1"
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/european-roulette_500x500_en.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/european-roulette?currency=BRL&test=1",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/european-roulette?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "European Roulette",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/european-roulette_500x500_cn.jpg",
-        gameUrl: "https://demo8.kingmidasdev.net/games/european-roulette?currency=GBP&test=1&lang=cn",
-        iframeUrl: "https://demo8.kingmidasdev.net/games/european-roulette?currency=GBP&test=1&lang=cn"
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/european-roulette_500x500_cn.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/european-roulette?currency=BRL&test=1&lang=cn",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/european-roulette?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "European Roulette",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/european-roulette_500x500_en.jpg",
-        gameUrl: "https://demo8.kingmidasdev.net/games/european-roulette?currency=GBP&test=1",
-        iframeUrl: "https://demo8.kingmidasdev.net/games/european-roulette?currency=GBP&test=1"
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/european-roulette_500x500_en.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/european-roulette?currency=BRL&test=1",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/european-roulette?currency=BRL&test=1",
       },
       Spanish: {
         gameName: "European Roulette",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/european-roulette_500x500_en.jpg",
-        gameUrl: "https://demo8.kingmidasdev.net/games/european-roulette?currency=GBP&test=1",
-        iframeUrl: "https://demo8.kingmidasdev.net/games/european-roulette?currency=GBP&test=1"
-      }
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/european-roulette_500x500_en.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/european-roulette?currency=BRL&test=1",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/european-roulette?currency=BRL&test=1",
+      },
     },
-    isFeatured: true
+    isFeatured: true,
   },
   {
     id: 42,
@@ -1700,30 +1896,42 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Poker Roulette",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/poker-roulette_500x500_en.jpg",
-        gameUrl: "https://demo8.kingmidasdev.net/games/poker-roulette?currency=GBP&test=1",
-        iframeUrl: "https://demo8.kingmidasdev.net/games/poker-roulette?currency=GBP&test=1"
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/poker-roulette_500x500_en.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=BRL&test=1",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Poker Roulette",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/poker-roulette_500x500_cn.jpg",
-        gameUrl: "https://demo8.kingmidasdev.net/games/poker-roulette?currency=GBP&test=1&lang=cn",
-        iframeUrl: "https://demo8.kingmidasdev.net/games/poker-roulette?currency=GBP&test=1&lang=cn"
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/poker-roulette_500x500_cn.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=BRL&test=1&lang=cn",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Poker Roulette",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/poker-roulette_500x500_en.jpg",
-        gameUrl: "https://demo8.kingmidasdev.net/games/poker-roulette?currency=GBP&test=1",
-        iframeUrl: "https://demo8.kingmidasdev.net/games/poker-roulette?currency=GBP&test=1"
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/poker-roulette_500x500_en.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=BRL&test=1",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=BRL&test=1",
       },
       Spanish: {
         gameName: "Poker Roulette",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/poker-roulette_500x500_en.jpg",
-        gameUrl: "https://demo8.kingmidasdev.net/games/poker-roulette?currency=GBP&test=1",
-        iframeUrl: "https://demo8.kingmidasdev.net/games/poker-roulette?currency=GBP&test=1"
-      }
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/poker-roulette_500x500_en.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=BRL&test=1",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=BRL&test=1",
+      },
     },
-    isFeatured: true
+    isFeatured: true,
   },
   {
     id: 43,
@@ -1734,38 +1942,46 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Poker Roulette",
-        thumbnailUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_500x500_en_lar2h1.jpg",
+        thumbnailUrl:
+          "https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_500x500_en_lar2h1.jpg",
         gameUrl: "",
         iframeUrl: "",
         showScreenshot: true,
-        screenshotUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_visualisation_v5gj8x.jpg"
+        screenshotUrl:
+          "https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_visualisation_v5gj8x.jpg",
       },
       Chinese: {
         gameName: "Poker Roulette",
-        thumbnailUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_500x500_en_lar2h1.jpg",
+        thumbnailUrl:
+          "https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_500x500_en_lar2h1.jpg",
         gameUrl: "",
         iframeUrl: "",
         showScreenshot: true,
-        screenshotUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_visualisation_v5gj8x.jpg"
+        screenshotUrl:
+          "https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_visualisation_v5gj8x.jpg",
       },
       Portuguese: {
         gameName: "Poker Roulette",
-        thumbnailUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_500x500_en_lar2h1.jpg",
+        thumbnailUrl:
+          "https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_500x500_en_lar2h1.jpg",
         gameUrl: "",
         iframeUrl: "",
         showScreenshot: true,
-        screenshotUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_visualisation_v5gj8x.jpg"
+        screenshotUrl:
+          "https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_visualisation_v5gj8x.jpg",
       },
       Spanish: {
         gameName: "Poker Roulette",
-        thumbnailUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_500x500_en_lar2h1.jpg",
+        thumbnailUrl:
+          "https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_500x500_en_lar2h1.jpg",
         gameUrl: "",
         iframeUrl: "",
         showScreenshot: true,
-        screenshotUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_visualisation_v5gj8x.jpg"
-      }
+        screenshotUrl:
+          "https://res.cloudinary.com/detatjujs/image/upload/v1726727799/pirate-slot_visualisation_v5gj8x.jpg",
+      },
     },
-    isFeatured: true
+    isFeatured: true,
   },
   {
     id: 44,
@@ -1776,38 +1992,46 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Wild West Theme",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/wild-west-slot_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/wild-west-slot_500x500_en.jpg",
         gameUrl: "",
         iframeUrl: "",
         showScreenshot: true,
-        screenshotUrl: "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/visualisation_lisbon-2024/wild-west-slot_visualisation.jpg"
+        screenshotUrl:
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/visualisation_lisbon-2024/wild-west-slot_visualisation.jpg",
       },
       Chinese: {
         gameName: "Wild West Theme",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/wild-west-slot_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/wild-west-slot_500x500_en.jpg",
         gameUrl: "",
         iframeUrl: "",
         showScreenshot: true,
-        screenshotUrl: "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/visualisation_lisbon-2024/wild-west-slot_visualisation.jpg"
+        screenshotUrl:
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/visualisation_lisbon-2024/wild-west-slot_visualisation.jpg",
       },
       Portuguese: {
         gameName: "Wild West Theme",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/wild-west-slot_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/wild-west-slot_500x500_en.jpg",
         gameUrl: "",
         iframeUrl: "",
         showScreenshot: true,
-        screenshotUrl: "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/visualisation_lisbon-2024/wild-west-slot_visualisation.jpg"
+        screenshotUrl:
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/visualisation_lisbon-2024/wild-west-slot_visualisation.jpg",
       },
       Spanish: {
         gameName: "Wild West Theme",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/wild-west-slot_500x500_en.jpg",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/wild-west-slot_500x500_en.jpg",
         gameUrl: "",
         iframeUrl: "",
         showScreenshot: true,
-        screenshotUrl: "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/visualisation_lisbon-2024/wild-west-slot_visualisation.jpg"
-      }
+        screenshotUrl:
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/visualisation_lisbon-2024/wild-west-slot_visualisation.jpg",
+      },
     },
-    isFeatured: true
+    isFeatured: true,
   },
   {
     id: 45,
@@ -1818,38 +2042,46 @@ const GameData: Game[] = [
     langProps: {
       English: {
         gameName: "Buffalo Theme",
-        thumbnailUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_500x500_en_gvsaof.jpg",
+        thumbnailUrl:
+          "https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_500x500_en_gvsaof.jpg",
         gameUrl: "",
         iframeUrl: "",
         showScreenshot: true,
-        screenshotUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_visualisation_qsldvm.jpg"
+        screenshotUrl:
+          "https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_visualisation_qsldvm.jpg",
       },
       Chinese: {
         gameName: "Buffalo Theme",
-        thumbnailUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_500x500_en_gvsaof.jpg",
+        thumbnailUrl:
+          "https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_500x500_en_gvsaof.jpg",
         gameUrl: "",
         iframeUrl: "",
         showScreenshot: true,
-        screenshotUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_visualisation_qsldvm.jpg"
+        screenshotUrl:
+          "https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_visualisation_qsldvm.jpg",
       },
       Portuguese: {
         gameName: "Buffalo Theme",
-        thumbnailUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_500x500_en_gvsaof.jpg",
+        thumbnailUrl:
+          "https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_500x500_en_gvsaof.jpg",
         gameUrl: "",
         iframeUrl: "",
         showScreenshot: true,
-        screenshotUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_visualisation_qsldvm.jpg"
+        screenshotUrl:
+          "https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_visualisation_qsldvm.jpg",
       },
       Spanish: {
         gameName: "Buffalo Theme",
-        thumbnailUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_500x500_en_gvsaof.jpg",
+        thumbnailUrl:
+          "https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_500x500_en_gvsaof.jpg",
         gameUrl: "",
         iframeUrl: "",
         showScreenshot: true,
-        screenshotUrl: "https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_visualisation_qsldvm.jpg"
-      }
+        screenshotUrl:
+          "https://res.cloudinary.com/detatjujs/image/upload/v1726727798/buffalo-slot_visualisation_qsldvm.jpg",
+      },
     },
-    isFeatured: true
+    isFeatured: true,
   },
 ];
 

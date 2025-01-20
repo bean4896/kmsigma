@@ -7,8 +7,8 @@ interface GameListProps {
 }
 
 const GameList: React.FC<GameListProps> = ({ gamesToShow }) => {
-  // Sort the games by id
-  const sortedGames = gamesToShow.sort((a, b) => a.id - b.id);
+  // Sort the games by order number
+  const sortedGames = gamesToShow.sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 px-10 m-auto">
