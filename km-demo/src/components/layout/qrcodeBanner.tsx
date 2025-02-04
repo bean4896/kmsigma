@@ -1,6 +1,6 @@
 'use client'
 import Image from "next/image";
-import ImgQrcode from "@/assets/KM_UK.png";
+import ImgQrcode from "@/assets/demosite-qr-km-website.jpg";
 import { useLanguage } from "@/context/LanguageContext";
 import { translations } from "@/lib/constent";
 import React from "react";

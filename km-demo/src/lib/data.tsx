@@ -5,7 +5,7 @@ const GameData: Game[] = [
     id: 11,
     order: 1,
     gameName: "Egyptian Mines",
-    tags: ["RTP: 97.00", "Max Win: 62.31x"],
+    tags: ["RTP: 96.11", "Max Win: 520x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
@@ -509,7 +509,7 @@ const GameData: Game[] = [
   },
   {
     id: 12,
-    order: 12,
+    order: 14,
     gameName: "Minesweeper",
     tags: ["RTP: 96.00", "Max Win: 2330x"],
     category: "NEXT-GEN",
@@ -557,7 +557,7 @@ const GameData: Game[] = [
     id: 13,
     order: 2,
     gameName: "Toridama Crash",
-    tags: ["RTP: 96.55", "Max Win: 200x"],
+    tags: ["RTP: 97.00", "Max Win: 125x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
@@ -603,11 +603,11 @@ const GameData: Game[] = [
     id: 14,
     order: 15,
     gameName: "Toridama Racing",
-    tags: ["RTP: 97.00", "Max Win: 5x"],
+    tags: ["RTP: 96.00", "Max Win: 11x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
-        gameName: "KM Marble Knockout",
+        gameName: "Toridama Racing",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-racing_500x500_en.jpg",
         gameUrl:
@@ -616,7 +616,7 @@ const GameData: Game[] = [
           "https://sademo.kmgamesdev.net/games/marble-racing?currency=BRL&test=1",
       },
       Chinese: {
-        gameName: "KM Marble Knockout",
+        gameName: "Toridama Racing",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-racing_500x500_en.jpg",
         gameUrl:
@@ -625,7 +625,7 @@ const GameData: Game[] = [
           "https://sademo.kmgamesdev.net/games/marble-racing?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
-        gameName: "KM Marble Knockout",
+        gameName: "Toridama Racing",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-racing_500x500_en.jpg",
         gameUrl:
@@ -634,7 +634,7 @@ const GameData: Game[] = [
           "https://sademo.kmgamesdev.net/games/marble-racing?currency=BRL&test=1",
       },
       Spanish: {
-        gameName: "KM Marble Knockout",
+        gameName: "Toridama Racing",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-racing_500x500_en.jpg",
         gameUrl:
@@ -649,7 +649,7 @@ const GameData: Game[] = [
     id: 15,
     order: 3,
     gameName: "Toridama Rock Paper Scissors",
-    tags: ["RTP: 97.00", "Max Win: 44x"],
+    tags: ["RTP: 96.82", "Max Win: 6x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
@@ -1394,18 +1394,18 @@ const GameData: Game[] = [
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/blackjack_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/blackjack?currency=BRL&test=1",
+          "https://sademo.kmgamesdev.net/games/blackjack?currency=USD&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/blackjack?currency=BRL&test=1",
+          "https://sademo.kmgamesdev.net/games/blackjack?currency=USD&test=1",
       },
       Chinese: {
         gameName: "Blackjack",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/blackjack_500x500_cn.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/blackjack?currency=BRL&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/blackjack?currency=USD&test=1&lang=cn",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/blackjack?currency=BRL&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/blackjack?currency=USD&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Blackjack",
@@ -1567,47 +1567,185 @@ const GameData: Game[] = [
     isFeatured: false,
   },
   {
+    id: 51,
+    order: 1,
+    gameName: "Jogo De Bicho",
+    tags: ["RTP: 96.75", "Max Win: 29999X"],
+    category: "CLASSIC",
+    langProps: {
+      English: {
+        gameName: "Jogo De Bicho",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jogo-de-bicho_500x500_en.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/jogo-de-bicho?currency=BRL&test=1",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/jogo-de-bicho?currency=BRL&test=1",
+      },
+      Chinese: {
+        gameName: "Jogo De Bicho",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jogo-de-bicho_500x500_cn.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/jogo-de-bicho?currency=BRL&test=1&lang=cn",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/jogo-de-bicho?currency=BRL&test=1&lang=cn",
+      },
+      Portuguese: {
+        gameName: "Jogo De Bicho",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jogo-de-bicho_500x500_ptbr.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/jogo-de-bicho?currency=BRL&test=1&lang=ptbr",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/jogo-de-bicho?currency=BRL&test=1&lang=ptbr",
+      },
+      Spanish: {
+        gameName: "Jogo De Bicho",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jogo-de-bicho_500x500_esla.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/jogo-de-bicho?currency=BRL&test=1&lang=esla",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/jogo-de-bicho?currency=BRL&test=1&lang=esla",
+      },
+    },
+    isFeatured: false,
+  },
+  {
+    id: 52,
+    order: 2,
+    gameName: "Jogo De Bozo",
+    tags: ["RTP: 91.80", "Max Win: 19X"],
+    category: "CLASSIC",
+    langProps: {
+      English: {
+        gameName: "Jogo De Bozo",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jogo-de-bozo_500x500_en.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/jogo-de-bozo?currency=BRL&test=1",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/jogo-de-bozo?currency=BRL&test=1",
+      },
+      Chinese: {
+        gameName: "Jogo De Bozo",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jogo-de-bozo_500x500_cn.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/jogo-de-bozo?currency=BRL&test=1&lang=cn",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/jogo-de-bozo?currency=BRL&test=1&lang=cn",
+      },
+      Portuguese: {
+        gameName: "Jogo De Bozo",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jogo-de-bozo_500x500_ptbr.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/jogo-de-bozo?currency=BRL&test=1&lang=ptbr",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/jogo-de-bozo?currency=BRL&test=1&lang=ptbr",
+      },
+      Spanish: {
+        gameName: "Jogo De Bozo",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jogo-de-bozo_500x500_esla.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/jogo-de-bozo?currency=BRL&test=1&lang=esla",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/jogo-de-bozo?currency=BRL&test=1&lang=esla",
+      },
+    },
+    isFeatured: false,
+  },
+  {
+    id: 53,
+    order: 3,
+    gameName: "Dice Duet",
+    tags: ["RTP: 97.00", "Max Win: 30X"],
+    category: "CLASSIC",
+    langProps: {
+      English: {
+        gameName: "Dice Duet",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/dice-duet_500x500_en.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/dice-duet?currency=BRL&test=1",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/dice-duet?currency=BRL&test=1",
+      },
+      Chinese: {
+        gameName: "Dice Duet",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/dice-duet_500x500_cn.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/dice-duet?currency=BRL&test=1&lang=cn",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/dice-duet?currency=BRL&test=1&lang=cn",
+      },
+      Portuguese: {
+        gameName: "Dice Duet",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/dice-duet_500x500_ptbr.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/dice-duet?currency=BRL&test=1&lang=ptbr",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/dice-duet?currency=BRL&test=1&lang=ptbr",
+      },
+      Spanish: {
+        gameName: "Dice Duet",
+        thumbnailUrl:
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/dice-duet_500x500_esla.jpg",
+        gameUrl:
+          "https://sademo.kmgamesdev.net/games/dice-duet?currency=BRL&test=1&lang=esla",
+        iframeUrl:
+          "https://sademo.kmgamesdev.net/games/dice-duet?currency=BRL&test=1&lang=esla",
+      },
+    },
+    isFeatured: false,
+  },
+  {
     id: 42,
     order: 42,
-    gameName: "Poker Roulette",
-    tags: ["RTP: 97.00", "Max Win: 10x"],
+    gameName: "European Roulette",
+    tags: ["RTP: 97.30", "Max Win: 29x"],
     category: "CLASSIC",
     langProps: {
       English: {
         gameName: "Poker Roulette",
         thumbnailUrl:
-          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/poker-roulette_500x500_en.jpg",
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/european-roulette_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=BRL&test=1",
+          "https://sademo.kmgamesdev.net/games/european-roulette?currency=BRL&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=BRL&test=1",
+          "https://sademo.kmgamesdev.net/games/european-roulette?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Poker Roulette",
         thumbnailUrl:
-          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/poker-roulette_500x500_cn.jpg",
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/european-roulette_500x500_cn.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=BRL&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/european-roulette?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=BRL&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/european-roulette?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Poker Roulette",
         thumbnailUrl:
-          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/poker-roulette_500x500_en.jpg",
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/european-roulette_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=BRL&test=1",
+          "https://sademo.kmgamesdev.net/games/european-roulette?currency=BRL&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=BRL&test=1",
+          "https://sademo.kmgamesdev.net/games/european-roulette?currency=BRL&test=1",
       },
       Spanish: {
         gameName: "Poker Roulette",
         thumbnailUrl:
-          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/poker-roulette_500x500_en.jpg",
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/european-roulette_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=BRL&test=1",
+          "https://sademo.kmgamesdev.net/games/european-roulette?currency=BRL&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/poker-roulette?currency=BRL&test=1",
+          "https://sademo.kmgamesdev.net/games/european-roulette?currency=BRL&test=1",
       },
     },
     isFeatured: false,
@@ -1616,7 +1754,7 @@ const GameData: Game[] = [
     id: 44,
     order: 2,
     gameName: "Gold Rush Bonanza",
-    tags: ["Visualisation Only"],
+    tags: ["RTP: 97.00", "Max Win: 5000X"],
     category: "SLOTS",
     langProps: {
       English: {
@@ -1662,7 +1800,7 @@ const GameData: Game[] = [
     id: 45,
     order: 1,
     gameName: "Pirate's Treasure",
-    tags: [""],
+    tags: ["RTP: 97.30", "Max Win: 2000X"],
     category: "SLOTS",
     langProps: {
       English: {
@@ -1708,7 +1846,7 @@ const GameData: Game[] = [
     id: 46,
     order: 3,
     gameName: " Horus Glory",
-    tags: [""],
+    tags: ["RTP: 96.02", "Max Win: 500X"],
     category: "SLOTS",
     langProps: {
       English: {
@@ -1754,7 +1892,7 @@ const GameData: Game[] = [
     id: 47,
     order: 4,
     gameName: "London Mystery",
-    tags: [""],
+    tags: ["RTP: 95.13", "Max Win: 200X"],
     category: "SLOTS",
     langProps: {
       English: {
@@ -1800,7 +1938,7 @@ const GameData: Game[] = [
     id: 48,
     order: 5,
     gameName: "Merlin's Saga",
-    tags: [""],
+    tags: ["RTP: 96.42", "Max Win:800X"],
     category: "SLOTS",
     langProps: {
       English: {
@@ -1846,7 +1984,7 @@ const GameData: Game[] = [
     id: 49,
     order: 6,
     gameName: "Piggy Heist",
-    tags: [""],
+    tags: ["RTP: 96.02", "Max Win: 5000X"],
     category: "SLOTS",
     langProps: {
       English: {
@@ -1892,7 +2030,7 @@ const GameData: Game[] = [
     id: 50,
     order: 7,
     gameName: "Leppy Loot",
-    tags: [""],
+    tags: ["RTP: 96.00", "Max Win: 1000X"],
     category: "SLOTS",
     langProps: {
       English: {

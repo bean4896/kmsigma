@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 import Image from "next/image";
-import ImgQrcode from "@/assets/sale_QRcode.png";
+import ImgQrcode from "@/assets/demosite-qr-sales-email.jpg";
 import Refresh from "@/components/ui/refresh";
 import { useLanguage } from "@/context/LanguageContext";
 import { translations } from "@/lib/constent";

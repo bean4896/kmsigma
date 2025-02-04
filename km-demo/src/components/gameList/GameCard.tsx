@@ -19,13 +19,37 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
   const renderFlag = (language: string) => {
     switch (language.toLowerCase()) {
       case "english":
-        return <Image className="h-6 w-6 object-cover rounded-full" src={EnglishFlag} alt="English" />;
+        return (
+          <Image
+            className="h-6 w-6 object-cover rounded-full"
+            src={EnglishFlag}
+            alt="English"
+          />
+        );
       case "chinese":
-        return <Image className="h-6 w-6 object-cover rounded-full" src={ChinaFlag} alt="Chinese" />;
+        return (
+          <Image
+            className="h-6 w-6 object-cover rounded-full"
+            src={ChinaFlag}
+            alt="Chinese"
+          />
+        );
       case "spanish":
-        return <Image className="h-6 w-6 object-cover rounded-full" src={SpanFlag} alt="Spanish" />;
+        return (
+          <Image
+            className="h-6 w-6 object-cover rounded-full"
+            src={SpanFlag}
+            alt="Spanish"
+          />
+        );
       case "portuguese":
-        return <Image className="h-6 w-6 object-cover rounded-full" src={BrazilFlag} alt="Brazil" />;
+        return (
+          <Image
+            className="h-6 w-6 object-cover rounded-full"
+            src={BrazilFlag}
+            alt="Brazil"
+          />
+        );
       default:
         return null;
     }
@@ -42,7 +66,10 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
   return (
     <>
       <div className="pt-4">
-        <div className="trigger mb-2 cursor-pointer hover:scale-101" onClick={handleOpenDialog}>
+        <div
+          className="trigger mb-2 cursor-pointer hover:scale-101"
+          onClick={handleOpenDialog}
+        >
           <Image
             src={langProps[selectedLanguage]?.thumbnailUrl || ""}
             width={1000}
@@ -63,12 +90,14 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
             selectedLanguage={selectedLanguage} // Pass selected language to GameDialog
           />
         )}
-
         <div>
           {game.tags.length > 0 && (
-            <div className="flex flex-wrap">
+            <div className="grid grid-cols-1 gap-y-2">
               {game.tags.map((tag, index) => (
-                <span key={index} className="text-[12px] tag mr-2 px-2 py-1 rounded-md text-white border-2 border-neutral-400">
+                <span
+                  key={index}
+                  className="text-[12px] px-2 py-1 rounded-md text-white border-2 border-neutral-400 w-full"
+                >
                   {tag}
                 </span>
               ))}
