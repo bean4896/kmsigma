@@ -8,7 +8,10 @@ import { Game, GameListWithFilterProps } from "@/lib/types";
 import NewRelease from "../layout/newRelease";
 import { useLanguage } from "@/context/LanguageContext"; // Import the useLanguage hook
 
-const GameListWithFilter: React.FC<GameListWithFilterProps> = ({ games, categories }) => {
+const GameListWithFilter: React.FC<GameListWithFilterProps> = ({
+  games,
+  categories,
+}) => {
   const [selectedCategory, setSelectedCategory] = useState("NEXT-GEN");
   const [isLoading, setIsLoading] = useState(false);
   const { selectedLanguage, setSelectedLanguage } = useLanguage(); // Use the context
@@ -45,7 +48,10 @@ const GameListWithFilter: React.FC<GameListWithFilterProps> = ({ games, categori
         onSelectCategory={handleSelectCategory}
       />
       <NewRelease selectedCategory={selectedCategory} />
-      <LanguageFilter selectedLanguage={selectedLanguage} onSelectLanguage={handleSelectLanguage} />
+      <LanguageFilter
+        selectedLanguage={selectedLanguage}
+        onSelectLanguage={handleSelectLanguage}
+      />
       <div>
         {/* skeleton */}
         {isLoading ? (
@@ -65,7 +71,9 @@ const GameListWithFilter: React.FC<GameListWithFilterProps> = ({ games, categori
             )}
           </div>
         ) : (
-          <GameList gamesToShow={gamesToShow.filter((game: Game) => !game.hide)} />
+          <GameList
+            gamesToShow={gamesToShow.filter((game: Game) => !game.hide)}
+          />
         )}
       </div>
     </>
