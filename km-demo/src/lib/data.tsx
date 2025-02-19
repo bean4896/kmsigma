@@ -565,36 +565,36 @@ const GameData: Game[] = [
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-crash_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/cash-rocket?currency=BRL&test=1",
+          "https://sademo.kmgamesdev.net/games/toridama-crash?currency=BRL&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/cash-rocket?currency=BRL&test=1",
+          "https://sademo.kmgamesdev.net/games/toridama-crash?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Toridama Crash",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-crash_500x500_cn.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/cash-rocket?currency=BRL&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/toridama-crash?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/cash-rocket?currency=BRL&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/toridama-crash?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Toridama Crash",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-crash_500x500_ptbr.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/cash-rocket?currency=BRL&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/toridama-crash?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/cash-rocket?currency=BRL&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/toridama-crash?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "Toridama Crash",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-crash_500x500_esla.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/cash-rocket?currency=BRL&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/toridama-crash?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/cash-rocket?currency=BRL&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/toridama-crash?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: false,
@@ -605,42 +605,35 @@ const GameData: Game[] = [
     gameName: "Toridama Racing",
     tags: ["RTP: 96.00", "Max Win: 11x"],
     category: "NEXT-GEN",
+    showPlaceholder: true,
     langProps: {
       English: {
+        showScreenshot: true,
+        screenshotUrl: 'https://publiccdn.kingdomhall729.com/lisbon-2024_materials/toridama-racing_visualization.png',
         gameName: "Toridama Racing",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-racing_500x500_en.jpg",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/marble-racing?currency=BRL&test=1",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/marble-racing?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Toridama Racing",
+        showScreenshot: true,
+        screenshotUrl: 'https://publiccdn.kingdomhall729.com/lisbon-2024_materials/toridama-racing_visualization.png',
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-racing_500x500_en.jpg",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/marble-racing?currency=BRL&test=1&lang=cn",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/marble-racing?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Toridama Racing",
+        showScreenshot: true,
+        screenshotUrl: 'https://publiccdn.kingdomhall729.com/lisbon-2024_materials/toridama-racing_visualization.png',
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-racing_500x500_en.jpg",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/marble-racing?currency=BRL&test=1",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/marble-racing?currency=BRL&test=1",
       },
       Spanish: {
         gameName: "Toridama Racing",
+        showScreenshot: true,
+        screenshotUrl: 'https://publiccdn.kingdomhall729.com/lisbon-2024_materials/toridama-racing_visualization.png',
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-racing_500x500_en.jpg",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/marble-racing?currency=BRL&test=1",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/marble-racing?currency=BRL&test=1",
       },
     },
     isFeatured: false,
