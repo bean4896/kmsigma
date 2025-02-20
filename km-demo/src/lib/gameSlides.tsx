@@ -285,56 +285,8 @@ const GameSlidesinfo = [
       },
     },
     isFeatured: true,
-  },
-  {
+  },  {
     id: 7,
-    gameName: "Perya 4 Balls",
-    tags: ["tag1", "tag2"],
-    backgroundUrl:
-      "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_en.png",
-    category: "CLASSIC",
-    langProps: {
-      English: {
-        slideUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_en.png",
-        gameName: "Perya 4 Balls",
-        iframeUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_en.png",
-        gameUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_en.png",
-      },
-      Chinese: {
-        slideUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_cn.png",
-        gameName: "Perya 4 Balls",
-        iframeUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_cn.png",
-        gameUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_cn.png",
-      },
-      Portuguese: {
-        slideUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_ptbr.png",
-        gameName: "Perya 4 Balls",
-        iframeUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_ptbr.png",
-        gameUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_ptbr.png",
-      },
-      Spanish: {
-        slideUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_esla.png",
-        gameName: "Perya 4 Balls",
-        iframeUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_esla.png",
-        gameUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_esla.png",
-      },
-    },
-    isFeatured: true,
-  },
-  {
-    id: 8,
     gameName: "Jogo De Bozo",
     tags: ["tag1", "tag2"],
     backgroundUrl:
@@ -380,6 +332,54 @@ const GameSlidesinfo = [
     },
     isFeatured: true,
   },
+  {
+    id: 8,
+    gameName: "Perya 4 Balls",
+    tags: ["tag1", "tag2"],
+    backgroundUrl:
+      "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_en.png",
+    category: "CLASSIC",
+    langProps: {
+      English: {
+        slideUrl:
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_en.png",
+        gameName: "Perya 4 Balls",
+        iframeUrl:
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_en.png",
+        gameUrl:
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_en.png",
+      },
+      Chinese: {
+        slideUrl:
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_cn.png",
+        gameName: "Perya 4 Balls",
+        iframeUrl:
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_cn.png",
+        gameUrl:
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_cn.png",
+      },
+      Portuguese: {
+        slideUrl:
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_ptbr.png",
+        gameName: "Perya 4 Balls",
+        iframeUrl:
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_ptbr.png",
+        gameUrl:
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_ptbr.png",
+      },
+      Spanish: {
+        slideUrl:
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_esla.png",
+        gameName: "Perya 4 Balls",
+        iframeUrl:
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_esla.png",
+        gameUrl:
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_esla.png",
+      },
+    },
+    isFeatured: true,
+  },
+
   {
     id: 9,
     gameName: "Dice Duet",
