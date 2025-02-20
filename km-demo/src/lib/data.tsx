@@ -528,9 +528,9 @@ const GameData: Game[] = [
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/mine-sweeper_500x500_cn.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/minesweeper?currency=BRL&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/mine-sweeper?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/minesweeper?currency=BRL&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/mine-sweeper?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Minesweeper",
@@ -1575,7 +1575,7 @@ const GameData: Game[] = [
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jogo-de-bicho_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-de-bicho?currency=BRL&test=1",
+          "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1",
         iframeUrl:
           "https://sademo.kmgamesdev.net/games/jogo-de-bicho?currency=BRL&test=1",
       },
@@ -1584,25 +1584,25 @@ const GameData: Game[] = [
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jogo-de-bicho_500x500_cn.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-de-bicho?currency=BRL&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-de-bicho?currency=BRL&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Jogo De Bicho",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jogo-de-bicho_500x500_ptbr.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-de-bicho?currency=BRL&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-de-bicho?currency=BRL&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "Jogo De Bicho",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jogo-de-bicho_500x500_esla.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-de-bicho?currency=BRL&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1&lang=esla",
         iframeUrl:
           "https://sademo.kmgamesdev.net/games/jogo-de-bicho?currency=BRL&test=1&lang=esla",
       },
