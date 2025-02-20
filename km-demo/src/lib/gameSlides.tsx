@@ -61,9 +61,9 @@ const GameSlidesinfo = [
           "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_toridama-crash_banner_en.png",
         gameName: "Toridama Crash",
         iframeUrl:
-          "https://demo8.kingmidasdev.net/games/toon-crash?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/toridama-crash?currency=BRL&test=1",
         gameUrl:
-          "https://demo8.kingmidasdev.net/games/toon-crash?currency=GBP&test=1",
+          "https://sademo.kmgamesdev.net/games/toridama-crash?currency=BRL&test=1",
       },
       Chinese: {
         slideUrl:
