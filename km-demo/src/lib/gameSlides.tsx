@@ -288,47 +288,47 @@ const GameSlidesinfo = [
   },
   {
     id: 7,
-    gameName: "Jogo Do Bicho",
+    gameName: "Perya 4 Balls",
     tags: ["tag1", "tag2"],
     backgroundUrl:
-      "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_jogo-do-bicho_banner_en.png",
+      "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_en.png",
     category: "CLASSIC",
     langProps: {
       English: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_jogo-do-bicho_banner_en.png",
-        gameName: "Jogo Do Bicho",
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_en.png",
+        gameName: "Perya 4 Balls",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1",
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_en.png",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1",
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_en.png",
       },
       Chinese: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_jogo-do-bicho_banner_cn.png",
-        gameName: "Jogo Do Bicho",
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_cn.png",
+        gameName: "Perya 4 Balls",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1&lang=cn",
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_cn.png",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1&lang=cn",
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_cn.png",
       },
       Portuguese: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_jogo-do-bicho_banner_ptbr.png",
-        gameName: "Jogo Do Bicho",
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_ptbr.png",
+        gameName: "Perya 4 Balls",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1&lang=ptbr",
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_ptbr.png",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1&lang=ptbr",
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_ptbr.png",
       },
       Spanish: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_jogo-do-bicho_banner_esla.png",
-        gameName: "Jogo Do Bicho",
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_esla.png",
+        gameName: "Perya 4 Balls",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1&lang=esla",
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_esla.png",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1&lang=esla",
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_esla.png",
       },
     },
     isFeatured: true,

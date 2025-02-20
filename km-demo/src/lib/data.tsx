@@ -609,7 +609,8 @@ const GameData: Game[] = [
     langProps: {
       English: {
         showScreenshot: true,
-        screenshotUrl: 'https://publiccdn.kingdomhall729.com/lisbon-2024_materials/toridama-racing_visualization.png',
+        screenshotUrl:
+          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/toridama-racing_visualization.png",
         gameName: "Toridama Racing",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-racing_500x500_en.jpg",
@@ -617,21 +618,24 @@ const GameData: Game[] = [
       Chinese: {
         gameName: "Toridama Racing",
         showScreenshot: true,
-        screenshotUrl: 'https://publiccdn.kingdomhall729.com/lisbon-2024_materials/toridama-racing_visualization.png',
+        screenshotUrl:
+          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/toridama-racing_visualization.png",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-racing_500x500_en.jpg",
       },
       Portuguese: {
         gameName: "Toridama Racing",
         showScreenshot: true,
-        screenshotUrl: 'https://publiccdn.kingdomhall729.com/lisbon-2024_materials/toridama-racing_visualization.png',
+        screenshotUrl:
+          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/toridama-racing_visualization.png",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-racing_500x500_en.jpg",
       },
       Spanish: {
         gameName: "Toridama Racing",
         showScreenshot: true,
-        screenshotUrl: 'https://publiccdn.kingdomhall729.com/lisbon-2024_materials/toridama-racing_visualization.png',
+        screenshotUrl:
+          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/toridama-racing_visualization.png",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-racing_500x500_en.jpg",
       },
@@ -650,36 +654,36 @@ const GameData: Game[] = [
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-rock-paper-scissors_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-rock-paper-scissors?currency=BRL&test=1",
+          "https://sademo.kmgamesdev.net/games/toridama-rps?currency=BRL&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-rock-paper-scissors?currency=BRL&test=1",
+          "https://sademo.kmgamesdev.net/games/toridama-rps?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Toridama Rock Paper Scissors",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-rock-paper-scissors_500x500_cn.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-rock-paper-scissors?currency=BRL&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/toridama-rps?currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-rock-paper-scissors?currency=BRL&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/toridama-rps?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Toridama Rock Paper Scissors",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-rock-paper-scissors_500x500_ptbr.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-rock-paper-scissors?currency=BRL&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/toridama-rps?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-rock-paper-scissors?currency=BRL&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/toridama-rps?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "Toridama Rock Paper Scissors",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/toridama-rock-paper-scissors_500x500_esla.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-rock-paper-scissors?currency=BRL&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/toridama-rps?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-rock-paper-scissors?currency=BRL&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/toridama-rps?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: false,
@@ -1054,7 +1058,7 @@ const GameData: Game[] = [
   },
   {
     id: 28,
-    order: 28,
+    order:3,
     gameName: "Perya 4 Balls",
     tags: ["RTP: 97.00", "Max Win: 7x"],
     category: "CLASSIC",
@@ -1100,7 +1104,7 @@ const GameData: Game[] = [
   },
   {
     id: 29,
-    order: 29,
+    order: 4,
     gameName: "Perya Roleta",
     tags: ["RTP: 96.97", "Max Win: 4x"],
     category: "CLASSIC",
@@ -1146,7 +1150,7 @@ const GameData: Game[] = [
   },
   {
     id: 30,
-    order: 30,
+    order: 5,
     gameName: "Perya Drop Ball Card",
     tags: ["RTP: 97.00", "Max Win: 6x"],
     category: "CLASSIC",
@@ -1192,7 +1196,7 @@ const GameData: Game[] = [
   },
   {
     id: 31,
-    order: 31,
+    order: 6,
     gameName: "Perya Drop Ball Color",
     tags: ["RTP: 97.05", "Max Win: 7x"],
     category: "CLASSIC",
@@ -1561,7 +1565,7 @@ const GameData: Game[] = [
   },
   {
     id: 51,
-    order: 1,
+    order: 10,
     gameName: "Jogo De Bicho",
     tags: ["RTP: 96.75", "Max Win: 29999X"],
     category: "CLASSIC",
@@ -1607,7 +1611,7 @@ const GameData: Game[] = [
   },
   {
     id: 52,
-    order: 2,
+    order: 1,
     gameName: "Jogo De Bozo",
     tags: ["RTP: 91.80", "Max Win: 19X"],
     category: "CLASSIC",
@@ -1653,7 +1657,7 @@ const GameData: Game[] = [
   },
   {
     id: 53,
-    order: 3,
+    order: 2,
     gameName: "Dice Duet",
     tags: ["RTP: 97.00", "Max Win: 30X"],
     category: "CLASSIC",
