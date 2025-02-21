@@ -557,7 +557,7 @@ const GameData: Game[] = [
     id: 13,
     order: 2,
     gameName: "Toridama Crash",
-    tags: ["RTP: 97.00", "Max Win: 125x"],
+    tags: ["RTP: 97.00", "Max Win: 250x"],
     category: "NEXT-GEN",
     langProps: {
       English: {
@@ -1567,7 +1567,7 @@ const GameData: Game[] = [
     id: 51,
     order: 10,
     gameName: "Jogo De Bicho",
-    tags: ["RTP: 96.75", "Max Win: 29999X"],
+    tags: ["RTP: 96.55", "Max Win: 30,000X"],
     category: "CLASSIC",
     langProps: {
       English: {

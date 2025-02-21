@@ -171,7 +171,7 @@ const GameSlidesinfo = [
       },
       Portuguese: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_pirates-treasure_banner_ptbr.pngg",
+          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_pirates-treasure_banner_ptbr.png",
         gameName: "Pirate's Treasure",
         iframeUrl:
           "https://sademo.kmgamesdev.net/games/pirates-treasure?currency=BRL&test=1&lang=ptbr",
@@ -345,27 +345,27 @@ const GameSlidesinfo = [
           "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_en.png",
         gameName: "Perya 4 Balls",
         iframeUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_en.png",
+          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1&lang=en",
         gameUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_en.png",
+          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1&lang=en",
       },
       Chinese: {
         slideUrl:
           "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_cn.png",
         gameName: "Perya 4 Balls",
         iframeUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_cn.png",
+          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1&lang=en",
         gameUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_cn.png",
+          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1&lang=en",
       },
       Portuguese: {
         slideUrl:
           "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_ptbr.png",
         gameName: "Perya 4 Balls",
         iframeUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_ptbr.png",
+          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1&lang=en",
         gameUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_ptbr.png",
+          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1&lang=en",
       },
       Spanish: {
         slideUrl:
