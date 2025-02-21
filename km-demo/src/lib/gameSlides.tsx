@@ -267,7 +267,7 @@ const GameSlidesinfo = [
       },
       Portuguese: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_cleopatras-treasure_banner_ptbr.png",
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_cleopatras-treasure_banner_ptbr.png",
         gameName: "Cleopatra's Treasure",
         iframeUrl:
           "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1&lang=ptbr",

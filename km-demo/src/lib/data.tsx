@@ -716,7 +716,7 @@ const GameData: Game[] = [
       Portuguese: {
         gameName: "Cleopatra's Treasure",
         thumbnailUrl:
-          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/cleopatras-treasure_500x500_ptbr.jpg",
+          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/500x500images/KingMidas/cleopatras-treasure_500x500_ptbr.jpg",
         gameUrl:
           "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1&lang=ptbr",
         iframeUrl:
