@@ -1577,7 +1577,7 @@ const GameData: Game[] = [
         gameUrl:
           "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-de-bicho?currency=BRL&test=1",
+          "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1",
       },
       Chinese: {
         gameName: "Jogo De Bicho",
@@ -1604,7 +1604,7 @@ const GameData: Game[] = [
         gameUrl:
           "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-de-bicho?currency=BRL&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: false,
