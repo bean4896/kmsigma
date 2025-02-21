@@ -1851,36 +1851,36 @@ const GameData: Game[] = [
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/horus-glory_500x500_en.jpg",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/horus-glory?currency=BRL&lang=en&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/horus-glory?currency=BRL&lang=en&test=1",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/horus-glory?currency=BRL&lang=en&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/horus-glory?currency=BRL&lang=en&test=1",
       },
       Chinese: {
         gameName: "Horus Glory",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/horus-glory_500x500_cn.jpg",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/horus-glory?currency=BRL&lang=cn&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/horus-glory?currency=BRL&lang=cn&test=1",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/horus-glory?currency=BRL&lang=cn&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/horus-glory?currency=BRL&lang=cn&test=1",
       },
       Portuguese: {
         gameName: "Horus Glory",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/horus-glory_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/horus-glory?currency=BRL&lang=ptbr&test=11",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/horus-glory?currency=BRL&lang=ptbr&test=1",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/horus-glory?currency=BRL&lang=ptbr&test=11",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/horus-glory?currency=BRL&lang=ptbr&test=1",
       },
       Spanish: {
         gameName: "Horus Glory",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/horus-glory_500x500_esla.jpg ",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/horus-glory?currency=BRL&lang=esla&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/horus-glory?currency=BRL&lang=esla&test=1",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/horus-glory?currency=BRL&lang=esla&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/horus-glory?currency=BRL&lang=esla&test=1",
       },
     },
     isFeatured: false,
@@ -1897,36 +1897,36 @@ const GameData: Game[] = [
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/london-mystery_500x500_en.jpg",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/london-mystery?currency=BRL&lang=en&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/london-mystery?currency=BRL&lang=en&test=1",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/london-mystery?currency=BRL&lang=en&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/london-mystery?currency=BRL&lang=en&test=1",
       },
       Chinese: {
         gameName: "London Mystery",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/london-mystery_500x500_cn.jpg",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/london-mystery?currency=BRL&lang=cn&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/london-mystery?currency=BRL&lang=cn&test=1",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/london-mystery?currency=BRL&lang=cn&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/london-mystery?currency=BRL&lang=cn&test=1",
       },
       Portuguese: {
         gameName: "London Mystery",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/london-mystery_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/london-mystery?currency=BRL&lang=ptbr&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/london-mystery?currency=BRL&lang=ptbr&test=1",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/london-mystery?currency=BRL&lang=ptbr&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/london-mystery?currency=BRL&lang=ptbr&test=1",
       },
       Spanish: {
         gameName: "London Mystery",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/london-mystery_500x500_esla.jpg",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/london-mystery?currency=BRL&lang=esla&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/london-mystery?currency=BRL&lang=esla&test=1",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/london-mystery?currency=BRL&lang=esla&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/london-mystery?currency=BRL&lang=esla&test=1",
       },
     },
     isFeatured: false,
@@ -1943,36 +1943,36 @@ const GameData: Game[] = [
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/merlins-saga_500x500_en.jpg",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/merlins-saga?currency=BRL&lang=en&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/merlins-saga?currency=BRL&lang=en&test=1",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/merlins-saga?currency=BRL&lang=en&test=1  ",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/merlins-saga?currency=BRL&lang=en&test=1",
       },
       Chinese: {
         gameName: "Merlin's Saga",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/merlins-saga_500x500_cn.jpg",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/merlins-saga?currency=BRL&lang=cn&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/merlins-saga?currency=BRL&lang=cn&test=1",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/merlins-saga?currency=BRL&lang=cn&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/merlins-saga?currency=BRL&lang=cn&test=1",
       },
       Portuguese: {
         gameName: "Merlin's Saga",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/merlins-saga_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/merlins-saga?currency=BRL&lang=ptbr&test=11",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/merlins-saga?currency=BRL&lang=ptbr&test=1",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/merlins-saga?currency=BRL&lang=ptbr&test=11",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/merlins-saga?currency=BRL&lang=ptbr&test=1",
       },
       Spanish: {
         gameName: "Merlin's Saga",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/merlins-saga_500x500_esla.jpg",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/merlins-saga?currency=BRL&lang=esla&test=11",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/merlins-saga?currency=BRL&lang=esla&test=1",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/merlins-saga?currency=BRL&lang=esla&test=11",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/merlins-saga?currency=BRL&lang=esla&test=1",
       },
     },
     isFeatured: false,
@@ -1989,36 +1989,36 @@ const GameData: Game[] = [
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/piggy-heist_500x500_en.jpg",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/piggy-heist?currency=BRL&lang=en&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/piggy-heist?currency=BRL&lang=en&test=1",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/piggy-heist?currency=BRL&lang=en&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/piggy-heist?currency=BRL&lang=en&test=1",
       },
       Chinese: {
         gameName: "Piggy Heist",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/piggy-heist_500x500_cn.jpg",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/piggy-heist?currency=BRL&lang=cn&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/piggy-heist?currency=BRL&lang=cn&test=1",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/piggy-heist?currency=BRL&lang=cn&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/piggy-heist?currency=BRL&lang=cn&test=1",
       },
       Portuguese: {
         gameName: "Piggy Heist",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/piggy-heist_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/piggy-heist?currency=BRL&lang=ptbr&test=11",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/piggy-heist?currency=BRL&lang=ptbr&test=1",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/piggy-heist?currency=BRL&lang=ptbr&test=11",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/piggy-heist?currency=BRL&lang=ptbr&test=1",
       },
       Spanish: {
         gameName: "Piggy Heist",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/piggy-heist_500x500_esla.jpg",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/piggy-heist?currency=BRL&lang=esla&test=11",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/piggy-heist?currency=BRL&lang=esla&test=1",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/piggy-heist?currency=BRL&lang=esla&test=11",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/piggy-heist?currency=BRL&lang=esla&test=1",
       },
     },
     isFeatured: false,
@@ -2035,36 +2035,36 @@ const GameData: Game[] = [
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/leppy-loot_500x500_en.jpg",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/leppy-loot?currency=BRL&lang=en&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/leppys-loot?currency=BRL&lang=en&test=1",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/leppy-loot?currency=BRL&lang=en&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/leppys-loot?currency=BRL&lang=en&test=1",
       },
       Chinese: {
         gameName: "Leppy Loot",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/leppy-loot_500x500_cn.jpg",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/leppy-loot?currency=BRL&lang=cn&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/leppys-loot?currency=BRL&lang=cn&test=1",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/leppy-loot?currency=BRL&lang=cn&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/leppys-loot?currency=BRL&lang=cn&test=1",
       },
       Portuguese: {
         gameName: "Leppy Loot",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/leppy-loot_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/leppy-loot?currency=BRL&lang=ptbr&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/leppys-loot?currency=BRL&lang=ptbr&test=1",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/leppy-loot?currency=BRL&lang=ptbr&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/leppys-loot?currency=BRL&lang=ptbr&test=1",
       },
       Spanish: {
         gameName: "Leppy Loot",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/leppy-loot_500x500_esla.jpg",
         gameUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/leppy-loot?currency=BRL&lang=esla&test=11",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/leppys-loot?currency=BRL&lang=esla&test=1",
         iframeUrl:
-          "https://demo94.kingmidasgames.net/lobbys/kmgamelauncher/#/gamelauncher/8/leppy-loot?currency=BRL&lang=esla&test=11",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/leppys-loot?currency=BRL&lang=esla&test=1",
       },
     },
     isFeatured: false,
