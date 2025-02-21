@@ -372,9 +372,9 @@ const GameSlidesinfo = [
           "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_esla.png",
         gameName: "Perya 4 Balls",
         iframeUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_esla.png",
+          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1",
         gameUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_esla.png",
+          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1",
       },
     },
     isFeatured: true,
