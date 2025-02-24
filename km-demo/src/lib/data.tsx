@@ -22,27 +22,27 @@ const GameData: Game[] = [
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/egyptian-mines_500x500_cn.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/egyptian-mines?room=1&currency=BRL&test=1&lang=cn",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/egyptian-mines?room=1&currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Egyptian Mines",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/egyptian-mines_500x500_ptbr.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/egyptian-mines?room=1&currency=BRL&test=1&lang=ptbr",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/egyptian-mines?room=1&currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "Egyptian Mines",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/egyptian-mines_500x500_esla.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/egyptian-mines?room=1&currency=BRL&test=1&lang=esla",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/egyptian-mines?room=1&currency=BRL&test=1&lang=esla",
       },
     },
     isFeatured: false,
