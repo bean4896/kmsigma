@@ -13,9 +13,9 @@ const GameData: Game[] = [
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/egyptian-mines_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1",
+          "https://sademo.kmgamesdev.net/games/egyptian-mines?room=1&currency=BRL&test=1&lang=en",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1",
+          "https://sademo.kmgamesdev.net/games/egyptian-mines?room=1&currency=BRL&test=1&lang=en",
       },
       Chinese: {
         gameName: "Egyptian Mines",
