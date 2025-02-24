@@ -1058,7 +1058,7 @@ const GameData: Game[] = [
   },
   {
     id: 28,
-    order:3,
+    order: 3,
     gameName: "Perya 4 Balls",
     tags: ["RTP: 97.00", "Max Win: 7x"],
     category: "CLASSIC",

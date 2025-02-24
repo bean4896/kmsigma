@@ -71,7 +71,7 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
           onClick={handleOpenDialog}
         >
           <Image
-            src={langProps[selectedLanguage]?.thumbnailUrl || ""}
+            src={langProps[selectedLanguage]?.thumbnailUrl + `?v=${new Date().getTime()}` || ""}
             width={1000}
             height={1000}
             alt={game.gameName}
