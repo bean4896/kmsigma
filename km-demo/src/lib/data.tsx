@@ -197,36 +197,36 @@ const GameData: Game[] = [
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/penguin-panic_500x500_en.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=BRL&test=1",
+          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=ARS&test=1&lang=en",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=BRL&test=1",
+          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=ARS&test=1&lang=en",
       },
       Chinese: {
         gameName: "Penguin Panic",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/penguin-panic_500x500_cn.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=BRL&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=ARS&test=1&lang=cn",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=BRL&test=1&lang=cn",
+          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=ARS&test=1&lang=cn",
       },
       Portuguese: {
         gameName: "Penguin Panic",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/penguin-panic_500x500_ptbr.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=BRL&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=ARS&test=1&lang=ptbr",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=BRL&test=1&lang=ptbr",
+          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=ARS&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "Penguin Panic",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/penguin-panic_500x500_esla.jpg",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=BRL&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=ARS&test=1&lang=esla",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=BRL&test=1&lang=esla",
+          "https://sademo.kmgamesdev.net/games/penguin-panic?currency=ARS&test=1&lang=esla",
       },
     },
     isFeatured: false,
