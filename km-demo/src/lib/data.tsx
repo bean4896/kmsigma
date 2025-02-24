@@ -1566,12 +1566,12 @@ const GameData: Game[] = [
   {
     id: 51,
     order: 10,
-    gameName: "Jogo De Bicho",
-    tags: ["RTP: 96.55", "Max Win: 30,000X"],
+    gameName: "Jogo Do Bicho",
+    tags: ["RTP: 96.65", "Max Win: 30,000X"],
     category: "CLASSIC",
     langProps: {
       English: {
-        gameName: "Jogo De Bicho",
+        gameName: "Jogo Do Bicho",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jogo-de-bicho_500x500_en.jpg",
         gameUrl:
@@ -1580,7 +1580,7 @@ const GameData: Game[] = [
           "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1",
       },
       Chinese: {
-        gameName: "Jogo De Bicho",
+        gameName: "Jogo Do Bicho",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jogo-de-bicho_500x500_cn.jpg",
         gameUrl:
@@ -1589,7 +1589,7 @@ const GameData: Game[] = [
           "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1&lang=cn",
       },
       Portuguese: {
-        gameName: "Jogo De Bicho",
+        gameName: "Jogo Do Bicho",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jogo-de-bicho_500x500_ptbr.jpg",
         gameUrl:
@@ -1598,7 +1598,7 @@ const GameData: Game[] = [
           "https://sademo.kmgamesdev.net/games/jogo-do-bicho?currency=BRL&test=1&lang=ptbr",
       },
       Spanish: {
-        gameName: "Jogo De Bicho",
+        gameName: "Jogo Do Bicho",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/jogo-de-bicho_500x500_esla.jpg",
         gameUrl:
@@ -1797,7 +1797,7 @@ const GameData: Game[] = [
     id: 45,
     order: 1,
     gameName: "Pirate's Treasure",
-    tags: ["RTP: 97.30", "Max Win: 2000X"],
+    tags: ["RTP: 97.00", "Max Win: 2000X"],
     category: "SLOTS",
     langProps: {
       English: {
