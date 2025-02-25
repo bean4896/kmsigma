@@ -85,7 +85,7 @@ const GameSlidesinfo = [
       },
       Spanish: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_toridama-crash_banner_esla.png",
+          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_toridama-crash_banner_esla.png?v=2",
         gameName: "Toridama Crash",
         iframeUrl:
           "https://sademo.kmgamesdev.net/games/toridama-crash?currency=BRL&test=1&lang=eslaa",
