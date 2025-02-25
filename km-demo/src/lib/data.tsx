@@ -1830,7 +1830,7 @@ const GameData: Game[] = [
       Spanish: {
         gameName: "Pirate's Treasure",
         thumbnailUrl:
-          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/pirates-treasure_500x500_esla.jpg ",
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/pirates-treasure_500x500_esla.jpg",
         gameUrl:
           "https://sademo.kmgamesdev.net/games/pirates-treasure?currency=BRL&test=1&lang=esla",
         iframeUrl:
@@ -1876,7 +1876,7 @@ const GameData: Game[] = [
       Spanish: {
         gameName: "Horus Glory",
         thumbnailUrl:
-          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/horus-glory_500x500_esla.jpg ",
+          "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/horus-glory_500x500_esla.jpg",
         gameUrl:
           "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/horus-glory?currency=BRL&lang=esla&test=1",
         iframeUrl:
