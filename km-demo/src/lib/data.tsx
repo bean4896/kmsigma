@@ -838,36 +838,36 @@ const GameData: Game[] = [
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/warriors-temple_500x500_en.jpg",
         gameUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/warriors-temple?currency=USD&lang=en&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/warriors-temple?currency=USD&lang=en&test=1",
         iframeUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/warriors-temple?currency=USD&lang=en&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/warriors-temple?currency=USD&lang=en&test=1",
       },
       Chinese: {
         gameName: "Warriors Temple",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/warriors-temple_500x500_cn.jpg",
         gameUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/warriors-temple?currency=USD&lang=hans&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/warriors-temple?currency=USD&lang=hans&test=1",
         iframeUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/warriors-temple?currency=USD&lang=hans&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/warriors-temple?currency=USD&lang=hans&test=1",
       },
       Portuguese: {
         gameName: "Warriors Temple",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/warriors-temple_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/warriors-temple?currency=USD&lang=ptbr&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/warriors-temple?currency=USD&lang=ptbr&test=1",
         iframeUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/warriors-temple?currency=USD&lang=ptbr&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/warriors-temple?currency=USD&lang=ptbr&test=1",
       },
       Spanish: {
         gameName: "Warriors Temple",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/warriors-temple_500x500_esla.jpg",
         gameUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/warriors-temple?currency=USD&lang=esla&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/warriors-temple?currency=USD&lang=esla&test=1",
         iframeUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/warriors-temple?currency=USD&lang=esla&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/warriors-temple?currency=USD&lang=esla&test=1",
       },
     },
     isFeatured: false,
@@ -884,36 +884,36 @@ const GameData: Game[] = [
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/almighty-greek_500x500_en.jpg",
         gameUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/almighty-greek?currency=USD&lang=en&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/almighty-greek?currency=USD&lang=en&test=1",
         iframeUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/almighty-greek?currency=USD&lang=en&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/almighty-greek?currency=USD&lang=en&test=1",
       },
       Chinese: {
         gameName: "Almighty Greek",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/almighty-greek_500x500_cn.jpg",
         gameUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/almighty-greek?currency=USD&lang=hans&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/almighty-greek?currency=USD&lang=hans&test=1",
         iframeUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/almighty-greek?currency=USD&lang=hans&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/almighty-greek?currency=USD&lang=hans&test=1",
       },
       Portuguese: {
         gameName: "Almighty Greek",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/almighty-greek_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/almighty-greek?currency=USD&lang=ptbr&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/almighty-greek?currency=USD&lang=ptbr&test=1",
         iframeUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/almighty-greek?currency=USD&lang=ptbr&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/almighty-greek?currency=USD&lang=ptbr&test=1",
       },
       Spanish: {
         gameName: "Almighty Greek",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/almighty-greek_500x500_esla.jpg",
         gameUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/almighty-greek?currency=USD&lang=esla&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/almighty-greek?currency=USD&lang=esla&test=1",
         iframeUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/almighty-greek?currency=USD&lang=esla&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/almighty-greek?currency=USD&lang=esla&test=1",
       },
     },
     isFeatured: false,
@@ -930,36 +930,36 @@ const GameData: Game[] = [
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/gold-mine_500x500_en.jpg",
         gameUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/gold-mines?currency=USD&lang=en&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/gold-mines?currency=USD&lang=en&test=1",
         iframeUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/gold-mines?currency=USD&lang=en&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/gold-mines?currency=USD&lang=en&test=1",
       },
       Chinese: {
         gameName: "Gold Mine",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/gold-mine_500x500_cn.jpg",
         gameUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/gold-mines?currency=USD&lang=hans&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/gold-mines?currency=USD&lang=hans&test=1",
         iframeUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/gold-mines?currency=USD&lang=hans&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/gold-mines?currency=USD&lang=hans&test=1",
       },
       Portuguese: {
         gameName: "Gold Mine",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/gold-mine_500x500_ptbr.jpg",
         gameUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/gold-mines?currency=USD&lang=ptbr&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/gold-mines?currency=USD&lang=ptbr&test=1",
         iframeUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/gold-mines?currency=USD&lang=ptbr&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/gold-mines?currency=USD&lang=ptbr&test=1",
       },
       Spanish: {
         gameName: "Gold Mine",
         thumbnailUrl:
           "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/gold-mine_500x500_esla.jpg",
         gameUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/gold-mines?currency=USD&lang=esla&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/gold-mines?currency=USD&lang=esla&test=1",
         iframeUrl:
-          "https://demo74.kingmidasdev.net/lobbys/kmgamelauncher/#/gamelauncher/8/gold-mines?currency=USD&lang=esla&test=1",
+          "https://cdn.kingmidasdev.net/syn33/demo9/lobbys/kmgamelauncher/#/gamelauncher/8/gold-mines?currency=USD&lang=esla&test=1",
       },
     },
     isFeatured: false,
