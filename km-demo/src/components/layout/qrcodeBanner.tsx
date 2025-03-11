@@ -1,5 +1,4 @@
 'use client';
-import Image from "next/image";
 import ImgQrcode from "@/assets/demosite-qr-km-website.jpg";
 import { useLanguage } from "@/context/LanguageContext";
 import { translations } from "@/lib/constent";
@@ -39,12 +38,15 @@ const Banner = () => {
             </h3>
           </div>
           <div className="flex items-center">
-            <Image
-              src={ImgQrcode} // Resolved path for the image
+            <img
+              src={ImgQrcode.src} // Resolved path for the image
               alt="QR Code"
-              width={2000} // Adjust width and height based on actual image dimensions
-              height={2000}
               className="qrcodeImg"
+              style={{
+                width: "100%", // Adjust styles as needed
+                height: "auto",
+                maxWidth: "200px", // Optional: Limit maximum width
+              }}
             />
           </div>
         </div>
