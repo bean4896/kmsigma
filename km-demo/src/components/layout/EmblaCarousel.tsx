@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { EmblaOptionsType } from "embla-carousel";
 import { DotButton, useDotButton } from "./EmblaCarouselDotButton";
-import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
 import GameDialog from "@/components/gameList/gameDialog";
 import Autoplay from "embla-carousel-autoplay";
@@ -48,13 +47,10 @@ const EmblaCarousel: React.FC<PropType> = ({ filteredSlides, options }) => {
             return (
               <div className="embla__slide" key={slide.id}>
                 <div className="slide_inf">
-                  <Image
+                  <img
                     onClick={() => handlePlayBtnClick(slide.id)}
                     className="slide flex flex-col lg:flex-row items-center cursor-pointer w-full h-auto"
                     src={slideUrl}
-                    width="0"
-                    height="0"
-                    sizes="100vw"
                     alt="Slide Background"
                     style={{
                       objectFit: "contain",
