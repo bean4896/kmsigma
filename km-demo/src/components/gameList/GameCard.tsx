@@ -1,8 +1,4 @@
-// components/gameList/GameCard.tsx
-
-"use client";
 import React, { useState } from "react";
-import Image from "next/image";
 import GameDialog from "./gameDialog";
 import { GameCardProps } from "@/lib/types";
 import EnglishFlag from "@/assets/Flag_of_the_United_Kingdom.svg";
@@ -20,7 +16,7 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
     switch (language.toLowerCase()) {
       case "english":
         return (
-          <Image
+          <img
             className="h-6 w-6 object-cover rounded-full"
             src={EnglishFlag}
             alt="English"
@@ -28,7 +24,7 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
         );
       case "chinese":
         return (
-          <Image
+          <img
             className="h-6 w-6 object-cover rounded-full"
             src={ChinaFlag}
             alt="Chinese"
@@ -36,7 +32,7 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
         );
       case "spanish":
         return (
-          <Image
+          <img
             className="h-6 w-6 object-cover rounded-full"
             src={SpanFlag}
             alt="Spanish"
@@ -44,7 +40,7 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
         );
       case "portuguese":
         return (
-          <Image
+          <img
             className="h-6 w-6 object-cover rounded-full"
             src={BrazilFlag}
             alt="Brazil"
@@ -70,13 +66,9 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
           className="trigger mb-2 cursor-pointer hover:scale-101"
           onClick={handleOpenDialog}
         >
-          <Image
+          <img
             src={langProps[selectedLanguage]?.thumbnailUrl + `?v=${new Date().getTime()}` || ""}
-            width={1000}
-            height={1000}
             alt={game.gameName}
-            placeholder="blur"
-            blurDataURL="data:..."
             className="w-full rounded-[3%] hover:scale-105 duration-200"
           />
         </div>

@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import Image from "next/image";
 import ImgQrcode from "@/assets/demosite-qr-km-website.jpg";
 import { useLanguage } from "@/context/LanguageContext";
@@ -9,11 +9,13 @@ const Banner = () => {
   const { selectedLanguage } = useLanguage();
 
   // Get the translated top banner message based on the selected language
-  const topBannerMessage = translations.topBannerMessage[selectedLanguage as keyof typeof translations.topBannerMessage]
-    || translations.topBannerMessage.English;
+  const topBannerMessage =
+    translations.topBannerMessage[selectedLanguage as keyof typeof translations.topBannerMessage] ||
+    translations.topBannerMessage.English;
 
   // Split the message by newline characters to retain <br /> for line breaks
-  const bannerLines = topBannerMessage.split('\n');
+  const bannerLines = topBannerMessage.split("\n");
+
   return (
     <div
       className="bannerContainer"
@@ -38,10 +40,10 @@ const Banner = () => {
           </div>
           <div className="flex items-center">
             <Image
-              src={ImgQrcode}
+              src={ImgQrcode} // Resolved path for the image
               alt="QR Code"
-              width="2000"
-              height="2000"
+              width={2000} // Adjust width and height based on actual image dimensions
+              height={2000}
               className="qrcodeImg"
             />
           </div>
