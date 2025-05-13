@@ -48,10 +48,10 @@ const GameListWithFilter: React.FC<GameListWithFilterProps> = ({
         onSelectCategory={handleSelectCategory}
       />
       <NewRelease selectedCategory={selectedCategory} />
-      <LanguageFilter
-        selectedLanguage={selectedLanguage}
-        onSelectLanguage={handleSelectLanguage}
-      />
+        <LanguageFilter
+          selectedLanguage={selectedLanguage}
+          onSelectLanguage={handleSelectLanguage}
+        />
       <div>
         {/* skeleton */}
         {isLoading ? (

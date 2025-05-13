@@ -2,7 +2,7 @@
 
 export const translations = {
   categories: {
-    English: ["Next Gen", "Slots", "Classics"],
+    English: ["Next Gen", "Slots", "Classic"],
     Chinese: ["次世代", "老虎机", "经典"],
     Portuguese: ["Nova Geração", "Slots", "Clássicos"],
     Spanish: ["Nueva Generación", "Tragamonedas", "Clásicos"],
