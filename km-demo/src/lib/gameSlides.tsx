@@ -16,6 +16,8 @@ const GameSlidesinfo = [
           "https://demo6.kingmidasdev.net/games/chicken-crossy?currency=USD&test=1",
         gameUrl:
           "https://demo6.kingmidasdev.net/games/chicken-crossy?currency=USD&test=1",
+          mobileslideUrl:
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747192354/Website-Banner_Chicken-Crossy_square_gb1z2b.mp4",
       },
       Chinese: {
         slideUrl:
@@ -25,6 +27,8 @@ const GameSlidesinfo = [
           "https://demo6.kingmidasdev.net/games/chicken-crossy?currency=USD&test=1&lang=cn",
         gameUrl:
           "https://demo6.kingmidasdev.net/games/chicken-crossy?currency=USD&test=1&lang=cn",
+          mobileslideUrl:
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747192354/Website-Banner_Chicken-Crossy_square_gb1z2b.mp4",
       },
       Portuguese: {
         slideUrl:
@@ -34,6 +38,8 @@ const GameSlidesinfo = [
           "https://demo6.kingmidasdev.net/games/chicken-crossy?currency=USD&test=1&lang=ptbr",
         gameUrl:
           "https://demo6.kingmidasdev.net/games/chicken-crossy?currency=USD&test=1&lang=ptbr",
+          mobileslideUrl:
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747192354/Website-Banner_Chicken-Crossy_square_gb1z2b.mp4",
       },
       Spanish: {
         slideUrl:
@@ -43,6 +49,8 @@ const GameSlidesinfo = [
           "https://demo6.kingmidasdev.net/games/chicken-crossy?currency=USD&test=1&lang=esla",
         gameUrl:
           "https://demo6.kingmidasdev.net/games/chicken-crossy?currency=USD&test=1&lang=esla",
+          mobileslideUrl:
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747192354/Website-Banner_Chicken-Crossy_square_gb1z2b.mp4",
       },
     },
     isFeatured: true,
@@ -64,6 +72,8 @@ const GameSlidesinfo = [
           "https://demo6.kingmidasdev.net/games/toridama-tap-smash?currency=USD&test=1",
         gameUrl:
           "https://demo6.kingmidasdev.net/games/toridama-tap-smash?currency=USD&test=1",
+          mobileslideUrl:
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747193476/Website-Banner_Toridama-tap-Smash_square_cmxyny.mp4",
       },
       Chinese: {
         slideUrl:
@@ -73,6 +83,8 @@ const GameSlidesinfo = [
           "https://demo6.kingmidasdev.net/games/toridama-tap-smash?currency=USD&test=1&lang=cn",
         gameUrl:
           "https://demo6.kingmidasdev.net/games/toridama-tap-smash?currency=USD&test=1&lang=cn",
+          mobileslideUrl:
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747193476/Website-Banner_Toridama-tap-Smash_square_cmxyny.mp4",
       },
       Portuguese: {
         slideUrl:
@@ -82,6 +94,8 @@ const GameSlidesinfo = [
           "https://demo6.kingmidasdev.net/games/toridama-tap-smash?currency=USD&test=1&lang=ptbr",
         gameUrl:
           "https://demo6.kingmidasdev.net/games/toridama-tap-smash?currency=USD&test=1&lang=ptbr",
+          mobileslideUrl:
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747193476/Website-Banner_Toridama-tap-Smash_square_cmxyny.mp4",
       },
       Spanish: {
         slideUrl:
@@ -91,6 +105,8 @@ const GameSlidesinfo = [
           "https://demo6.kingmidasdev.net/games/toridama-tap-smash?currency=USD&test=1&lang=esla",
         gameUrl:
           "https://demo6.kingmidasdev.net/games/toridama-tap-smash?currency=USD&test=1&lang=esla",
+          mobileslideUrl:
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747193476/Website-Banner_Toridama-tap-Smash_square_cmxyny.mp4",
       },
     },
     isFeatured: true,
@@ -112,6 +128,8 @@ const GameSlidesinfo = [
           "https://demo6.kingmidasdev.net/games/pirates-treasure?currency=USD&test=1",
         gameUrl:
           "https://demo6.kingmidasdev.net/games/pirates-treasure?currency=USD&test=1",
+          mobileslideUrl:
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747193578/Website-Banner_Pirates-Treasure_square_j75nzv.mp4",
       },
       Chinese: {
         slideUrl:
@@ -121,6 +139,8 @@ const GameSlidesinfo = [
           "https://demo6.kingmidasdev.net/games/pirates-treasure?currency=USD&test=1&lang=cn",
         gameUrl:
           "https://demo6.kingmidasdev.net/games/pirates-treasure?currency=USD&test=1&lang=cn",
+          mobileslideUrl:
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747193578/Website-Banner_Pirates-Treasure_square_j75nzv.mp4",
       },
       Portuguese: {
         slideUrl:
@@ -130,6 +150,8 @@ const GameSlidesinfo = [
           "https://demo6.kingmidasdev.net/games/pirates-treasure?currency=USD&test=1&lang=ptbr",
         gameUrl:
           "https://demo6.kingmidasdev.net/games/pirates-treasure?currency=USD&test=1&lang=ptbr",
+          mobileslideUrl:
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747193578/Website-Banner_Pirates-Treasure_square_j75nzv.mp4",
       },
       Spanish: {
         slideUrl:
@@ -139,6 +161,8 @@ const GameSlidesinfo = [
           "https://demo6.kingmidasdev.net/games/pirates-treasure?currency=USD&test=1&lang=esla",
         gameUrl:
           "https://demo6.kingmidasdev.net/games/pirates-treasure?currency=USD&test=1&lang=esla",
+          mobileslideUrl:
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747193578/Website-Banner_Pirates-Treasure_square_j75nzv.mp4",
       },
     },
     isFeatured: true,
@@ -255,6 +279,8 @@ const GameSlidesinfo = [
           "https://demo6.kingmidasdev.net/games/colour-game-2?currency=USD&test=1",
         gameUrl:
           "https://demo6.kingmidasdev.net/games/colour-game-2?currency=USD&test=1",
+          mobileslideUrl:
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747193566/Website-Banner_Colour-Game-2_square_wwbazc.mp4",
       },
       Chinese: {
         slideUrl:
@@ -264,6 +290,8 @@ const GameSlidesinfo = [
           "https://demo6.kingmidasdev.net/games/colour-game-2?currency=USD&test=1&lang=cn",
         gameUrl:
           "https://demo6.kingmidasdev.net/games/colour-game-2?currency=USD&test=1&lang=cn",
+          mobileslideUrl:
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747193566/Website-Banner_Colour-Game-2_square_wwbazc.mp4",
       },
       Portuguese: {
         slideUrl:
@@ -273,6 +301,8 @@ const GameSlidesinfo = [
           "https://demo6.kingmidasdev.net/games/colour-game-2?currency=USD&test=1&lang=ptbr",
         gameUrl:
           "https://demo6.kingmidasdev.net/games/colour-game-2?currency=USD&test=1&lang=ptbr",
+          mobileslideUrl:
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747193566/Website-Banner_Colour-Game-2_square_wwbazc.mp4",
       },
       Spanish: {
         slideUrl:
@@ -282,6 +312,8 @@ const GameSlidesinfo = [
           "https://demo6.kingmidasdev.net/games/colour-game-2?currency=USD&test=1&lang=esla",
         gameUrl:
           "https://demo6.kingmidasdev.net/games/colour-game-2?currency=USD&test=1&lang=esla",
+          mobileslideUrl:
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747193566/Website-Banner_Colour-Game-2_square_wwbazc.mp4",
       },
     },
     isFeatured: true,
