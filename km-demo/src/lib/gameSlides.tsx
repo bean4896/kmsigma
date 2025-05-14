@@ -1,143 +1,96 @@
 const GameSlidesinfo = [
   {
     id: 1,
-    gameName: "Egyptian Mines",
+    gameName: "Chicken Crossy",
     tags: ["tag1", "tag2"],
     backgroundUrl:
-      "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_egyptian-mines_banner_en.png",
+      "https://res.cloudinary.com/detatjujs/video/upload/v1747190153/Website-Banner_Chicken-Crossy_1060x470_1_xyuvsd.mp4",
     category: "NEXT-GEN",
     thumbnail: "thumbnail url",
     langProps: {
       English: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_egyptian-mines_banner_en.png",
-        gameName: "Egyptian Mines",
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747190153/Website-Banner_Chicken-Crossy_1060x470_1_xyuvsd.mp4",
+        gameName: "Chicken Crossy",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1",
+          "https://demo6.kingmidasdev.net/games/chicken-crossy?currency=USD&test=1",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1",
+          "https://demo6.kingmidasdev.net/games/chicken-crossy?currency=USD&test=1",
       },
       Chinese: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_egyptian-mines_banner_cn.png",
-        gameName: "Egyptian Mines",
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747190153/Website-Banner_Chicken-Crossy_1060x470_1_xyuvsd.mp4",
+        gameName: "Chicken Crossy",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1&lang=cn",
+          "https://demo6.kingmidasdev.net/games/chicken-crossy?currency=USD&test=1&lang=cn",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1&lang=cn",
+          "https://demo6.kingmidasdev.net/games/chicken-crossy?currency=USD&test=1&lang=cn",
       },
       Portuguese: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_egyptian-mines_banner_ptbr.png",
-        gameName: "Egyptian Mines",
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747190153/Website-Banner_Chicken-Crossy_1060x470_1_xyuvsd.mp4",
+        gameName: "Chicken Crossy",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1&lang=ptbr",
+          "https://demo6.kingmidasdev.net/games/chicken-crossy?currency=USD&test=1&lang=ptbr",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1&lang=ptbr",
+          "https://demo6.kingmidasdev.net/games/chicken-crossy?currency=USD&test=1&lang=ptbr",
       },
       Spanish: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_egyptian-mines_banner_esla.png",
-        gameName: "Egyptian Mines",
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747190153/Website-Banner_Chicken-Crossy_1060x470_1_xyuvsd.mp4",
+        gameName: "Chicken Crossy",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1&lang=esla",
+          "https://demo6.kingmidasdev.net/games/chicken-crossy?currency=USD&test=1&lang=esla",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/egyptian-mines?currency=BRL&test=1&lang=esla",
+          "https://demo6.kingmidasdev.net/games/chicken-crossy?currency=USD&test=1&lang=esla",
       },
     },
     isFeatured: true,
   },
   {
     id: 2,
-    gameName: "Toridama Crash",
+    gameName: "TORIDAMA Tap Smash",
     tags: ["tag1", "tag2"],
     backgroundUrl:
-      "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_toridama-crash_banner_en.png",
+      "https://res.cloudinary.com/detatjujs/video/upload/v1747190424/Website-Banner_Toridama-tap-Smash_1060x470_mxxvi3.mp4",
     category: "NEXT-GEN",
     thumbnail: "thumbnail url",
     langProps: {
       English: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_toridama-crash_banner_en.png",
-        gameName: "Toridama Crash",
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747190424/Website-Banner_Toridama-tap-Smash_1060x470_mxxvi3.mp4",
+        gameName: "TORIDAMA Tap Smash",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-crash?currency=BRL&test=1",
+          "https://demo6.kingmidasdev.net/games/toridama-tap-smash?currency=USD&test=1",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-crash?currency=BRL&test=1",
+          "https://demo6.kingmidasdev.net/games/toridama-tap-smash?currency=USD&test=1",
       },
       Chinese: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_toridama-crash_banner_cn.png",
-        gameName: "Toridama Crash",
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747190424/Website-Banner_Toridama-tap-Smash_1060x470_mxxvi3.mp4",
+        gameName: "TORIDAMA Tap Smash",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-crash?currency=BRL&test=1&lang=cn",
+          "https://demo6.kingmidasdev.net/games/toridama-tap-smash?currency=USD&test=1&lang=cn",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-crash?currency=BRL&test=1&lang=cn",
+          "https://demo6.kingmidasdev.net/games/toridama-tap-smash?currency=USD&test=1&lang=cn",
       },
       Portuguese: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_toridama-crash_banner_ptbr.png",
-        gameName: "Toridama Crash",
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747190424/Website-Banner_Toridama-tap-Smash_1060x470_mxxvi3.mp4",
+        gameName: "TORIDAMA Tap Smash",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-crash?currency=BRL&test=1&lang=ptbr",
+          "https://demo6.kingmidasdev.net/games/toridama-tap-smash?currency=USD&test=1&lang=ptbr",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-crash?currency=BRL&test=1&lang=ptbr",
+          "https://demo6.kingmidasdev.net/games/toridama-tap-smash?currency=USD&test=1&lang=ptbr",
       },
       Spanish: {
         slideUrl:
           "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_toridama-crash_banner_esla.png?v=2",
-        gameName: "Toridama Crash",
+        gameName: "TORIDAMA Tap Smash",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-crash?currency=BRL&test=1&lang=eslaa",
+          "https://demo6.kingmidasdev.net/games/toridama-tap-smash?currency=USD&test=1&lang=esla",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-crash?currency=BRL&test=1&lang=esla",
-      },
-    },
-    isFeatured: true,
-  },
-  {
-    id: 3,
-    gameName: "Toridama Rock Paper Scissors",
-    tags: ["tag1", "tag2"],
-    backgroundUrl:
-      "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_toridama-rps_banner_en.png",
-    category: "NEXT-GEN",
-    langProps: {
-      English: {
-        slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_toridama-rps_banner_en.png",
-        gameName: "Toridama Rock Paper Scissors",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-rps?currency=BRL&test=1",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-rps?currency=BRL&test=1",
-      },
-      Chinese: {
-        slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_toridama-rps_banner_cn.png",
-        gameName: "Toridama Rock Paper Scissors",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-rps?currency=BRL&test=1&lang=cn",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-rps?currency=BRL&test=1&lang=cn",
-      },
-      Portuguese: {
-        slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_toridama-rps_banner_ptbr.png",
-        gameName: "Toridama Rock Paper Scissors",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-rps?currency=BRL&test=1&lang=ptbr",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-rps?currency=BRL&test=1&lang=ptbr",
-      },
-      Spanish: {
-        slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_toridama-rps_banner_esla.png",
-        gameName: "Toridama Rock Paper Scissors",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-rps?currency=BRL&test=1&lang=esla",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/toridama-rps?currency=BRL&test=1&lang=esla",
+          "https://demo6.kingmidasdev.net/games/toridama-tap-smash?currency=USD&test=1&lang=esla",
       },
     },
     isFeatured: true,
@@ -147,286 +100,193 @@ const GameSlidesinfo = [
     gameName: "Pirate's Treasure",
     tags: ["tag1", "tag2"],
     backgroundUrl:
-      "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_pirates-treasure_banner_en.png",
+      "https://res.cloudinary.com/detatjujs/video/upload/v1747191049/Website-Banner_Pirates-Treasure_1060x470_zjsz06.mp4",
     category: "SLOTS",
     thumbnail: "thumbnail url",
     langProps: {
       English: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_pirates-treasure_banner_en.png",
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747191049/Website-Banner_Pirates-Treasure_1060x470_zjsz06.mp4",
         gameName: "Pirate's Treasure",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/pirates-treasure?currency=BRL&test=1",
+          "https://demo6.kingmidasdev.net/games/pirates-treasure?currency=USD&test=1",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/pirates-treasure?currency=BRL&test=1",
+          "https://demo6.kingmidasdev.net/games/pirates-treasure?currency=USD&test=1",
       },
       Chinese: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_pirates-treasure_banner_cn.png",
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747191049/Website-Banner_Pirates-Treasure_1060x470_zjsz06.mp4",
         gameName: "Pirate's Treasure",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/pirates-treasure?currency=BRL&test=1&lang=cn",
+          "https://demo6.kingmidasdev.net/games/pirates-treasure?currency=USD&test=1&lang=cn",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/pirates-treasure?currency=BRL&test=1&lang=cn",
+          "https://demo6.kingmidasdev.net/games/pirates-treasure?currency=USD&test=1&lang=cn",
       },
       Portuguese: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_pirates-treasure_banner_ptbr.png",
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747191049/Website-Banner_Pirates-Treasure_1060x470_zjsz06.mp4",
         gameName: "Pirate's Treasure",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/pirates-treasure?currency=BRL&test=1&lang=ptbr",
+          "https://demo6.kingmidasdev.net/games/pirates-treasure?currency=USD&test=1&lang=ptbr",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/pirates-treasure?currency=BRL&test=1&lang=ptbr",
+          "https://demo6.kingmidasdev.net/games/pirates-treasure?currency=USD&test=1&lang=ptbr",
       },
       Spanish: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_pirates-treasure_banner_esla.png",
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747191049/Website-Banner_Pirates-Treasure_1060x470_zjsz06.mp4",
         gameName: "Pirate's Treasure",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/pirates-treasure?currency=BRL&test=1&lang=esla",
+          "https://demo6.kingmidasdev.net/games/pirates-treasure?currency=USD&test=1&lang=esla",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/pirates-treasure?currency=BRL&test=1&lang=esla",
+          "https://demo6.kingmidasdev.net/games/pirates-treasure?currency=USD&test=1&lang=esla",
       },
     },
     isFeatured: true,
   },
+  // {
+  //   id: 5,
+  //   gameName: "Gold Rush Bonanza",
+  //   tags: ["tag1", "tag2"],
+  //   backgroundUrl:
+  //     "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_gold-rush-bonanza_banner_en.png",
+  //   category: "SLOTS",
+  //   thumbnail: "thumbnail url",
+  //   langProps: {
+  //     English: {
+  //       slideUrl:
+  //         "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_gold-rush-bonanza_banner_en.png",
+  //       gameName: "Rooster Blitz",
+  //       iframeUrl:
+  //         "https://sademo.kmgamesdev.net/games/gold-rush-bonanza?currency=BRL&test=1",
+  //       gameUrl:
+  //         "https://sademo.kmgamesdev.net/games/gold-rush-bonanza?currency=BRL&test=1",
+  //     },
+  //     Chinese: {
+  //       slideUrl:
+  //         "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_gold-rush-bonanza_banner_cn.png",
+  //       gameName: "Rooster Blitz",
+  //       iframeUrl:
+  //         "https://sademo.kmgamesdev.net/games/gold-rush-bonanza?currency=BRL&test=1&lang=cn",
+  //       gameUrl:
+  //         "https://sademo.kmgamesdev.net/games/gold-rush-bonanza?currency=BRL&test=1&lang=cn",
+  //     },
+  //     Portuguese: {
+  //       slideUrl:
+  //         "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_gold-rush-bonanza_banner_ptbr.png",
+  //       gameName: "Rooster Blitz",
+  //       iframeUrl:
+  //         "https://sademo.kmgamesdev.net/games/gold-rush-bonanza?currency=BRL&test=1&lang=ptbr",
+  //       gameUrl:
+  //         "https://sademo.kmgamesdev.net/games/gold-rush-bonanza?currency=BRL&test=1&lang=ptbr",
+  //     },
+  //     Spanish: {
+  //       slideUrl:
+  //         "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_gold-rush-bonanza_banner_esla.png",
+  //       gameName: "Rooster Blitz",
+  //       iframeUrl:
+  //         "https://sademo.kmgamesdev.net/games/gold-rush-bonanza?currency=BRL&test=1&lang=esla",
+  //       gameUrl:
+  //         "https://sademo.kmgamesdev.net/games/gold-rush-bonanza?currency=BRL&test=1&lang=esla",
+  //     },
+  //   },
+  //   isFeatured: true,
+  // },
+  // {
+  //   id: 6,
+  //   gameName: "Cleopatra's Treasure",
+  //   tags: ["tag1", "tag2"],
+  //   backgroundUrl:
+  //     "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_cleopatras-treasure_banner_en.png",
+  //     category: "SLOTS",
+  //   thumbnail: "thumbnail url",
+  //   langProps: {
+  //     English: {
+  //       slideUrl:
+  //         "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_cleopatras-treasure_banner_en.png",
+  //       gameName: "Cleopatra's Treasure",
+  //       iframeUrl:
+  //         "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1",
+  //       gameUrl:
+  //         "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1",
+  //     },
+  //     Chinese: {
+  //       slideUrl:
+  //         "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_cleopatras-treasure_banner_cn.png",
+  //       gameName: "Cleopatra's Treasure",
+  //       iframeUrl:
+  //         "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1&lang=cn",
+  //       gameUrl:
+  //         "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1&lang=cn",
+  //     },
+  //     Portuguese: {
+  //       slideUrl:
+  //         "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_cleopatras-treasure_banner_ptbr.png",
+  //       gameName: "Cleopatra's Treasure",
+  //       iframeUrl:
+  //         "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1&lang=ptbr",
+  //       gameUrl:
+  //         "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1&lang=ptbr",
+  //     },
+  //     Spanish: {
+  //       slideUrl:
+  //         "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_cleopatras-treasure_banner_esla.png",
+  //       gameName: "Cleopatra's Treasure",
+  //       iframeUrl:
+  //         "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1&lang=esla",
+  //       gameUrl:
+  //         "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1&lang=esla",
+  //     },
+  //   },
+  //   isFeatured: true,
+  // },  
   {
-    id: 5,
-    gameName: "Gold Rush Bonanza",
-    tags: ["tag1", "tag2"],
-    backgroundUrl:
-      "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_gold-rush-bonanza_banner_en.png",
-    category: "SLOTS",
-    thumbnail: "thumbnail url",
-    langProps: {
-      English: {
-        slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_gold-rush-bonanza_banner_en.png",
-        gameName: "Rooster Blitz",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/gold-rush-bonanza?currency=BRL&test=1",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/gold-rush-bonanza?currency=BRL&test=1",
-      },
-      Chinese: {
-        slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_gold-rush-bonanza_banner_cn.png",
-        gameName: "Rooster Blitz",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/gold-rush-bonanza?currency=BRL&test=1&lang=cn",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/gold-rush-bonanza?currency=BRL&test=1&lang=cn",
-      },
-      Portuguese: {
-        slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_gold-rush-bonanza_banner_ptbr.png",
-        gameName: "Rooster Blitz",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/gold-rush-bonanza?currency=BRL&test=1&lang=ptbr",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/gold-rush-bonanza?currency=BRL&test=1&lang=ptbr",
-      },
-      Spanish: {
-        slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_gold-rush-bonanza_banner_esla.png",
-        gameName: "Rooster Blitz",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/gold-rush-bonanza?currency=BRL&test=1&lang=esla",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/gold-rush-bonanza?currency=BRL&test=1&lang=esla",
-      },
-    },
-    isFeatured: true,
-  },
-  {
-    id: 6,
-    gameName: "Cleopatra's Treasure",
-    tags: ["tag1", "tag2"],
-    backgroundUrl:
-      "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_cleopatras-treasure_banner_en.png",
-      category: "SLOTS",
-    thumbnail: "thumbnail url",
-    langProps: {
-      English: {
-        slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_cleopatras-treasure_banner_en.png",
-        gameName: "Cleopatra's Treasure",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1",
-      },
-      Chinese: {
-        slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_cleopatras-treasure_banner_cn.png",
-        gameName: "Cleopatra's Treasure",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1&lang=cn",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1&lang=cn",
-      },
-      Portuguese: {
-        slideUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_cleopatras-treasure_banner_ptbr.png",
-        gameName: "Cleopatra's Treasure",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1&lang=ptbr",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1&lang=ptbr",
-      },
-      Spanish: {
-        slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_cleopatras-treasure_banner_esla.png",
-        gameName: "Cleopatra's Treasure",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1&lang=esla",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/cleopatras-treasure?currency=BRL&test=1&lang=esla",
-      },
-    },
-    isFeatured: true,
-  },  {
     id: 7,
-    gameName: "Jogo De Bozo",
+    gameName: "Color Game Mega Bonus",
     tags: ["tag1", "tag2"],
     backgroundUrl:
-      "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_jogo-de-bozo_banner_en.png",
+      "https://res.cloudinary.com/detatjujs/video/upload/v1747191034/Website-Banner_Colour-Game-2_1060x470_ph15qv.mp4",
     category: "CLASSIC",
     langProps: {
       English: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_jogo-de-bozo_banner_en.png",
-        gameName: "Jogo De Bozo",
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747191034/Website-Banner_Colour-Game-2_1060x470_ph15qv.mp4",
+        gameName: "Color Game Mega Bonus",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-de-bozo?currency=BRL&test=1",
+          "https://demo6.kingmidasdev.net/games/colour-game-2?currency=USD&test=1",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-de-bozo?currency=BRL&test=1",
+          "https://demo6.kingmidasdev.net/games/colour-game-2?currency=USD&test=1",
       },
       Chinese: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_jogo-de-bozo_banner_cn.png",
-        gameName: "Jogo De Bozo",
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747191034/Website-Banner_Colour-Game-2_1060x470_ph15qv.mp4",
+        gameName: "Color Game Mega Bonus",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-de-bozo?currency=BRL&test=1&lang=cn",
+          "https://demo6.kingmidasdev.net/games/colour-game-2?currency=USD&test=1&lang=cn",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-de-bozo?currency=BRL&test=1&lang=cn",
+          "https://demo6.kingmidasdev.net/games/colour-game-2?currency=USD&test=1&lang=cn",
       },
       Portuguese: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_jogo-de-bozo_banner_ptbr.png",
-        gameName: "Jogo De Bozo",
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747191034/Website-Banner_Colour-Game-2_1060x470_ph15qv.mp4",
+        gameName: "Color Game Mega Bonus",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-de-bozo?currency=BRL&test=1&lang=ptbr",
+          "https://demo6.kingmidasdev.net/games/colour-game-2?currency=USD&test=1&lang=ptbr",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-de-bozo?currency=BRL&test=1&lang=ptbr",
+          "https://demo6.kingmidasdev.net/games/colour-game-2?currency=USD&test=1&lang=ptbr",
       },
       Spanish: {
         slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_jogo-de-bozo_banner_esla.png",
-        gameName: "Jogo De Bozo",
+          "https://res.cloudinary.com/detatjujs/video/upload/v1747191034/Website-Banner_Colour-Game-2_1060x470_ph15qv.mp4",
+        gameName: "Color Game Mega Bonus",
         iframeUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-de-bozo?currency=BRL&test=1&lang=esla",
+          "https://demo6.kingmidasdev.net/games/colour-game-2?currency=USD&test=1&lang=esla",
         gameUrl:
-          "https://sademo.kmgamesdev.net/games/jogo-de-bozo?currency=BRL&test=1&lang=esla",
-      },
-    },
-    isFeatured: true,
-  },
-  {
-    id: 8,
-    gameName: "Perya 4 Balls",
-    tags: ["tag1", "tag2"],
-    backgroundUrl:
-      "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_en.png",
-    category: "CLASSIC",
-    langProps: {
-      English: {
-        slideUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_en.png",
-        gameName: "Perya 4 Balls",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1&lang=en",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1&lang=en",
-      },
-      Chinese: {
-        slideUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_cn.png",
-        gameName: "Perya 4 Balls",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1&lang=en",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1&lang=en",
-      },
-      Portuguese: {
-        slideUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_ptbr.png",
-        gameName: "Perya 4 Balls",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1&lang=en",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1&lang=en",
-      },
-      Spanish: {
-        slideUrl:
-          "https://kingmakergames-public.s3.ap-southeast-1.amazonaws.com/lisbon-2024_materials/newreleases_perya-4-balls_banner_esla.png",
-        gameName: "Perya 4 Balls",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/perya-4-balls?currency=BRL&test=1",
+          "https://demo6.kingmidasdev.net/games/colour-game-2?currency=USD&test=1&lang=esla",
       },
     },
     isFeatured: true,
   },
 
-  {
-    id: 9,
-    gameName: "Dice Duet",
-    tags: ["tag1", "tag2"],
-    backgroundUrl:
-      "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_dice-duet_banner_en.png",
-    category: "CLASSIC",
-    langProps: {
-      English: {
-        slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_dice-duet_banner_en.png",
-        gameName: "Dice Duet",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/dice-duet?currency=BRL&test=1",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/dice-duet?currency=BRL&test=1",
-      },
-      Chinese: {
-        slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_dice-duet_banner_cn.png",
-        gameName: "Dice Duet",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/dice-duet?currency=BRL&test=1&lang=cn",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/dice-duet?currency=BRL&test=1&lang=cn",
-      },
-      Portuguese: {
-        slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_dice-duet_banner_ptbr.png",
-        gameName: "Dice Duet",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/dice-duet?currency=BRL&test=1&lang=ptbr",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/dice-duet?currency=BRL&test=1&lang=ptbr",
-      },
-      Spanish: {
-        slideUrl:
-          "https://publiccdn.kingdomhall729.com/lisbon-2024_materials/newreleases_dice-duet_banner_esla.png",
-        gameName: "Dice Duet",
-        iframeUrl:
-          "https://sademo.kmgamesdev.net/games/dice-duet?currency=BRL&test=1&lang=esla",
-        gameUrl:
-          "https://sademo.kmgamesdev.net/games/dice-duet?currency=BRL&test=1&lang=esla",
-      },
-    },
-    isFeatured: true,
-  },
 ];
 
 export default GameSlidesinfo;
