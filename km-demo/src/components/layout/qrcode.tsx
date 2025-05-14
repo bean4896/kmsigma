@@ -23,7 +23,7 @@ const QrCode = () => {
           width="500"
           height="500"
         />
-        <div className="text-white title-banner mb-6">
+        <div className="text-white text-center title-banner mb-6 px-4">
           {footerMessage} {/* Use the localized message */}
         </div>
       </div>
