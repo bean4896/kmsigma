@@ -11,7 +11,6 @@ const Banner = () => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center center",
-        minHeight: "400px",
       }}
     >
       {/* Overlay */}
