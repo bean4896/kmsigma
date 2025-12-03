@@ -19,7 +19,7 @@ const Home: React.FC = () => {
         <div className="mt-auto flex flex-col items-center gap-4 my-6">
           <Button
             asChild
-            className="px-8 bg-white text-black hover:bg-white/90"
+            className="mt-4 px-8 bg-white text-black hover:bg-white/90"
           >
             <a
               href="https://kingmidasgames.com/"
