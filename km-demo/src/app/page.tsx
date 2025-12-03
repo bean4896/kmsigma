@@ -1,7 +1,6 @@
 import React from "react";
 import GameData from "@/lib/data";
 import GameListWithFilter from "@/components/gameList/GameListWithFilter";
-import QrCode from "@/components/layout/qrcode";
 import Banner from "@/components/layout/qrcodeBanner";
 import NewRelease from "@/components/layout/newRelease";
 import Image from "next/image";
@@ -17,8 +16,6 @@ const Home: React.FC = () => {
       <Banner />
       <main className="flex min-h-screen flex-col max-w-[100vw] m-auto">
         <GameListWithFilter games={GameData} categories={categories} />
-        <QrCode />
-
         <div className="mt-auto flex flex-col items-center gap-4 my-6">
           <Button
             asChild
