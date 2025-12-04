@@ -7,7 +7,7 @@ const Banner = () => {
     <div
       className="bannerContainer relative"
       style={{
-        backgroundImage: `url('https://res.cloudinary.com/detatjujs/image/upload/v1746775517/Cropped_png_NEW_KM_social_YT_Cover_roq0i9.png')`,
+        backgroundImage: `url('/2560x480_NEW_KM_social_YT_Cover_02.png')`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center center",
