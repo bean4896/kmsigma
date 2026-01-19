@@ -1855,7 +1855,7 @@ const GameData: Game[] = [
       },
       Chinese: {
         gameName: "Teen Patti Versus",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/teen-patti-versus_500x500_cn.jpgg",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/teen-patti-versus_500x500_cn.jpg",
         gameUrl: "https://demo8.kingmidasdev.net/games/teen-patti-versus?currency=EUR&test=1&lang=cn",
         iframeUrl: "https://demo8.kingmidasdev.net/games/teen-patti-versus?currency=EUR&test=1&lang=cn",
       },
