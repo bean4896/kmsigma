@@ -20,20 +20,29 @@ const FilterComponent: React.FC<FilterComponentProps> = ({
     translations.categories.English;
 
   return (
-    <div className="flex flex-wrap justify-center category">
+    <div className="flex flex-wrap justify-center category relative z-10">
       {categories.map((category, index) => {
         const translatedCategory = translatedCategories[index] || category; // Fallback to the original category if translation is missing
         return (
           <button
             key={index}
-            className={`flex-1 category relative font-bold touch-manipulation ${category === selectedCategory
-              ? "outline-none bg-gradient-to-r from-[#ffa100] to-[#ffde00] text-transparent bg-clip-text"
+            className={`flex-1 category relative font-bold touch-manipulation min-h-[44px] px-2 py-2 z-10 ${category === selectedCategory
+              ? "outline-none text-white"
               : "text-white hover:text-white"
               }`}
-            onClick={() => onSelectCategory(category)}
+            onClick={(e) => {
+              e.stopPropagation();
+              onSelectCategory(category);
+            }}
             type="button"
+            style={{ 
+              WebkitTapHighlightColor: 'transparent', 
+              touchAction: 'manipulation',
+              WebkitUserSelect: 'none',
+              userSelect: 'none'
+            }}
           >
-            {translatedCategory}
+            <span className="relative z-10">{translatedCategory}</span>
             {category === selectedCategory && (
               <Image
                 src={ImgCategoryGlow}
