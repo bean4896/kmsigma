@@ -26,11 +26,12 @@ const FilterComponent: React.FC<FilterComponentProps> = ({
         return (
           <button
             key={index}
-            className={`flex-1 category relative font-bold ${category === selectedCategory
+            className={`flex-1 category relative font-bold touch-manipulation ${category === selectedCategory
               ? "outline-none bg-gradient-to-r from-[#ffa100] to-[#ffde00] text-transparent bg-clip-text"
               : "text-white hover:text-white"
               }`}
             onClick={() => onSelectCategory(category)}
+            type="button"
           >
             {translatedCategory}
             {category === selectedCategory && (

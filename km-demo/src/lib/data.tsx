@@ -1855,7 +1855,7 @@ const GameData: Game[] = [
       },
       Chinese: {
         gameName: "Teen Patti Versus",
-        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/teen-patti-versus_500x500_cn.jpg",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/teen-patti-versus_500x500_cn.jpgg",
         gameUrl: "https://demo8.kingmidasdev.net/games/teen-patti-versus?currency=EUR&test=1&lang=cn",
         iframeUrl: "https://demo8.kingmidasdev.net/games/teen-patti-versus?currency=EUR&test=1&lang=cn",
       },
@@ -1879,13 +1879,13 @@ const GameData: Game[] = [
       },
       Portuguese: {
         gameName: "Teen Patti Versus",
-        thumbnailUrl: "https://publiccdn.kingmidasdev.net/500x500images/KingMidas/teen-patti-versus_500x500_ptbr.jpg",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/teen-patti-versus_500x500_ptbr.jpg",
         gameUrl: "https://demo8.kingmidasdev.net/games/teen-patti-versus?currency=EUR&test=1&lang=ptbr",
         iframeUrl: "https://demo8.kingmidasdev.net/games/teen-patti-versus?currency=EUR&test=1&lang=ptbr",
       },
       Spanish: {
         gameName: "Teen Patti Versus",
-        thumbnailUrl: "https://publiccdn.kingmidasdev.net/500x500images/KingMidas/teen-patti-versus_500x500_esla.jpg",
+        thumbnailUrl: "https://publiccdn.kingdomhall729.com/500x500images/KingMidas/teen-patti-versus_500x500_esla.jpg",
         gameUrl: "https://demo8.kingmidasdev.net/games/teen-patti-versus?currency=EUR&test=1&lang=esla",
         iframeUrl: "https://demo8.kingmidasdev.net/games/teen-patti-versus?currency=EUR&test=1&lang=esla",
       },
